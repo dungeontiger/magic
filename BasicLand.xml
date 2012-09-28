@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BasicLandTest" file="/home/gibsons/git_repos/magic/BasicLandTest.php" tests="5" assertions="0" failures="0" errors="0" time="0.008058">
+    <testcase name="testSwamp" class="BasicLandTest" file="/home/gibsons/git_repos/magic/BasicLandTest.php" line="5" assertions="0" time="0.002674"/>
+    <testcase name="testIsland" class="BasicLandTest" file="/home/gibsons/git_repos/magic/BasicLandTest.php" line="11" assertions="0" time="0.001295"/>
+    <testcase name="testPlains" class="BasicLandTest" file="/home/gibsons/git_repos/magic/BasicLandTest.php" line="17" assertions="0" time="0.001308"/>
+    <testcase name="testMountain" class="BasicLandTest" file="/home/gibsons/git_repos/magic/BasicLandTest.php" line="23" assertions="0" time="0.001387"/>
+    <testcase name="testForest" class="BasicLandTest" file="/home/gibsons/git_repos/magic/BasicLandTest.php" line="29" assertions="0" time="0.001394"/>
+  </testsuite>
+</testsuites>
