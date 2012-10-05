@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" tests="9" assertions="0" failures="0" errors="0" time="0.021944">
-    <testcase name="testBlack" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="5" assertions="0" time="0.002635"/>
-    <testcase name="testBlue" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="11" assertions="0" time="0.001321"/>
-    <testcase name="testGreen" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="17" assertions="0" time="0.001251"/>
-    <testcase name="testRed" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="23" assertions="0" time="0.001303"/>
-    <testcase name="testWhite" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="29" assertions="0" time="0.001361"/>
-    <testcase name="testBad" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="35" assertions="0" time="0.009968"/>
-    <testcase name="testBad2" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="49" assertions="0" time="0.001456"/>
-    <testcase name="testNumber" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="63" assertions="0" time="0.001378"/>
-    <testcase name="testTen" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="69" assertions="0" time="0.001271"/>
+  <testsuite name="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" tests="11" assertions="0" failures="0" errors="0" time="0.025774">
+    <testcase name="testBlack" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="5" assertions="0" time="0.002733"/>
+    <testcase name="testBlue" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="12" assertions="0" time="0.001364"/>
+    <testcase name="testGreen" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="19" assertions="0" time="0.001354"/>
+    <testcase name="testRed" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="26" assertions="0" time="0.001690"/>
+    <testcase name="testWhite" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="33" assertions="0" time="0.001446"/>
+    <testcase name="testBad" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="40" assertions="0" time="0.010064"/>
+    <testcase name="testBad2" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="54" assertions="0" time="0.001586"/>
+    <testcase name="testNumber" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="68" assertions="0" time="0.001390"/>
+    <testcase name="testTen" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="75" assertions="0" time="0.001330"/>
+    <testcase name="testComplex" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="82" assertions="0" time="0.001403"/>
+    <testcase name="testLarge" class="ManaTest" file="/home/gibsons/git_repos/magic/ManaTest.php" line="89" assertions="0" time="0.001414"/>
   </testsuite>
 </testsuites>

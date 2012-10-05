@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CardSubTypeTest" file="/home/gibsons/git_repos/magic/CardSubTypeTest.php" tests="5" assertions="0" failures="0" errors="0" time="0.008058">
+    <testcase name="testEmpty" class="CardSubTypeTest" file="/home/gibsons/git_repos/magic/CardSubTypeTest.php" line="5" assertions="0" time="0.002604"/>
+    <testcase name="testGoblin" class="CardSubTypeTest" file="/home/gibsons/git_repos/magic/CardSubTypeTest.php" line="12" assertions="0" time="0.001356"/>
+    <testcase name="testTwo" class="CardSubTypeTest" file="/home/gibsons/git_repos/magic/CardSubTypeTest.php" line="19" assertions="0" time="0.001334"/>
+    <testcase name="testConstructorSingleLine" class="CardSubTypeTest" file="/home/gibsons/git_repos/magic/CardSubTypeTest.php" line="29" assertions="0" time="0.001350"/>
+    <testcase name="testThree" class="CardSubTypeTest" file="/home/gibsons/git_repos/magic/CardSubTypeTest.php" line="37" assertions="0" time="0.001414"/>
+  </testsuite>
+</testsuites>
