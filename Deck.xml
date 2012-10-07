@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.002955">
+    <testcase name="testAddCard" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="5" assertions="0" time="0.002955"/>
+  </testsuite>
+</testsuites>

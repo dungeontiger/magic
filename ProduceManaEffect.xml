@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" tests="4" assertions="0" failures="0" errors="0" time="0.006676">
-    <testcase name="testSimple" class="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" line="6" assertions="0" time="0.002567"/>
-    <testcase name="testProduceBlack" class="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" line="12" assertions="0" time="0.001313"/>
-    <testcase name="testProduceColoreless" class="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" line="18" assertions="0" time="0.001321"/>
-    <testcase name="testProduceMixedComplex" class="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" line="24" assertions="0" time="0.001475"/>
+  <testsuite name="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" tests="3" assertions="0" failures="0" errors="0" time="0.005410">
+    <testcase name="testProduceBlack" class="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" line="6" assertions="0" time="0.002639"/>
+    <testcase name="testProduceColoreless" class="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" line="12" assertions="0" time="0.001381"/>
+    <testcase name="testProduceMixedComplex" class="ProduceManaEffectTest" file="/home/gibsons/git_repos/magic/ProduceManaEffectTest.php" line="18" assertions="0" time="0.001390"/>
   </testsuite>
 </testsuites>

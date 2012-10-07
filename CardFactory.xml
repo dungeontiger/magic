@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CardFactoryTest" file="/home/gibsons/git_repos/magic/CardFactoryTest.php" tests="6" assertions="0" failures="0" errors="0" time="0.010501">
+    <testcase name="testCreateBlank" class="CardFactoryTest" file="/home/gibsons/git_repos/magic/CardFactoryTest.php" line="5" assertions="0" time="0.002690"/>
+    <testcase name="testCreateSwamp" class="CardFactoryTest" file="/home/gibsons/git_repos/magic/CardFactoryTest.php" line="13" assertions="0" time="0.001524"/>
+    <testcase name="testCreatePlains" class="CardFactoryTest" file="/home/gibsons/git_repos/magic/CardFactoryTest.php" line="34" assertions="0" time="0.001476"/>
+    <testcase name="testCreateIsland" class="CardFactoryTest" file="/home/gibsons/git_repos/magic/CardFactoryTest.php" line="55" assertions="0" time="0.001548"/>
+    <testcase name="testCreateForest" class="CardFactoryTest" file="/home/gibsons/git_repos/magic/CardFactoryTest.php" line="76" assertions="0" time="0.001669"/>
+    <testcase name="testCreateMountain" class="CardFactoryTest" file="/home/gibsons/git_repos/magic/CardFactoryTest.php" line="97" assertions="0" time="0.001594"/>
+  </testsuite>
+</testsuites>

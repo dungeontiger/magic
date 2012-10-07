@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="AbilityTest" file="/home/gibsons/git_repos/magic/AbilityTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.002630">
+    <testcase name="testCreate" class="AbilityTest" file="/home/gibsons/git_repos/magic/AbilityTest.php" line="5" assertions="0" time="0.002630"/>
+  </testsuite>
+</testsuites>
