@@ -14,5 +14,10 @@ class Deck extends CardCollection
 			$this->addCard(CardFactory::createCard($pieces[1]));
 		}
 	}
+	
+	public function drawCard()
+	{
+		return $this->drawTopCard();
+	}	
 }
 ?>

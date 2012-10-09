@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ManaPoolTest" file="/home/gibsons/git_repos/magic/ManaPoolTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.003194">
+    <testcase name="testManaEffect" class="ManaPoolTest" file="/home/gibsons/git_repos/magic/ManaPoolTest.php" line="6" assertions="0" time="0.003194"/>
+  </testsuite>
+</testsuites>

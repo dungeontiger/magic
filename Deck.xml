@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.002955">
-    <testcase name="testAddCard" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="5" assertions="0" time="0.002955"/>
+  <testsuite name="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" tests="6" assertions="0" failures="0" errors="0" time="0.020560">
+    <testcase name="testAddCard" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="5" assertions="0" time="0.002828"/>
+    <testcase name="testAddTwoCard" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="13" assertions="0" time="0.001599"/>
+    <testcase name="testAddMultipleCard" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="22" assertions="0" time="0.002509"/>
+    <testcase name="testAddRedBlack" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="32" assertions="0" time="0.005919"/>
+    <testcase name="testShuffle" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="42" assertions="0" time="0.006022"/>
+    <testcase name="testDrawCard" class="DeckTest" file="/home/gibsons/git_repos/magic/DeckTest.php" line="51" assertions="0" time="0.001683"/>
   </testsuite>
 </testsuites>

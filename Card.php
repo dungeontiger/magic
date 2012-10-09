@@ -46,6 +46,22 @@ class Card
 		return $this->abilities;
 	}
 	
+	public function tap()
+	{
+		$this->tapped = true;
+	}
+	
+	public function untap()
+	{
+		$this->tapped = false;
+	}
+
+	public function isTapped()
+	{
+		return $this->tapped;
+	}
+	
+
 	private $castingCost;
 	private $name;
 	private $type;
@@ -54,5 +70,6 @@ class Card
 	private $effects;
 	private $power;
 	private $toughness;
+	private $tapped;
 }
 ?>

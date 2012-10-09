@@ -6,3 +6,6 @@
 ./testAbility.sh
 ./testCardFactory.sh
 ./testDeck.sh
+./testManaSimulation.sh
+./testHand.sh
+./testBattlefield.sh

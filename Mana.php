@@ -70,6 +70,41 @@ class Mana
 		return $converted;
 	}
 	
+	public function getManaAsInt($symbol)
+	{
+		// if $symbol is null look for colorless
+		// TODO: This information should be precomputed and cached
+		$total = 0;
+		foreach($this->mana as $mana)
+		{
+			if (strcmp($mana, "B") == 0 && strcmp($symbol, "B") == 0)
+			{
+				$total++;
+			} 
+			else if (strcmp($mana, "U") == 0 && strcmp($symbol, "U") == 0)
+			{
+				$total++;
+			} 
+			else if (strcmp($mana, "R") == 0 && strcmp($symbol, "R") == 0)
+			{
+				$total++;
+			} 
+			else if (strcmp($mana, "W") == 0 && strcmp($symbol, "W") == 0)
+			{
+				$total++;
+			} 
+			else if (strcmp($mana, "G") == 0 && strcmp($symbol, "G") == 0)
+			{
+				$total++;
+			} 
+			else if (ctype_digit($mana) == true && $symbol == null)
+			{
+				$total += $mana;
+			}
+		}
+		return $total;
+	}
+	
 	private function addSymbol($symbol)
 	{
 		if ($symbol != "B" &&
