@@ -14,7 +14,7 @@ class BattlefieldTest extends PHPUnit_Framework_TestCase
 		$battlefield->addCard($swamp2);
 		$battlefield->addCard($mountain);
 		$battlefield->addCard($blank);
-		$mana = $battlefield->getAvailabeMana();
+		$mana = $battlefield->getAvailableMana();
 		assert($mana->getBlack() == 2);
 		assert($mana->getRed() == 1);
 		assert($mana->getBlue() == 0);

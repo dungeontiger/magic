@@ -10,9 +10,9 @@ class ManaSimulationTest extends PHPUnit_Framework_TestCase
 	}
 
 	private $deckBlackRed = <<<EOD
-10,Swamp
-10,Mountain
-40,_blank
+15,Swamp
+15,Mountain
+30,_blank
 EOD;
 }
 ?>

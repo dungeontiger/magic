@@ -7,7 +7,7 @@ class Battlefield extends CardCollection
 	 * This method tells you how much mana you could have
 	 * if you drew it all
 	 */
-	public function getAvailabeMana()
+	public function getAvailableMana()
 	{
 		$availableMana = new ManaPool();
 		$cards = $this->getCards();
