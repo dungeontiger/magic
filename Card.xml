@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="CardTest" file="/home/gibsons/git_repos/magic/CardTest.php" tests="3" assertions="0" failures="0" errors="0" time="0.005800">
-    <testcase name="testCreateBlank" class="CardTest" file="/home/gibsons/git_repos/magic/CardTest.php" line="12" assertions="0" time="0.002753"/>
-    <testcase name="testCardThing" class="CardTest" file="/home/gibsons/git_repos/magic/CardTest.php" line="21" assertions="0" time="0.001566"/>
-    <testcase name="testCardAbility" class="CardTest" file="/home/gibsons/git_repos/magic/CardTest.php" line="31" assertions="0" time="0.001481"/>
-  </testsuite>
-</testsuites>

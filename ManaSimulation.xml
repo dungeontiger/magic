@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="ManaSimulationTest" file="/home/gibsons/git_repos/magic/ManaSimulationTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.024149">
-    <testcase name="testManaSimulation" class="ManaSimulationTest" file="/home/gibsons/git_repos/magic/ManaSimulationTest.php" line="5" assertions="0" time="0.024149"/>
-  </testsuite>
-</testsuites>

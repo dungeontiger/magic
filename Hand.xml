@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="HandTest" file="/home/gibsons/git_repos/magic/HandTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.002908">
-    <testcase name="testRemoveCard" class="HandTest" file="/home/gibsons/git_repos/magic/HandTest.php" line="6" assertions="0" time="0.002908"/>
-  </testsuite>
-</testsuites>

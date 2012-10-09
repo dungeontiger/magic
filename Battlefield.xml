@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-  <testsuite name="BattlefieldTest" file="/home/gibsons/git_repos/magic/BattlefieldTest.php" tests="1" assertions="0" failures="0" errors="0" time="0.003999">
-    <testcase name="testAvailableMana" class="BattlefieldTest" file="/home/gibsons/git_repos/magic/BattlefieldTest.php" line="6" assertions="0" time="0.003999"/>
-  </testsuite>
-</testsuites>
