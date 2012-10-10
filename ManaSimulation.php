@@ -1,5 +1,8 @@
 <?php
 include_once "Simulation.php";
+include_once "SimulationTurnResults.php";
+include_once "SimulationGameResults.php";
+include_once "SimulationResults.php";
 class ManaSimulation extends Simulation
 {
 	public function __construct($deckString, $numberOfGames = 1, $numberOfTurns = 1)
@@ -10,11 +13,13 @@ class ManaSimulation extends Simulation
 	public function runSimulation()
 	{
 		$this->appendReport("Start Mana Simulation");
+		$this->currentSimulationResults = new SimulationResults();
 		for ($i = 0; $i < $this->getNumberOfGames(); $i++)
 		{
 			$this->playGame($i);
 		}
 		$this->appendReport("End Mana Simulation");
+		$this->reportSimulationSummary();
 	}
 	
 	public function playGame($game)
@@ -26,6 +31,7 @@ class ManaSimulation extends Simulation
 		$this->createBattlefield();
 		$this->createGraveyard();
 		$this->createExile();
+		$this->currentGameResults = new SimulationGameResults();
 		$this->getDeck()->shuffle();
 		$this->reportDeck();
 		$this->drawHand();
@@ -37,6 +43,8 @@ class ManaSimulation extends Simulation
 			}
 		}
 		$this->appendReport("End Game");
+		$this->currentSimulationResults->addGameResults($this->currentGameResults);
+		$this->reportGameSummary();
 	}
 	
 	public function playTurn($turn)
@@ -49,6 +57,8 @@ class ManaSimulation extends Simulation
 		$this->reportGraveyard();
 		$this->createManaPool();
 		$this->landPlayedThisTurn = false;
+		
+		$this->currentTurnResults = new SimulationTurnResults();
 		
 		$this->untap();
 		
@@ -63,7 +73,8 @@ class ManaSimulation extends Simulation
 		// TODO: Draw on first turn?
 		if ($this->drawCard())
 		{
-			// report lost due to $empty library
+			// report lost due to empty library
+			$this->currentGameResults->addTurnResults($this->currentTurnResults);
 			return true;
 		}
 
@@ -76,6 +87,8 @@ class ManaSimulation extends Simulation
 		$this->discard();
 		$this->reportManaPool();
 		$this->appendReport("End Turn");
+		
+		$this->currentGameResults->addTurnResults($this->currentTurnResults);
 		return false;
 	}
 	
@@ -197,6 +210,7 @@ class ManaSimulation extends Simulation
 			
 			$this->getGraveyard()->addCard($candidate);
 			$hand->removeCard($candidate);
+			$this->currentTurnResults->incrementDiscarded();
 			$this->appendReport("*** Discard: " . $candidate->getName());
 		}
 	}
@@ -303,6 +317,52 @@ class ManaSimulation extends Simulation
 		$this->appendReport("White: " . $manaPool->getWhite());
 	}
 	
+	public function reportGameSummary()
+	{
+		$this->appendReport("Discards by Turn");
+		$this->appendReportSeparator();
+		$this->appendReport("Turn\tCards");
+		$discards = $this->currentGameResults->getDiscardsByTurn();
+		$i = 1;
+		foreach($discards as $cards)
+		{
+			$this->appendReport($i++ . "\t" . $cards);
+		}
+	}
+	
+	public function reportSimulationSummary()
+	{
+		$totalDiscards = array();	// length equal to number of turns
+		$gameResults = $this->currentSimulationResults->getGameResults();
+		foreach($gameResults as $gameResult)
+		{
+			$discards = $gameResult->getDiscardsByTurn();
+			for ($i = 0; $i < count($discards); $i++)
+			{
+				if (count($totalDiscards) <= $i)
+				{
+					array_push($totalDiscards, $discards[$i]);
+				}
+				else
+				{
+					$totalDiscards[$i] += $discards[$i];
+				}
+			}
+		}
+		
+		$this->appendReport("Average Discards by Turn");
+		$this->appendReportSeparator();
+		$this->appendReport("Turn\tAverage Cards");
+		$i = 1;
+		foreach($totalDiscards as $discards)
+		{
+			$this->appendReport($i++ . "\t" . $discards / count($gameResults));
+		}
+	}
+	
 	private $landPlayedThisTurn;
+	private $currentTurnResults;
+	private $currentGameResults;
+	private $currentSimulationResults;
 }
 ?>
