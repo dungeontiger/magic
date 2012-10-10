@@ -1,25 +1,10 @@
 <?php
+include_once "ManaVector.php";
 class ManaPool
 {
 	public function __construct()
 	{
-		$this->colorless = 0;
-		$this->black = 0;
-		$this->green = 0;
-		$this->red = 0;
-		$this->white = 0;
-		$this->blue = 0;
-	}
-	
-	public function applyEffect($effect)
-	{
-		$mana = $effect->getProducedMana();
-		$this->colorless += $mana->getManaAsInt(null);
-		$this->black += $mana->getManaAsInt("B");
-		$this->green += $mana->getManaAsInt("G");
-		$this->blue += $mana->getManaAsInt("U");
-		$this->red += $mana->getManaAsInt("R");
-		$this->white += $mana->getManaAsInt("W");
+		$this->mana = new ManaVector();
 	}
 	
 	public function applyEffects($effects)
@@ -32,74 +17,27 @@ class ManaPool
 			}
 		}
 	}
-	
-	public function getColorless()
+
+	public function applyEffect($effect)
 	{
-		return $this->colorless;
+		$this->mana = new ManaVector();
+		$mana = $effect->getProducedMana();
+		$this->mana->addVector($mana);
 	}
-	
-	public function getBlack()
+		
+	public function getMana($symbol)
 	{
-		return $this->black;
-	}
-	
-	public function getGreen()
-	{
-		return $this->green;
-	}
-	
-	public function getBlue()
-	{
-		return $this->blue;
-	}
-	
-	public function getRed()
-	{
-		return $this->red;
-	}
-	
-	public function getWhite()
-	{
-		return $this->white;
+		return $this->mana->get($symbol);
 	}
 	
 	public function getNumberOfColors()
 	{
-		$count = 0;
-		
-		if ($this->black > 0)
-		{
-			$count++;
-		}
-		
-		if ($this->blue > 0)
-		{
-			$count++;
-		}
-		
-		if ($this->green > 0)
-		{
-			$count++;
-		}
-		
-		if ($this->red > 0)
-		{
-			$count++;
-		}
-		
-		if ($this->white > 0)
-		{
-			$count++;
-		}
-		
-		return $count;
+		return $this->mana->getColorCount();
 	}
 	
 	public function getTotalMana()
 	{
-		$total = $this->colorless + $this->black + $this->blue + $this->green
-			+ $this->red + $this->white;
-		return $total;
+		return $this->mana->getConvertedTotal();
 	}
 	
 	public function betterThan($testPool)
@@ -120,12 +58,7 @@ class ManaPool
 		
 		return false;
 	}
-	
-	private $colorless;
-	private $black;
-	private $green;
-	private $blue;
-	private $red;
-	private $white;
+
+	private $mana;
 }
 ?>

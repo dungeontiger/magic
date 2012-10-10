@@ -2,6 +2,7 @@
 /**
  * Any card.  If an attribute is null it does not apply to this card
  */
+include_once "ManaVector.php";
 class Card
 {
 	public function __construct($name, $type, $subType = null, $castingCost = null) 
@@ -9,7 +10,14 @@ class Card
 		$this->name = $name;
 		$this->type = $type;
 		$this->subType = $subType;
-		$this->castingCost = $castingCost;
+		if ($castingCost != null)
+		{
+			$this->castingCost = new ManaVector($castingCost);
+		}
+		else
+		{
+			$this->castingCost = null;
+		}
 		$this->abilities = array();
 		$this->effects = array();
 		$this->power = null;

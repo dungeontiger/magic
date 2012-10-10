@@ -6,18 +6,17 @@ class ManaPoolTest extends PHPUnit_Framework_TestCase
 	public function testManaEffect()
 	{
 		$pool = new ManaPool();
-		$mana = new Mana("3GW");
-		$effect = new ProduceManaEffect($mana);
+		$effect = new ProduceManaEffect("3GW");
 		$pool->applyEffect($effect);
-		assert($pool->getGreen() == 1);
-		assert($pool->getWhite() == 1);
-		assert($pool->getColorless() == 3);
+		assert($pool->getMana(Color::GREEN) == 1);
+		assert($pool->getMana(Color::WHITE) == 1);
+		assert($pool->getMana(Color::COLORLESS) == 3);
 	}
 	
 	public function testTotalMana()
 	{
 		$pool = new ManaPool();
-		$effect = new ProduceManaEffect(new Mana("3WW"));
+		$effect = new ProduceManaEffect("3WW");
 		$pool->applyEffect($effect);
 		assert($pool->getTotalMana() == 5);
 	}
@@ -25,7 +24,7 @@ class ManaPoolTest extends PHPUnit_Framework_TestCase
 	public function testManaColors()
 	{
 		$pool = new ManaPool();
-		$effect = new ProduceManaEffect(new Mana("3WW"));
+		$effect = new ProduceManaEffect("3WW");
 		$pool->applyEffect($effect);
 		assert($pool->getNumberOfColors() == 1);
 	}
@@ -33,7 +32,7 @@ class ManaPoolTest extends PHPUnit_Framework_TestCase
 	public function testManaColors2()
 	{
 		$pool = new ManaPool();
-		$effect = new ProduceManaEffect(new Mana("3WWB"));
+		$effect = new ProduceManaEffect("3WWB");
 		$pool->applyEffect($effect);
 		assert($pool->getNumberOfColors() == 2);
 	}
@@ -41,10 +40,10 @@ class ManaPoolTest extends PHPUnit_Framework_TestCase
 	public function testComparePools()
 	{
 		$pool1 = new ManaPool();
-		$pool1->applyEffect(new ProduceManaEffect(new Mana("GW")));
+		$pool1->applyEffect(new ProduceManaEffect("GW"));
 
 		$pool2 = new ManaPool();
-		$pool2->applyEffect(new ProduceManaEffect(new Mana("3WW")));
+		$pool2->applyEffect(new ProduceManaEffect("3WW"));
 		
 		assert($pool1->betterThan($pool2));
 	}

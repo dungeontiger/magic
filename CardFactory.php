@@ -56,35 +56,35 @@ class CardFactory
 	private static function createSwamp()
 	{
 		$card = new Card("Swamp", CardType::BASIC_LAND, new CardSubType("Swamp"));
-		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect(new Mana("B")))));
+		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect("B"))));
 		return $card;
 	}
 
 	private static function createPlains()
 	{
 		$card = new Card("Plains", CardType::BASIC_LAND, new CardSubType("Plains"));
-		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect(new Mana("W")))));
+		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect("W"))));
 		return $card;
 	}
 
 	private static function createIsland()
 	{
 		$card = new Card("Island", CardType::BASIC_LAND, new CardSubType("Island"));
-		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect(new Mana("U")))));
+		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect("U"))));
 		return $card;
 	}
 
 	private static function createForest()
 	{
 		$card = new Card("Forest", CardType::BASIC_LAND, new CardSubType("Forest"));
-		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect(new Mana("G")))));
+		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect("G"))));
 		return $card;
 	}
 
 	private static function createMountain()
 	{
 		$card = new Card("Mountain", CardType::BASIC_LAND, new CardSubType("Mountain"));
-		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect(new Mana("R")))));
+		$card->addAbility(new Ability(array(new TapCost()), array(new ProduceManaEffect("R"))));
 		return $card;
 	}
 }

@@ -1,16 +1,15 @@
 <?php
 include_once "Effect.php";
-include_once "Mana.php";
+include_once "ManaVector.php";
 /**
- * Not needed?  Can just use the mana class...
- * 
- * Yes use this, just simplify and make it just mana
+ * This class represents an effect that generates mana
+ * This could be anything from a basic land to a Mox
  */
 class ProduceManaEffect extends Effect
 {
 	public function __construct($mana)
 	{
-		$this->mana = $mana;
+		$this->mana = new ManaVector($mana);
 	}
 	
 	public function getProducedMana()

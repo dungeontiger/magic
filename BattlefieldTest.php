@@ -15,12 +15,12 @@ class BattlefieldTest extends PHPUnit_Framework_TestCase
 		$battlefield->addCard($mountain);
 		$battlefield->addCard($blank);
 		$mana = $battlefield->getAvailableMana();
-		assert($mana->getBlack() == 2);
-		assert($mana->getRed() == 1);
-		assert($mana->getBlue() == 0);
-		assert($mana->getGreen() == 0);
-		assert($mana->getWhite() == 0);
-		assert($mana->getColorless() == 0);
+		assert($mana->getMana(Color::BLACK) == 2);
+		assert($mana->getMana(Color::RED) == 1);
+		assert($mana->getMana(Color::BLUE) == 0);
+		assert($mana->getMana(Color::GREEN) == 0);
+		assert($mana->getMana(Color::WHITE) == 0);
+		assert($mana->getMana(Color::COLORLESS) == 0);
 	}
 }
 ?>

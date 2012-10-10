@@ -309,12 +309,12 @@ class ManaSimulation extends Simulation
 	{
 		$manaPool = $this->getManaPool();
 		$this->appendReport("Mana Pool:");
-		$this->appendReport("Colorless: " . $manaPool->getColorless());
-		$this->appendReport("Black: " . $manaPool->getBlack());
-		$this->appendReport("Blue: " . $manaPool->getBlue());
-		$this->appendReport("Green: " . $manaPool->getGreen());
-		$this->appendReport("Red: " . $manaPool->getRed());
-		$this->appendReport("White: " . $manaPool->getWhite());
+		$this->appendReport("Colorless: " . $manaPool->getMana(Color::COLORLESS));
+		$this->appendReport("Black: " . $manaPool->getMana(Color::BLACK));
+		$this->appendReport("Blue: " . $manaPool->getMana(Color::BLUE));
+		$this->appendReport("Green: " . $manaPool->getMana(Color::GREEN));
+		$this->appendReport("Red: " . $manaPool->getMana(Color::RED));
+		$this->appendReport("White: " . $manaPool->getMana(Color::WHITE));
 	}
 	
 	public function reportGameSummary()

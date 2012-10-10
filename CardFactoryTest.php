@@ -28,7 +28,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(count($effects) == 1);
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getMana(), "B") == 0);
+		assert(strcmp($effect->getProducedMana()->getManaString(), "B") == 0);
 	}
 
 	public function testCreatePlains()
@@ -49,7 +49,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(count($effects) == 1);
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getMana(), "W") == 0);
+		assert(strcmp($effect->getProducedMana()->getManaString(), "W") == 0);
 	}
 	
 	public function testCreateIsland()
@@ -70,7 +70,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(count($effects) == 1);
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getMana(), "U") == 0);
+		assert(strcmp($effect->getProducedMana()->getManaString(), "U") == 0);
 	}
 	
 	public function testCreateForest()
@@ -91,7 +91,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(count($effects) == 1);
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getMana(), "G") == 0);
+		assert(strcmp($effect->getProducedMana()->getManaString(), "G") == 0);
 	}
 	
 	public function testCreateMountain()
@@ -112,7 +112,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(count($effects) == 1);
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getMana(), "R") == 0);
+		assert(strcmp($effect->getProducedMana()->getManaString(), "R") == 0);
 	}
 }
 ?>

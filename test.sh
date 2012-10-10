@@ -1,11 +1,14 @@
 #!/bin/sh
-./testCard.sh
-./testMana.sh
-./testCardSubType.sh
-./testProduceManaEffect.sh
-./testAbility.sh
-./testCardFactory.sh
-./testDeck.sh
-./testManaSimulation.sh
-./testHand.sh
-./testBattlefield.sh
+./testClass.sh Ability
+./testClass.sh Battlefield
+./testClass.sh CardFactory
+./testClass.sh CardSubType
+./testClass.sh Card
+./testClass.sh Deck
+./testClass.sh Hand
+./testClass.sh ManaPool
+./testClass.sh ManaSimulation
+./testClass.sh ManaVector
+./testClass.sh ProduceManaEffect
+
+
