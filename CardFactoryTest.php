@@ -2,9 +2,38 @@
 include_once "CardFactory.php";
 class CardFactoryTest extends PHPUnit_Framework_TestCase
 {
+	public function testCardsExists()
+	{
+		// will throw an exception for any unknown or unsupported cards
+		$factory = new CardFactory();
+		$factory->createCard("swamp");
+		$factory->createCard("mountain");
+		$factory->createCard("island");
+		$factory->createCard("swamp");
+		$factory->createCard("forest");
+	}
+
+	public function testInvalid()
+	{
+		// will throw an exception for any unknown or unsupported cards
+		$factory = new CardFactory();
+		$exception = false;
+		try
+		{
+			$factory->createCard("dungeontiger");
+		}
+		catch(Exception $e)
+		{
+			$exception = true;
+		}
+		assert($exception == true);
+		
+	}
+
 	public function testCreateBlank()
 	{
-		$card = CardFactory::createCard("_blank");
+		$factory = new CardFactory();
+		$card = $factory->createCard("_blank");
 		assert(strcmp($card->getName(), "_blank") == 0);
 		assert($card->getType() == CardType::BLANK);
 		assert(count($card->getAbilities()) == 0);
@@ -12,10 +41,11 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 	
 	public function testCreateSwamp()
 	{
-		$card = CardFactory::createCard("Swamp");
+		$factory = new CardFactory();
+		$card = $factory->createCard("Swamp");
 		assert(strcmp($card->getName(), "Swamp") == 0);
 		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->getSubType()->isA("Swamp"));
+		assert($card->isASubType("Swamp"));
 		$abilities = $card->getAbilities();
 		assert(count($abilities) == 1);
 		$ability = $abilities[0];
@@ -29,14 +59,16 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
 		assert(strcmp($effect->getProducedMana()->getManaString(), "B") == 0);
+		assert($effect->getProducedMana()->get(Color::BLACK) == 1);
 	}
 
 	public function testCreatePlains()
 	{
-		$card = CardFactory::createCard("Plains");
+		$factory = new CardFactory();
+		$card = $factory->createCard("Plains");
 		assert(strcmp($card->getName(), "Plains") == 0);
 		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->getSubType()->isA("Plains"));
+		assert($card->isASubType("Plains"));
 		$abilities = $card->getAbilities();
 		assert(count($abilities) == 1);
 		$ability = $abilities[0];
@@ -54,10 +86,11 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 	
 	public function testCreateIsland()
 	{
-		$card = CardFactory::createCard("Island");
+		$factory = new CardFactory();
+		$card = $factory->createCard("Island");
 		assert(strcmp($card->getName(), "Island") == 0);
 		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->getSubType()->isA("Island"));
+		assert($card->isASubType("Island"));
 		$abilities = $card->getAbilities();
 		assert(count($abilities) == 1);
 		$ability = $abilities[0];
@@ -75,10 +108,11 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 	
 	public function testCreateForest()
 	{
-		$card = CardFactory::createCard("Forest");
+		$factory = new CardFactory();
+		$card = $factory->createCard("Forest");
 		assert(strcmp($card->getName(), "Forest") == 0);
 		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->getSubType()->isA("Forest"));
+		assert($card->isASubType("Forest"));
 		$abilities = $card->getAbilities();
 		assert(count($abilities) == 1);
 		$ability = $abilities[0];
@@ -96,10 +130,11 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 	
 	public function testCreateMountain()
 	{
-		$card = CardFactory::createCard("Mountain");
+		$factory = new CardFactory();
+		$card = $factory->createCard("Mountain");
 		assert(strcmp($card->getName(), "Mountain") == 0);
 		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->getSubType()->isA("Mountain"));
+		assert($card->isASubType("Mountain"));
 		$abilities = $card->getAbilities();
 		assert(count($abilities) == 1);
 		$ability = $abilities[0];

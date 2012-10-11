@@ -5,8 +5,9 @@ class HandTest extends PHPUnit_Framework_TestCase
 {
 	public function testRemoveCard()
 	{
-		$swamp = CardFactory::createCard("Swamp");
-		$mountain = CardFactory::createCard("Mountain");
+		$factory = new CardFactory();
+		$swamp = $factory->createCard("Swamp");
+		$mountain = $factory->createCard("Mountain");
 		$hand = new Hand();
 		$hand->addCard($swamp);
 		$hand->addCard($mountain);

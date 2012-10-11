@@ -5,13 +5,14 @@ class Deck extends CardCollection
 {
 	public function __construct($deckString)
 	{
+		$factory = new CardFactory();
 		// $deckString is in the format of #,CardName
 		$lines = explode(PHP_EOL, $deckString);
 		foreach($lines as $line)
 		{
 			$pieces = explode(",", $line);
 			for($i = 0; $i < $pieces[0]; $i++)
-			$this->addCard(CardFactory::createCard($pieces[1]));
+			$this->addCard($factory->createCard($pieces[1]));
 		}
 	}
 	

@@ -20,7 +20,6 @@ class ManaPool
 
 	public function applyEffect($effect)
 	{
-		$this->mana = new ManaVector();
 		$mana = $effect->getProducedMana();
 		$this->mana->addVector($mana);
 	}

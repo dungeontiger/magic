@@ -6,10 +6,28 @@
  */
 class Ability
 {
+	// parameters can be array or not
 	public function __construct($costs, $effects)
 	{
-		$this->effects = $effects;
-		$this->costs = $costs;
+		if (is_array($costs))
+		{
+			$this->costs = $costs;
+		}
+		else
+		{
+			$this->costs = array();
+			array_push($this->costs, $costs);
+		}
+		
+		if (is_array($effects))
+		{
+			$this->effects = $effects;
+		}
+		else
+		{
+			$this->effects = array();
+			array_push($this->effects, $effects);
+		}
 	}
 	
 	public function getCosts()

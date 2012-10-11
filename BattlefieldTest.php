@@ -5,11 +5,12 @@ class BattlefieldTest extends PHPUnit_Framework_TestCase
 {
 	public function testAvailableMana()
 	{
+		$factory = new CardFactory();
 		$battlefield = new Battlefield();
-		$swamp = CardFactory::createCard("Swamp");
-		$swamp2 = CardFactory::createCard("Swamp");
-		$mountain = CardFactory::createCard("Mountain");
-		$blank = CardFactory::createCard("_blank");
+		$swamp = $factory->createCard("Swamp");
+		$swamp2 = $factory->createCard("Swamp");
+		$mountain = $factory->createCard("Mountain");
+		$blank = $factory->createCard("_blank");
 		$battlefield->addCard($swamp);
 		$battlefield->addCard($swamp2);
 		$battlefield->addCard($mountain);

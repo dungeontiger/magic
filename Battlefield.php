@@ -49,7 +49,13 @@ class Battlefield extends CardCollection
 						}
 					}
 				}
+				// only use the first mana producing ability for now
+				if ($candidateAbility != null)
+				{
+					break;
+				}
 			}
+			
 			if ($candidateAbility != null)
 			{
 				$availableMana->applyEffects($candidateAbility->getEffects());

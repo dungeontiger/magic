@@ -17,6 +17,9 @@ final class CardType
 	const ARTIFACT_CREATURE = 12;
 	const PLANESWALKER = 13;
 	// tokens?
+	// snow lands?
+	// artifact land
+	
 	
 	private function __construct()
 	{

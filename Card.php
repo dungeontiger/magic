@@ -5,11 +5,10 @@
 include_once "ManaVector.php";
 class Card
 {
-	public function __construct($name, $type, $subType = null, $castingCost = null) 
+	public function __construct($name, $type = null, $castingCost = null) 
 	{
 		$this->name = $name;
 		$this->type = $type;
-		$this->subType = $subType;
 		if ($castingCost != null)
 		{
 			$this->castingCost = new ManaVector($castingCost);
@@ -18,8 +17,6 @@ class Card
 		{
 			$this->castingCost = null;
 		}
-		$this->abilities = array();
-		$this->effects = array();
 		$this->power = null;
 		$this->toughness = null;
 	}
@@ -32,6 +29,11 @@ class Card
 	public function getType()
 	{
 		return $this->type;
+	}
+	
+	public function setType($type)
+	{
+		$this->type = $type;
 	}
 	
 	public function getSubType()
@@ -69,15 +71,59 @@ class Card
 		return $this->tapped;
 	}
 	
+	public function setCastingCost()
+	{
+		$this->castingCost = null;
+	}
+	
+	public function addSubType($subType)
+	{
+		array_push($this->subTypes, $subType);
+	}
+	
+	public function getSubTypes()
+	{
+		return $this->subTypes;
+	}
+	
+	public function isASubType($subType)
+	{
+		return in_array($subType, $this->subTypes);
+	}
+	
+	public function getSubTypeString()
+	{
+		return implode(" ", $this->subTypes);
+	}
+
+	public function setPower($power)
+	{
+		$this->power = $power;
+	}
+	
+	public function setToughness($toughness)
+	{
+		$this->toughness = $toughness;
+	}
+	
+	public function getPower()
+	{
+		return $this->power;
+	}
+	
+	public function getToughness()
+	{
+		return $this->toughness;
+	}
 
 	private $castingCost;
 	private $name;
 	private $type;
-	private $subType;
-	private $abilities;
-	private $effects;
-	private $power;
-	private $toughness;
+	private $subTypes = array();
+	private $abilities = array();
+	private $effects = array();
+	private $power = null;
+	private $toughness = null;
 	private $tapped;
 }
 ?>

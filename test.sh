@@ -2,7 +2,6 @@
 ./testClass.sh Ability
 ./testClass.sh Battlefield
 ./testClass.sh CardFactory
-./testClass.sh CardSubType
 ./testClass.sh Card
 ./testClass.sh Deck
 ./testClass.sh Hand
