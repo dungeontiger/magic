@@ -35,6 +35,16 @@ class SimulationGameResults
 		return $discards;
 	}
 	
+	public function getPlayedByTurn()
+	{
+		$played = array();
+		foreach($this->turnResults as $turn)
+		{
+			array_push($played, $turn->getPlayed());
+		}
+		return $played;
+	}
+	
 	private $turnResults = array();
 	
 	private $mulligans = 0;

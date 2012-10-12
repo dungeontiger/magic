@@ -39,6 +39,11 @@ class ManaPool
 		return $this->mana->getConvertedTotal();
 	}
 	
+	public function getManaVector()
+	{
+		return $this->mana;
+	}
+	
 	public function betterThan($testPool)
 	{
 		// return true if this is better than testPool

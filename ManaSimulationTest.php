@@ -4,7 +4,7 @@ class ManaSimulationTest extends PHPUnit_Framework_TestCase
 {
 	public function testManaSimulation()
 	{
-		$simulation = new ManaSimulation($this->deckBlackRed, 10, 10);
+		$simulation = new ManaSimulation($this->deckBlackRed, 13, 13);
 		$simulation->runSimulation();
 		print $simulation->getReport();
 	}

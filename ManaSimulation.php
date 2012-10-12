@@ -85,8 +85,9 @@ class ManaSimulation extends Simulation
 	
 		$this->drawMana();
 		$this->discard();
-		$this->reportManaPool();
+		$this->currentTurnResults->setAvailableMana($this->getManaPool()->getManaVector());
 		$this->appendReport("End Turn");
+		$this->reportTurnSummary();
 		
 		$this->currentGameResults->addTurnResults($this->currentTurnResults);
 		return false;
@@ -169,6 +170,8 @@ class ManaSimulation extends Simulation
 		{
 			$hand->playPermanent($candidate, $this->getBattlefield());
 			$this->appendReport("*** Played: " . $candidate->getName());
+			$this->currentTurnResults->incrementPlayed();
+			
 			// TODO: Worry about other land types
 			if ($candidate->getType() == CardType::BASIC_LAND)
 			{
@@ -305,7 +308,7 @@ class ManaSimulation extends Simulation
 		}
 	}
 	
-	private function reportManaPool()
+	public function reportTurnSummary()
 	{
 		$manaPool = $this->getManaPool();
 		$this->appendReport("Mana Pool:");
@@ -315,10 +318,22 @@ class ManaSimulation extends Simulation
 		$this->appendReport("Green: " . $manaPool->getMana(Color::GREEN));
 		$this->appendReport("Red: " . $manaPool->getMana(Color::RED));
 		$this->appendReport("White: " . $manaPool->getMana(Color::WHITE));
+		$this->appendReport("Discarded: " . $this->currentTurnResults->getDiscarded());
+		$this->appendReport("Played: " . $this->currentTurnResults->getPlayed());
 	}
 	
 	public function reportGameSummary()
 	{
+		$this->appendReport("Played Cards by Turn");
+		$this->appendReportSeparator();
+		$this->appendReport("Turn\tCards");
+		$discards = $this->currentGameResults->getPlayedByTurn();
+		$i = 1;
+		foreach($discards as $cards)
+		{
+			$this->appendReport($i++ . "\t" . $cards);
+		}
+
 		$this->appendReport("Discards by Turn");
 		$this->appendReportSeparator();
 		$this->appendReport("Turn\tCards");
@@ -332,31 +347,50 @@ class ManaSimulation extends Simulation
 	
 	public function reportSimulationSummary()
 	{
-		$totalDiscards = array();	// length equal to number of turns
-		$gameResults = $this->currentSimulationResults->getGameResults();
-		foreach($gameResults as $gameResult)
-		{
-			$discards = $gameResult->getDiscardsByTurn();
-			for ($i = 0; $i < count($discards); $i++)
-			{
-				if (count($totalDiscards) <= $i)
-				{
-					array_push($totalDiscards, $discards[$i]);
-				}
-				else
-				{
-					$totalDiscards[$i] += $discards[$i];
-				}
-			}
-		}
+		// TODO: Report Deck Statistics (from deck class?)
+		// TODO: Consolidate these loops
+		$totalPlays = $this->currentSimulationResults->getAvgPlayedByTurn();
 		
+		$this->appendReportSeparator();
+		$this->appendReport("Average Cards Played by Turn");
+		$this->appendReportSeparator();
+		$this->appendReport("Turn\tAverage Cards");
+		$i = 1;
+		foreach($totalPlays as $plays)
+		{
+			$this->appendReport($i++ . "\t" . number_format($plays / $this->currentSimulationResults->getNumberOfGames(), 2));
+		}
+
+		$totalDiscards =$this->currentSimulationResults->getAvgDiscardsByTurn();
+		
+		$this->appendReportSeparator();
 		$this->appendReport("Average Discards by Turn");
 		$this->appendReportSeparator();
 		$this->appendReport("Turn\tAverage Cards");
 		$i = 1;
 		foreach($totalDiscards as $discards)
 		{
-			$this->appendReport($i++ . "\t" . $discards / count($gameResults));
+			$this->appendReport($i++ . "\t" . number_format($discards / $this->currentSimulationResults->getNumberOfGames(), 2));
+		}
+		
+		$this->appendReportSeparator();
+		$this->appendReport("Average Mana by Turn");
+		$this->appendReportSeparator();
+		$this->appendReport("Turn\tB\tG\tR\tU\tW\tC");
+		
+		// get average mana per turn
+		$avgMana = $this->currentSimulationResults->getAvgManaByTurn();
+		
+		for($i = 0; $i < count($avgMana); $i++)
+		{
+			$data = $i + 1 . "\t";
+			$data .= number_format($avgMana[$i]->get(Color::BLACK), 2) . "\t";
+			$data .= number_format($avgMana[$i]->get(Color::GREEN), 2) . "\t";
+			$data .= number_format($avgMana[$i]->get(Color::RED), 2) . "\t";
+			$data .= number_format($avgMana[$i]->get(Color::BLUE), 2) . "\t";
+			$data .= number_format($avgMana[$i]->get(Color::WHITE), 2) . "\t";
+			$data .= number_format($avgMana[$i]->get(Color::COLORLESS), 2);
+			$this->appendReport($data);
 		}
 	}
 	

@@ -4,44 +4,9 @@
  */
 class SimulationTurnResults
 {
-	public function setDiscarded($value)
-	{
-		$this->discarded = $value;
-	}
-	
 	public function incrementDiscarded()
 	{
 		$this->discarded++;
-	}
-	
-	public function setColorless($value)
-	{
-		$this->colorless = $value;
-	}
-	
-	public function setBlack($value)
-	{
-		$this->black = $value;
-	}
-	
-	public function setGreen($value)
-	{
-		$this->green = $value;
-	}
-	
-	public function setBlue($value)
-	{
-		$this->blue = $value;
-	}
-	
-	public function setWhite($value)
-	{
-		$this->white = $value;
-	}
-	
-	public function setRed($value)
-	{
-		$this->red = $value;
 	}
 	
 	public function getDiscarded()
@@ -49,43 +14,28 @@ class SimulationTurnResults
 		return $this->discarded;
 	}
 	
-	public function getColorless()
+	public function incrementPlayed()
 	{
-		return $this->colorless;
+		$this->played++;
 	}
 	
-	public function getBlack()
+	public function getPlayed()
 	{
-		return $this->black;
+		return $this->played;
 	}
 	
-	public function getGreen()
+	public function setAvailableMana($mana)
 	{
-		return $this->green;
+		$this->mana = $mana;
 	}
 	
-	public function getBlue()
+	public function getAvailableMana()
 	{
-		return $this->blue;
-	}
-	
-	public function getWhite()
-	{
-		return $this->white;
-	}
-	
-	public function getRed()
-	{
-		return $this->red;
+		return $this->mana;
 	}
 	
 	private $discarded = 0;
-	
-	private $colorless = 0;
-	private $black = 0;
-	private $green = 0;
-	private $blue = 0;
-	private $white = 0;
-	private $red = 0;
+	private $mana;
+	private $played = 0;
 }
 ?>

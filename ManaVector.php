@@ -79,6 +79,16 @@ class ManaVector
 		$this->add(Color::COLORLESS, $mana2->get(Color::COLORLESS));
 	}
 	
+	public function divideBy($value)
+	{
+		$this->mana[Color::BLACK] = $this->mana[Color::BLACK] / $value;
+		$this->mana[Color::BLUE] = $this->mana[Color::BLUE] / $value;
+		$this->mana[Color::GREEN] = $this->mana[Color::GREEN] / $value;
+		$this->mana[Color::RED] = $this->mana[Color::RED] / $value;
+		$this->mana[Color::WHITE] = $this->mana[Color::WHITE] / $value;
+		$this->mana[Color::COLORLESS] = $this->mana[Color::COLORLESS] / $value;
+	}
+	
 	public function getConvertedTotal()
 	{
 		$total = 0;
