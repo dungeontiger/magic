@@ -25,6 +25,15 @@ class FetchCards
 		return $this->cards;
 	}
 	
+	public function getNormalizedName($cardName)
+	{
+		// make the name safe for file system
+		$normal = str_replace(" ", "_", $cardName);
+		$normal = str_replace(",", "_", $normal);
+		$normal = str_replace("'", "_", $normal);
+		return strtolower($cardName);
+	}
+	
 	private function cleanText($text)
 	{
 		$temp = ltrim($text);
