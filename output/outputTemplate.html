@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Magic Simulation Results</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script src="js/highcharts.js" type="text/javascript"></script>
+		<script>
+			var chart;
+   $(document).ready(function() {
+        chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'container',
+                type: 'area',
+                borderWidth: 1,
+                backgroundColor: "#EEEEEE"
+                
+            },
+            colors : [
+				"#000000",		// black
+				'#0000FF',		// blue
+				"#00FF00",		// green
+				"#FF0000",		// red
+				"#FFFFFF",		// white
+				"gold"			// colorless
+			],
+			credits : {enabled: false},
+            title: {
+                text: 'Average Mana'
+            },
+            subtitle: {
+                text: 'Available Per Turn'
+            },
+            xAxis: {
+                categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13'],
+                    title: { text: "Turn" }
+            },
+            yAxis: {
+                title: {
+                    text: 'Mana'
+                }            },
+         plotOptions: {
+                area: {
+                    stacking: 'normal'
+                      }
+            },            
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -10,
+                y: 100,
+                borderWidth: 0
+            },
+            series: [{
+                name: 'Black',
+                data: [0.38, 0.92, 1.38, 1.92, 2.46, 2.92, 3.31, 3.69, 4.00, 4.23, 4.54, 4.92, 5.15]
+            }, {
+                name: 'Blue',
+                data: [null, null, null, null, null, null, null, null, null, null, null, null, null]
+            }, {
+                name: 'Green',
+                data: [null, null, null, null, null, null, null, null, null, null, null, null, null]
+            }, {
+                name: 'Red',
+                data: [0.62, 1.08, 1.62, 2.08, 2.38, 2.77, 3.15, 3.54, 4.00, 4.31, 4.54, 4.77, 5.08]
+            }, {
+                name: 'White',
+                data: [null, null, null, null, null, null, null, null, null, null, null, null, null]
+            }, {
+                name: 'Colorless',
+                data: [null, null, null, null, null, null, null, null, null, null, null, null, null]
+            }]
+        });
+    });
+		</script>
+	</head>
+	<body style="background-color:silver">
+		<div style="text-align:center">Magic Simulation Results</div>
+		<div>Games Run: $games</div>
+		<div>Turns Per Game: $turns</div>
+		<div>Average Mana Per Turn</div>
+		<div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+	</body>
+</html>
