@@ -1,206 +1,214 @@
 <?php
 class FetchCards
 {
-	public function getPageForCard($name)
+	// the cards array is an array of cards
+	// each card is itself an array where each index means something
+	//	0: name
+	//	1: casting cost (can be 'null')
+	//	2: type
+	//	3: power and toughness or loyalty (can be 'null')
+	public function getCardsForExpansion($expansion)
 	{
-		$page = "";
-		$attempts = 0;
-		$found = false;
-		while ($attempts < 3 && $found == false)
-		{
-			try
-			{
-				$page = file_get_contents($this->baseURL . "name=+[%22" . urlencode($name) . "%22]");
-				$found = true;
-			}
-			catch (Exception $e)
-			{
-				$attempts++;
-			}
-		}
+		print "Fetching cards for..." . $expansion . PHP_EOL;
+		$url = $this->baseURL_Expansions . "[\"" . urlencode($expansion) . "\"]";
+		$page = file_get_contents($url);
 		
-		if (strpos($page, "Your search returned zero results") > 0)
+		// advance offset to beginning of details
+		$this->offset = strpos($page, "textspoiler");
+		while($this->processCard($page))
 		{
-			throw new Exception("Search failed to return results for " . $name);
 		}
-		
-		if (strpos($page, "cardItemTable") > 0)
-		{
-			throw new Exception("Search returned multiple results for " . $name);
-		}
-		
-		if ($found === false || $page == false)
-		{
-			throw new Exception("Cannot get page for: " . $name);
-		}
-		
-		$cardName = $this->getCardName($page);
-		$manaCost = $this->getManaCost($page);
-		$type = $this->getCardType($page);
-		$cardText = $this->getCardText($page);
-		$pt = $this->getCardPowerToughness($page);
-		
-		print PHP_EOL;
-		print $cardName . PHP_EOL;
-		print $manaCost . PHP_EOL;
-		print $type . PHP_EOL;
-		foreach($cardText as $text)
-		{
-			print $text . PHP_EOL;
-		}
-		print $pt . PHP_EOL;
+	}
+
+	public function getCards()
+	{
+		return $this->cards;
 	}
 	
-	private function getCardName($page)
+	private function cleanText($text)
 	{
-		// first find Card Name label in html
-		$this->offset = strpos($page, "Card Name:");
-		if ($this->offset == false)
+		$temp = ltrim($text);
+		$temp = rtrim($temp);
+		$temp = str_replace("  ", " ", $temp);
+		$temp = str_replace("—", "-", $temp);
+		if (strlen($temp) <= 0)
 		{
-			throw new Exception("Cannot find text in page: " . "Card Name:");
+			$temp = "null";
+		}
+		return $temp; 
+	}
+	
+	private function processCard($page)
+	{
+		// Name, if we don't find the name it means we have no more cards
+		$name =  $this->getName($page);
+		if ($name === false)
+		{
+			return false;
+		}
+
+		// all the details of the card will be put as an array, each index meaning something
+		$card = array();
+		print PHP_EOL . $name . PHP_EOL;
+		array_push($card, $name);
+		
+		// now look for the casting cost
+		$castingCost = $this->getCost($page);
+		if ($castingCost === false)
+		{
+			return false;
+		}
+		print $castingCost . PHP_EOL;
+		array_push($card, $castingCost);
+		
+		// now look for type
+		$type = $this->getType($page);
+		if ($type === false)
+		{
+			return false;
+		}
+		print $type . PHP_EOL;
+		array_push($card, $type);
+		
+		// now look for power and toughness
+		$pt = $this->getPT($page);
+		if ($pt === false)
+		{
+			return false;
+		}
+		print $pt . PHP_EOL;
+		array_push($card, $pt);
+		
+		// now look for rules
+		$rule = $this->getRules($page);
+		
+		// rules are separated by <br />
+		$rules = explode("<br />\n", $rule);
+		foreach($rules as $r)
+		{
+			// need to be careful here, this can wipe out (w/p) which is valid
+			// these 'sentences' always end with a period, so adding that to the search
+			$r = preg_replace("/ \((.*)\.\)/", "", $r);
+			$r = preg_replace("/\((.*)\.\)/", "", $r);
+			if (strlen($r) > 0)
+			{
+				print $r . PHP_EOL;
+				array_push($card, $r);
+			}
 		}
 		
-		// the next div contains the actual name
-		//
-		// the s is to allow . to eat newlines
-		// U is for non-greedy matching
-		//
-		if (!preg_match("/<div class=\"value\">(.*)<\/div>/Us", $page, $matches, 0, $this->offset))
+		array_push($this->cards, $card);
+		return true;
+	}
+	
+	private function getRules($page)
+	{
+		// look for the cost
+		$offset = strpos($page, "Rules Text:", $this->offset);
+		if ($offset === false)
+		{
+			return false;
+		}
+		$this->offset = $offset + 1;
+		
+		if (!preg_match("/<td>(.*)<\/td>/Us", $page, $matches, 0, $this->offset))
+		{
+			throw new Exception("Failed to match rules: " . $page);
+		}
+		
+		return $this->cleanText($matches[1]);
+	}
+	
+	private function getPT($page)
+	{
+		// it could be either Pow/Tgh: or Loyalty:
+		// need to find the closer one and use that 
+		$offset1 = strpos($page, "Pow/Tgh:", $this->offset);
+		$offset2 = strpos($page, "Loyalty:", $this->offset);
+		
+		if ($offset1 === false && $offset2 === false)
+		{
+			return false;
+		}
+	
+		if ($offset2 > 0 && $offset2 < $offset1)
+		{
+			$this->offset = $offset2 + 1;
+		}
+		else
+		{
+			$this->offset = $offset1 + 1;
+		}
+		
+		
+		if (!preg_match("/<td>(.*)<\/td>/Us", $page, $matches, 0, $this->offset))
+		{
+			throw new Exception("Failed to match power and toughness or loyalty: " . $page);
+		}
+		
+		return $this->cleanText($matches[1]);
+	}
+	
+	private function getType($page)
+	{
+		// look for the Name
+		$offset = strpos($page, "Type:", $this->offset);
+		if ($offset === false)
+		{
+			return false;
+		}
+		$this->offset = $offset + 1;
+		
+		if (!preg_match("/<td>(.*)<\/td>/Us", $page, $matches, 0, $this->offset))
+		{
+			throw new Exception("Failed to match type: " . $page);
+		}
+		
+		return $this->cleanText($matches[1]);
+	}
+	
+	private function getCost($page)
+	{
+		// look for the cost
+		$offset = strpos($page, "Cost:", $this->offset);
+		if ($offset === false)
+		{
+			return false;
+		}
+		$this->offset = $offset + 1;
+		
+		if (!preg_match("/<td>(.*)<\/td>/Us", $page, $matches, 0, $this->offset))
+		{
+			throw new Exception("Failed to match cost: " . $page);
+		}
+		
+		return $this->cleanText($matches[1]);
+	}
+	
+	private function getName($page)
+	{
+		// look for the Name
+		$offset = strpos($page, "Name:", $this->offset);
+		if ($offset === false)
+		{
+			return false;
+		}
+		$this->offset = $offset + 1;
+		
+		if (!preg_match("/<td>(.*)<\/td>/Us", $page, $matches, 0, $this->offset))
 		{
 			throw new Exception("Failed to match name: " . $page);
 		}
-		return ltrim($matches[1]);
-	}
-	
-	private function getManaCost($page)
-	{
-		$offset = strpos($page, "Mana Cost:", $this->offset);
-		if ($offset === false)
-		{
-			return "null";
-		}
 		
-		$this->offset = $offset;
-
-		if (!preg_match("/<div class=\"value\">(.*)<\/div>/Us", $page, $matches, 0, $this->offset))
+		if (!preg_match("/>(.*)<\/a>/", $matches[1], $newMatches))
 		{
-			throw new Exception("Failed to match types.");
+			throw new Exception("Failed to match name from subpiece: " . $$matches[1]);
 		}
-
-		return $this->fixManaSymbols(ltrim($matches[1]));
+		return $this->cleanText($newMatches[1]);
 	}
 	
-	private function getCardType($page)
-	{
-		$this->offset = strpos($page, "Types:", $this->offset);
-		if ($this->offset == false)
-		{
-			throw new Exception("Cannot find Types: in page.");
-		}
-
-		if (!preg_match("/<div class=\"value\">(.*)<\/div>/Us", $page, $matches, 0, $this->offset))
-		{
-			throw new Exception("Failed to match types.");
-		}
-		$type = ltrim($matches[1]);
-		$type = str_replace("  ", " ", $type);
-		$type = str_replace("—", "-", $type); 
-		return $type;
-	}
-	
-	private function getCardText($page)
-	{
-		$offset = strpos($page, "Card Text:", $this->offset);
-		if ($offset === false)
-		{
-			return array("null");
-		}
-
-		$this->offset = $offset;
-
-		$cardText = array();
-		while(preg_match("/<div class=\"cardtextbox\">(.*)<\/div>/Us", $page, $matches, 0, $this->offset))
-		{
-			$this->offset = strpos($page, $matches[1], $this->offset);
-			$temp = ltrim($matches[1]);
-			$temp = preg_replace("/<i>(.*)<\/i>/", "", $temp);
-			$temp = $this->fixManaSymbols($temp);
-			$temp = str_replace("—", "-", $temp); 
-			if (strlen($temp) > 0)
-			{
-				array_push($cardText, $temp);
-			}
-		}
-		
-		return $cardText;
-	}
-	
-	private function getCardPowerToughness($page)
-	{
-		$offset = strpos($page, "P/T:", $this->offset);
-		if ($offset == false)
-		{
-			$offset = strpos($page, "Loyalty:", $this->offset);
-			if ($offset == false)
-			{
-				return "null";
-			}
-			$this->offset = $offset;
-		}
-
-		$this->offset = $offset;
-
-		if (!preg_match("/<div class=\"value\">(.*)<\/div>/Us", $page, $matches, 0, $this->offset))
-		{
-			throw new Exception("Failed to match P/T.");
-		}
-		$pt = ltrim($matches[1]);
-		$pt = str_replace(" ", "", $pt);
-		return $pt;
-	}
-	
-	private function fixManaSymbols($rawMana)
-	{
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "B", "Black", "B");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "G", "Green", "G");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "R", "Red", "R");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "U", "Blue", "U");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "W", "White", "W");
-		
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "X", "Variable Colorless", "X");
-		
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "tap", "Tap", "T");
-		
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "BR", "Black or Red", "b/r");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "BG", "Black or Green", "b/g");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "WU", "White or Blue", "w/u");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "UR", "Blue or Red", "u/r");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "GW", "Green or White", "g/w");
-		
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "BP", "Phyrexian Black", "b/p");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "GP", "Phyrexian Green", "g/p");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "RP", "Phyrexian Red", "r/p");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "UP", "Phyrexian Blue", "u/p");
-		$rawMana = $this->fixSingleManaSymbol($rawMana, "WP", "Phyrexian White", "w/p");
-
-		for($i = 0; $i < 21; $i++)
-		{
-			$rawMana = $this->fixSingleManaSymbol($rawMana, $i, $i, $i);
-		}
-		return $rawMana;
-	}
-	
-	private function fixSingleManaSymbol($rawMana, $symbol, $altSymbol, $replace)
-	{
-		$imageMedium = "<img src=\"/Handlers/Image.ashx?size=medium&amp;name=$symbol&amp;type=symbol\" alt=\"$altSymbol\" align=\"absbottom\" />";
-		$imageSmall = "<img src=\"/Handlers/Image.ashx?size=small&amp;name=$symbol&amp;type=symbol\" alt=\"$altSymbol\" align=\"absbottom\" />";
-		$temp = str_replace($imageMedium, $replace, $rawMana);
-		$temp = str_replace($imageSmall, $replace, $temp); 
-		return $temp;
-	}
-	
-	//http://gatherer.wizards.com/Pages/Search/Default.aspx?name=+[%22Goblin%20King%22]
-	private $baseURL = "http://gatherer.wizards.com/Pages/Search/Default.aspx?";
 	private $offset = 0;
+	private $baseURL_Expansions = "http://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=text&action=advanced&set=%7c";
+	private $cards = array();
 }
 ?>

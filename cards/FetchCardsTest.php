@@ -2,7 +2,13 @@
 include_once "FetchCards.php";
 class FetchCardsTest extends PHPUnit_Framework_TestCase
 {
-	public function testGoblinKing()
+	public function testGetMagic2013()
+	{
+		$fetch = new FetchCards();
+		$fetch->getCardsForExpansion("Magic 2013");
+	}
+	/*
+	public function testGetIndividualCards()
 	{
 		$fetch = new FetchCards();
 
@@ -29,6 +35,6 @@ class FetchCardsTest extends PHPUnit_Framework_TestCase
 		$fetch->getPageForCard("Fallen Ferromancer");
 		$fetch->getPageForCard("Exclusion Ritual");
 		$fetch->getPageForCard("Underground Sea");
-	}
+	}*/
 }
 ?>
