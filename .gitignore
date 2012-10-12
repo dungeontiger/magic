@@ -1,0 +1,8 @@
+*.txt
+*.xml
+output/js/*
+output/index.htm
+output/examples/*
+output/gfx/*
+output/graphics/*
+output/exporting-server/*

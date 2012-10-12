@@ -7,8 +7,10 @@ class FetchCards
 	//	1: casting cost (can be 'null')
 	//	2: type
 	//	3: power and toughness or loyalty (can be 'null')
+	// 4+: rules
 	public function getCardsForExpansion($expansion)
 	{
+		$this->cards = array();
 		print "Fetching cards for..." . $expansion . PHP_EOL;
 		$url = $this->baseURL_Expansions . "[\"" . urlencode($expansion) . "\"]";
 		$page = file_get_contents($url);
@@ -17,6 +19,16 @@ class FetchCards
 		$this->offset = strpos($page, "textspoiler");
 		while($this->processCard($page))
 		{
+		}
+		
+		// write out each file
+		foreach($this->cards as $card)
+			{
+			$fileName = $this->getNormalizedName($card[0]) . ".txt";
+			if (!file_exists($fileName))
+			{
+				file_put_contents($fileName, implode(PHP_EOL, $card));
+			}
 		}
 	}
 
@@ -31,7 +43,7 @@ class FetchCards
 		$normal = str_replace(" ", "_", $cardName);
 		$normal = str_replace(",", "_", $normal);
 		$normal = str_replace("'", "_", $normal);
-		return strtolower($cardName);
+		return $normal;
 	}
 	
 	private function cleanText($text)
@@ -58,7 +70,6 @@ class FetchCards
 
 		// all the details of the card will be put as an array, each index meaning something
 		$card = array();
-		print PHP_EOL . $name . PHP_EOL;
 		array_push($card, $name);
 		
 		// now look for the casting cost
@@ -67,7 +78,6 @@ class FetchCards
 		{
 			return false;
 		}
-		print $castingCost . PHP_EOL;
 		array_push($card, $castingCost);
 		
 		// now look for type
@@ -76,7 +86,6 @@ class FetchCards
 		{
 			return false;
 		}
-		print $type . PHP_EOL;
 		array_push($card, $type);
 		
 		// now look for power and toughness
@@ -85,7 +94,6 @@ class FetchCards
 		{
 			return false;
 		}
-		print $pt . PHP_EOL;
 		array_push($card, $pt);
 		
 		// now look for rules
@@ -101,7 +109,6 @@ class FetchCards
 			$r = preg_replace("/\((.*)\.\)/", "", $r);
 			if (strlen($r) > 0)
 			{
-				print $r . PHP_EOL;
 				array_push($card, $r);
 			}
 		}
@@ -218,6 +225,6 @@ class FetchCards
 	
 	private $offset = 0;
 	private $baseURL_Expansions = "http://gatherer.wizards.com/Pages/Search/Default.aspx?output=spoiler&method=text&action=advanced&set=%7c";
-	private $cards = array();
+	private $cards;
 }
 ?>
