@@ -10,11 +10,11 @@ class BattlefieldTest extends PHPUnit_Framework_TestCase
 		$swamp = $factory->createCard("Swamp");
 		$swamp2 = $factory->createCard("Swamp");
 		$mountain = $factory->createCard("Mountain");
-		$blank = $factory->createCard("_blank");
+		$ghoul = $factory->createCard("Warpath Ghoul");
 		$battlefield->addCard($swamp);
 		$battlefield->addCard($swamp2);
 		$battlefield->addCard($mountain);
-		$battlefield->addCard($blank);
+		$battlefield->addCard($ghoul);
 		$mana = $battlefield->getAvailableMana();
 		assert($mana->getMana(Color::BLACK) == 2);
 		assert($mana->getMana(Color::RED) == 1);

@@ -7,13 +7,7 @@ include_once "TapCost.php";
 include_once "ProduceManaEffect.php";
 class CardTest extends PHPUnit_Framework_TestCase
 {
-	public function testCreateBlank()
-	{
-		$card = new Card("_blank", CardType::BLANK);
-		assert(strcmp($card->getName(), "_blank") == 0);
-		assert($card->getType() == CardType::BLANK);
-		assert($card->getCastingCost() == null);
-	}
+	// TODO:  Need a lot more tests here
 	
 	public function testCardThing()
 	{

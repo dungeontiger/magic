@@ -26,7 +26,7 @@ class DeckTest extends PHPUnit_Framework_TestCase
 		$cards = $deck->getCards();
 		assert(strcmp($cards[0]->getName(), "Island") == 0);
 		assert(strcmp($cards[4]->getName(), "Forest") == 0);
-		assert(strcmp($cards[10]->getName(), "_blank") == 0);
+		assert(strcmp($cards[10]->getName(), "Air Elemental") == 0);
 	}
 
 	public function testAddRedBlack()
@@ -36,7 +36,7 @@ class DeckTest extends PHPUnit_Framework_TestCase
 		$cards = $deck->getCards();
 		assert(strcmp($cards[0]->getName(), "Swamp") == 0);
 		assert(strcmp($cards[10]->getName(), "Mountain") == 0);
-		assert(strcmp($cards[20]->getName(), "_blank") == 0);
+		assert(strcmp($cards[20]->getName(), "Warpath Ghoul") == 0);
 	}
 	
 	public function testShuffle()
@@ -65,13 +65,13 @@ EOD;
 	private $deck2 = <<<EOD
 2,Island
 4,Forest
-10,_blank
+10,Air Elemental
 EOD;
 
 	private $deckBlackRed = <<<EOD
 10,Swamp
 10,Mountain
-40,_blank
+40,Warpath Ghoul
 EOD;
 }
 ?>

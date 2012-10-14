@@ -12,7 +12,7 @@ class ManaSimulationTest extends PHPUnit_Framework_TestCase
 	private $deckBlackRed = <<<EOD
 15,Swamp
 15,Mountain
-30,_blank
+30,Warpath Ghoul
 EOD;
 }
 ?>
