@@ -1,7 +1,6 @@
 <?php
 final class CardType
 {
-	const BLANK = -1;
 	const BASIC_LAND = 0;
 	const LAND = 1;
 	const CREATURE = 2;
@@ -19,6 +18,7 @@ final class CardType
 	// tokens?
 	// snow lands?
 	// artifact land
+	// other legendary stuff
 	
 	
 	private function __construct()

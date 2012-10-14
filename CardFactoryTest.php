@@ -2,50 +2,35 @@
 include_once "CardFactory.php";
 class CardFactoryTest extends PHPUnit_Framework_TestCase
 {
-	public function testCardsExists()
-	{
-		// will throw an exception for any unknown or unsupported cards
-		$factory = new CardFactory();
-		$factory->createCard("swamp");
-		$factory->createCard("mountain");
-		$factory->createCard("island");
-		$factory->createCard("swamp");
-		$factory->createCard("forest");
-	}
-
-	public function testInvalid()
-	{
-		// will throw an exception for any unknown or unsupported cards
-		$factory = new CardFactory();
-		$exception = false;
-		try
-		{
-			$factory->createCard("dungeontiger");
-		}
-		catch(Exception $e)
-		{
-			$exception = true;
-		}
-		assert($exception == true);
-		
-	}
-
-	public function testCreateBlank()
-	{
-		$factory = new CardFactory();
-		$card = $factory->createCard("_blank");
-		assert(strcmp($card->getName(), "_blank") == 0);
-		assert($card->getType() == CardType::BLANK);
-		assert(count($card->getAbilities()) == 0);
-	}
-	
-	public function testCreateSwamp()
+	public function testSwamp()
 	{
 		$factory = new CardFactory();
 		$card = $factory->createCard("Swamp");
-		assert(strcmp($card->getName(), "Swamp") == 0);
+		$abilities = $card->getAbilities();
+		
 		assert($card->getType() == CardType::BASIC_LAND);
 		assert($card->isASubType("Swamp"));
+		assert($card->getCastingCost() == null);
+		assert($card->getPower() == null);
+		assert($card->getToughness() == null);
+		assert($card->getLoyalty() == null);
+		assert(count($abilities) == 1);
+		$ability = $abilities[0];
+		$costs = $ability->getCosts();
+		$effects = $ability->getEffects();
+		assert(count($costs) == 1);
+		assert(count($effects) == 1);
+		assert(is_a($costs[0], "TapCost"));
+		assert(is_a($effects[0], "ProduceManaEffect"));
+		assert($effects[0]->getProducedMana()->get(Color::BLACK) == 1);
+	}
+	
+	public function testMountain()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Mountain");
+		assert($card->getType() == CardType::BASIC_LAND);
+		assert($card->isASubType("Mountain"));
 		$abilities = $card->getAbilities();
 		assert(count($abilities) == 1);
 		$ability = $abilities[0];
@@ -58,59 +43,13 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(count($effects) == 1);
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getManaString(), "B") == 0);
-		assert($effect->getProducedMana()->get(Color::BLACK) == 1);
+		assert(strcmp($effect->getProducedMana()->getManaString(), "R") == 0);
 	}
 
-	public function testCreatePlains()
-	{
-		$factory = new CardFactory();
-		$card = $factory->createCard("Plains");
-		assert(strcmp($card->getName(), "Plains") == 0);
-		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->isASubType("Plains"));
-		$abilities = $card->getAbilities();
-		assert(count($abilities) == 1);
-		$ability = $abilities[0];
-		assert(is_a($ability, "Ability"));
-		$costs = $ability->getCosts();
-		assert(count($costs) == 1);
-		$cost = $costs[0];
-		assert(is_a($cost, "TapCost"));
-		$effects = $ability->getEffects();
-		assert(count($effects) == 1);
-		$effect = $effects[0];
-		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getManaString(), "W") == 0);
-	}
-	
-	public function testCreateIsland()
-	{
-		$factory = new CardFactory();
-		$card = $factory->createCard("Island");
-		assert(strcmp($card->getName(), "Island") == 0);
-		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->isASubType("Island"));
-		$abilities = $card->getAbilities();
-		assert(count($abilities) == 1);
-		$ability = $abilities[0];
-		assert(is_a($ability, "Ability"));
-		$costs = $ability->getCosts();
-		assert(count($costs) == 1);
-		$cost = $costs[0];
-		assert(is_a($cost, "TapCost"));
-		$effects = $ability->getEffects();
-		assert(count($effects) == 1);
-		$effect = $effects[0];
-		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getManaString(), "U") == 0);
-	}
-	
-	public function testCreateForest()
+	public function testForest()
 	{
 		$factory = new CardFactory();
 		$card = $factory->createCard("Forest");
-		assert(strcmp($card->getName(), "Forest") == 0);
 		assert($card->getType() == CardType::BASIC_LAND);
 		assert($card->isASubType("Forest"));
 		$abilities = $card->getAbilities();
@@ -127,14 +66,13 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(is_a($effect, "ProduceManaEffect"));
 		assert(strcmp($effect->getProducedMana()->getManaString(), "G") == 0);
 	}
-	
-	public function testCreateMountain()
+
+	public function testIsland()
 	{
 		$factory = new CardFactory();
-		$card = $factory->createCard("Mountain");
-		assert(strcmp($card->getName(), "Mountain") == 0);
+		$card = $factory->createCard("Island");
 		assert($card->getType() == CardType::BASIC_LAND);
-		assert($card->isASubType("Mountain"));
+		assert($card->isASubType("Island"));
 		$abilities = $card->getAbilities();
 		assert(count($abilities) == 1);
 		$ability = $abilities[0];
@@ -147,7 +85,100 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(count($effects) == 1);
 		$effect = $effects[0];
 		assert(is_a($effect, "ProduceManaEffect"));
-		assert(strcmp($effect->getProducedMana()->getManaString(), "R") == 0);
+		assert(strcmp($effect->getProducedMana()->getManaString(), "U") == 0);
+	}
+
+	public function testPlains()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Plains");
+		assert($card->getType() == CardType::BASIC_LAND);
+		assert($card->isASubType("Plains"));
+		$abilities = $card->getAbilities();
+		assert(count($abilities) == 1);
+		$ability = $abilities[0];
+		assert(is_a($ability, "Ability"));
+		$costs = $ability->getCosts();
+		assert(count($costs) == 1);
+		$cost = $costs[0];
+		assert(is_a($cost, "TapCost"));
+		$effects = $ability->getEffects();
+		assert(count($effects) == 1);
+		$effect = $effects[0];
+		assert(is_a($effect, "ProduceManaEffect"));
+		assert(strcmp($effect->getProducedMana()->getManaString(), "W") == 0);
+	}
+
+	public function testInvalid()
+	{
+		// will throw an exception for any unknown or unsupported cards
+		$factory = new CardFactory();
+		$exception = false;
+		try
+		{
+			$factory->createCard("dungeontiger");
+		}
+		catch(Exception $e)
+		{
+			$exception = true;
+		}
+		assert($exception == true);
+	}
+	
+	public function testSimpleCreature()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Amphin Cutthroat");
+		$cost = $card->getCastingCost();
+		
+		assert($card->getType() == CardType::CREATURE);
+		assert($cost->getConvertedTotal() == 4);
+		assert($cost->get(Color::BLUE) == 1);
+		assert($card->getPower() == 2);
+		assert($card->getToughness() == 4);
+	}
+	
+	public function testMoreSimpleCreatures()
+	{
+		$factory = new CardFactory();
+		$factory->createCard("Armored Warhorse");
+		$factory->createCard("Bonebreaker Giant");
+		$factory->createCard("Coral Merfolk");
+		$factory->createCard("Elite Vanguard");
+		$factory->createCard("Goblin Piker");
+		$factory->createCard("Runeclaw Bear");
+		$factory->createCard("Siege Mastodon");
+		$factory->createCard("Warpath Ghoul");
+	}
+	
+	public function testFlyingCreature()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Stormfront Pegasus");
+		assert($card->hasKeyword(Keywords::FLYING));
+	}
+	
+	public function testLifelinkCreature()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Ajani's Sunstriker");
+		assert($card->hasKeyword(Keywords::LIFELINK));
+	}
+	
+	public function testMultipleKeywordsDifferentLinesCreature()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Aven Squire");
+		assert($card->hasKeyword(Keywords::FLYING));
+		assert($card->hasKeyword(Keywords::EXALTED));
+	}
+	
+	public function testMultipleKeywordsSameLineCreature()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Archweaver");
+		assert($card->hasKeyword(Keywords::REACH));
+		assert($card->hasKeyword(Keywords::TRAMPLE));
 	}
 }
 ?>

@@ -1,6 +1,11 @@
 <?php
 class SimulationResults
 {
+	public function writeOutput()
+	{
+		// write html output with the results
+	}
+	
 	public function addGameResults($results)
 	{
 		array_push($this->gameResults, $results);

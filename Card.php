@@ -71,9 +71,19 @@ class Card
 		return $this->tapped;
 	}
 	
-	public function setCastingCost()
+	public function getLoyalty()
 	{
-		$this->castingCost = null;
+		return $this->loyalty;
+	}
+	
+	public function setLoyalty($loyalty)
+	{
+		$this->loyalty = $loyalty;
+	}
+	
+	public function setCastingCost($castingCost)
+	{
+		$this->castingCost = $castingCost;
 	}
 	
 	public function addSubType($subType)
@@ -115,15 +125,47 @@ class Card
 	{
 		return $this->toughness;
 	}
+	
+	public function addUnknownRule($rule)
+	{
+		array_push($this->unknownRules, $rule);
+	}
+	
+	public function getUnknownRules()
+	{
+		return $this->unknownRules;
+	}
+	
+	public function hasUnknownRules()
+	{
+		return count( $this->unknownRules) > 0;
+	}
 
-	private $castingCost;
+	public function addKeyword($keyword)
+	{
+		array_push($this->keywords, $keyword);
+	}
+	
+	public function getKeywords()
+	{
+		return $this->keywords;
+	}
+	
+	public function hasKeyword($keyword)
+	{
+		return in_array($keyword, $this->keywords);
+	}
+
+	private $castingCost = null;
 	private $name;
 	private $type;
 	private $subTypes = array();
 	private $abilities = array();
-	private $effects = array();
 	private $power = null;
 	private $toughness = null;
-	private $tapped;
+	private $loyalty = null;
+	private $tapped = false;
+	private $unknownRules = array();
+	private $keywords = array();
 }
 ?>
