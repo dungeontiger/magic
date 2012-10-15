@@ -1,11 +1,10 @@
 <?php
-include_once "Effect.php";
 include_once "ManaVector.php";
 /**
  * This class represents an effect that generates mana
  * This could be anything from a basic land to a Mox
  */
-class ProduceManaEffect extends Effect
+class ProduceManaEffect
 {
 	public function __construct($mana)
 	{

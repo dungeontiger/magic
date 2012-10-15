@@ -40,6 +40,20 @@ class CardFactory
 
 		// look for a file name for that card
 		$cardFile = "./cards/" . $normalizedName . ".txt";
+		$card = $this->createCardFromFile($cardFile);
+		if ($card == null)
+		{
+			throw new Exception("Unknown or unsupported card name: " . $cardName . " (file: " . $cardFile . ")");
+		}
+	
+		// put the card in the cache
+		$this->cardCache[$normalizedName] = clone $card;
+		return $card;
+	}
+
+	// mostly for testing / reporting, cards are not put in the cache
+	public function createCardFromFile($cardFile)
+	{
 		if (file_exists($cardFile))
 		{
 			$card = null;
@@ -68,12 +82,9 @@ class CardFactory
 				$index++;
 			}
 			
-			// put the card in the cache
-			$this->cardCache[$normalizedName] = clone $card;
 			return $card;
 		}
-		
-		throw new Exception("Unknown or unsupported card name: " . $cardName . " (file: " . $cardFile . ")");
+		return null;
 	}
 	
 	public function getNormalizedName($cardName)
@@ -90,7 +101,14 @@ class CardFactory
 		$castingCost = null;
 		if (strcasecmp($line, "null") != 0)
 		{
-			$castingCost = new ManaVector($line);
+			try
+			{
+				$castingCost = new ManaVector($line);
+			}
+			catch(Exception $e)
+			{
+				$card->setUnsupported();
+			}
 		}
 		$card->setCastingCost($castingCost);
 	}
@@ -126,7 +144,8 @@ class CardFactory
 		}
 		else
 		{
-			throw new Exception("Unknown card type: " . $type);
+			$card->setUnsupported();
+			return;
 		}
 		
 		// get the list of sub types, they are space separated
@@ -160,8 +179,8 @@ class CardFactory
 			return;
 		}
 		
-		print "Unknown rule: $rule";
 		$card->addUnknownRule($rule);
+		$card->setUnsupported();
 	}
 	
 	private function setPowerToughness($card, $line)

@@ -155,6 +155,16 @@ class Card
 	{
 		return in_array($keyword, $this->keywords);
 	}
+	
+	public function setUnsupported()
+	{
+		$this->unsupported = true;
+	}
+	
+	public function isSupported()
+	{
+		return !$this->unsupported;
+	}
 
 	private $castingCost = null;
 	private $name;
@@ -167,5 +177,6 @@ class Card
 	private $tapped = false;
 	private $unknownRules = array();
 	private $keywords = array();
+	private $unsupported = false;
 }
 ?>

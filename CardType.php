@@ -20,6 +20,7 @@ final class CardType
 	// artifact land
 	// other legendary stuff
 	
+	// legendary should be a modifier
 	
 	private function __construct()
 	{
