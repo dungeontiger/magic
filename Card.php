@@ -46,16 +46,6 @@ class Card
 		return $this->castingCost;
 	}
 	
-	public function addAbility($ability)
-	{
-		array_push($this->abilities, $ability);
-	}
-	
-	public function getAbilities()
-	{
-		return $this->abilities;
-	}
-	
 	public function tap()
 	{
 		$this->tapped = true;
@@ -126,57 +116,74 @@ class Card
 		return $this->toughness;
 	}
 	
-	public function addUnknownRule($rule)
+	public function isSupportedRules()
 	{
-		array_push($this->unknownRules, $rule);
-	}
-	
-	public function getUnknownRules()
-	{
-		return $this->unknownRules;
-	}
-	
-	public function hasUnknownRules()
-	{
-		return count( $this->unknownRules) > 0;
+		return !$this->unsupportedRules;
 	}
 
-	public function addKeyword($keyword)
+	public function setUnsupportedCastingCost()
 	{
-		array_push($this->keywords, $keyword);
+		$this->unsupportedCastingCost = true;
 	}
 	
-	public function getKeywords()
+	public function isSupportedCastingCost()
 	{
-		return $this->keywords;
+		return !$this->unsupportedCastingCost;
+	}
+	
+	public function setUnsupportedType()
+	{
+		$this->unsupportedType = true;
+	}
+	
+	public function isSupportedType()
+	{
+		return !$this->unsupportedType;
+	}
+	
+	public function addRule($rule)
+	{
+		array_push($this->rules, $rule);
+		if (!$rule->isSupported())
+		{
+			$this->unsupportedRules = true;
+		}
+	}
+	
+	public function getRules()
+	{
+		return $this->rules;
 	}
 	
 	public function hasKeyword($keyword)
 	{
-		return in_array($keyword, $this->keywords);
+		foreach($this->rules as $rule)
+		{
+			if (is_a($rule, "KeywordRule"))
+			{
+				if ($rule->getKeyword() == $keyword)
+				{
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 	
-	public function setUnsupported()
-	{
-		$this->unsupported = true;
-	}
-	
-	public function isSupported()
-	{
-		return !$this->unsupported;
-	}
-
+	// TODO: clean up the rules members
 	private $castingCost = null;
 	private $name;
 	private $type;
 	private $subTypes = array();
-	private $abilities = array();
 	private $power = null;
 	private $toughness = null;
 	private $loyalty = null;
 	private $tapped = false;
-	private $unknownRules = array();
-	private $keywords = array();
-	private $unsupported = false;
+	private $unsupportedRules = false;
+	private $unsupportedCastingCost = false;
+	private $unsupportedType = false;
+	
+	private $rules = array();
+	
 }
 ?>

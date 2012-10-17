@@ -4,18 +4,13 @@
  */
 include_once "Card.php";
 include_once "CardType.php";
-include_once "Ability.php";
-include_once "TapCost.php";
-include_once "ProduceManaEffect.php"; 
-include_once "Keywords.php";
-
-//TODO: Dual lands are not handled properly, need to look at sub type to determine 'rules'
+include_once "RulesFactory.php";
 
 class CardFactory
 {
 	public function __construct()
 	{
-		$this->keywords = new Keywords();
+		$this->rulesFactory = new RulesFactory();
 	}
 	
 	// when reading in card information
@@ -107,7 +102,7 @@ class CardFactory
 			}
 			catch(Exception $e)
 			{
-				$card->setUnsupported();
+				$card->setUnsupportedCastingCost();
 			}
 		}
 		$card->setCastingCost($castingCost);
@@ -142,9 +137,17 @@ class CardFactory
 		{
 			$card->setType(CardType::CREATURE);
 		}
+		else if (strcasecmp($type, "Instant") == 0)
+		{
+			$card->setType(CardType::INSTANT);
+		}
+		else if (strcasecmp($type, "Sorcery") == 0)
+		{
+			$card->setType(CardType::SORCERY);
+		}
 		else
 		{
-			$card->setUnsupported();
+			$card->setUnsupportedType();
 			return;
 		}
 		
@@ -161,26 +164,26 @@ class CardFactory
 	
 	private function addRule($card, $rule)
 	{
-		// of one character, this is a basic land
-		if (strlen($rule) == 1)
+		// because of multiple keywords on one line
+		// it is possible to get an array of rules back
+		// null is returned if there are no rules
+		// unknown rules are recorded as such
+		// when added to the card, it adjusts its unsupported status automatically
+		$ruleResults = $this->rulesFactory->makeRule($card->getName(), $rule);
+		if ($ruleResults != null)
 		{
-			$ability = new Ability(new TapCost(), new ProduceManaEffect($rule));
-			$card->addAbility($ability);
-			return;
+			if (is_array($ruleResults))
+			{
+				foreach($ruleResults as $item)
+				{
+					$card->addRule($item);
+				}
+			}
+			else
+			{
+				$card->addRule($ruleResults);
+			}
 		}
-		else if (strcasecmp("null", $rule) == 0)
-		{
-			// nothing to do (is this required?)
-			return;
-		}
-		else if ($this->isAllKeywords($card, $rule))
-		{
-			// handled by isAllKeywords
-			return;
-		}
-		
-		$card->addUnknownRule($rule);
-		$card->setUnsupported();
 	}
 	
 	private function setPowerToughness($card, $line)
@@ -208,49 +211,10 @@ class CardFactory
 			$card->setLoyalty($matches[1]);
 			return;
 		}
-		throw new Exception("Does not understand p/t or loyalty:" . $line);
-	}
-	
-	private function isAllKeywords($card, $rule)
-	{
-		// keywords can come in as single lines or can come in comma separated
-		
-		// normalize the string by removing commas
-		$test = str_replace(",", "", $rule);
-
-		// go through all the possible key words and remove them from the string if found
-		$keywords = $this->keywords->getKeywords();
-		$foundKeywords = array();
-		foreach($keywords as $key => $value)
-		{
-			$index = stripos($test, $key);
-			if ($index === false)
-			{
-			}
-			else
-			{
-				array_push($foundKeywords, $value);
-				$test = str_ireplace($key, "", $test);
-			}
-		}
-		
-		// now remove all spaces
-		$test = str_replace(" ", "", $test);
-		
-		// if test is empty it means we found only keywords, this rule is solved
-		if (strlen($test) == 0)
-		{
-			// apply the keywords we found to the card
-			foreach($foundKeywords as $keyword)
-			{
-				$card->addKeyword($keyword);
-			}
-			return true;
-		}
-		return false;
+		throw new Exception("Does not understand p/t or loyalty: " . $line);
 	}
 	
 	private $cardCache = array();
-	private $keywords;
+	private $rulesFactory;
 }
 ?>

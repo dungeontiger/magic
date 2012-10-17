@@ -145,12 +145,12 @@ class ManaSimulation extends Simulation
 							$manaWithCard = clone $manaWithCandidate;
 							
 							// TODO: Which ability to use?; since this is for comparison, just use all I guess
-							foreach($candidate->getAbilities() as $ability)
+							foreach($candidate->getRules() as $ability)
 							{
 								$manaWithCandidate->applyEffects($ability->getEffects());
 							}
 							
-							foreach($card->getAbilities() as $ability)
+							foreach($card->getRules() as $ability)
 							{
 								$manaWithCard->applyEffects($ability->getEffects());
 							}
@@ -231,7 +231,7 @@ class ManaSimulation extends Simulation
 		{
 			// look for a produce mana effect
 			$playable = true;
-			$abilities = $card->getAbilities();
+			$abilities = $card->getRules();
 			foreach($abilities as $ability)
 			{
 				$effects = $ability->getEffects();
@@ -240,7 +240,7 @@ class ManaSimulation extends Simulation
 					if (is_a($effect, "ProduceManaEffect"))
 					{
 						// can all the costs be paid?
-						$costs = $ability->getCosts();
+						$costs = $ability->getActivationCosts();
 						foreach($costs as $cost)
 						{
 							if (!$this->costCanBePaid($card, $cost))

@@ -1,5 +1,8 @@
 #!/bin/sh
-./testClass.sh Ability
+#
+# TODO: This should be automatic by looking at directory
+#			Forces every class to have test class
+#
 ./testClass.sh Battlefield
 ./testClass.sh CardFactory
 ./testClass.sh Card

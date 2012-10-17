@@ -1,16 +1,18 @@
 <?php
 include_once "CardFactory.php";
 
-print "Listing all cards that are understood..." . PHP_EOL;
+//print "Listing all cards that are understood..." . PHP_EOL;
 
 $factory = new CardFactory();
 $files = scandir("cards");
+$supportedCastingCost = array();
+$supportedRules = array();
+
 if ($files === false)
 {
 	throw "Failed to scan directory." . PHP_EOL;
 }
 
-$i = 0;
 foreach($files as $file)
 {
 	try
@@ -28,10 +30,14 @@ foreach($files as $file)
 			}
 			else
 			{
-				if ($card->isSupported())
+				if ($card->isSupportedCastingCost() && $card->isSupportedType())
 				{
-					$i++;
-					print "$i: " . $card->getName() . PHP_EOL;
+					array_push($supportedCastingCost, $card);
+				}
+				
+				if ($card->isSupportedRules() && $card->isSupportedCastingCost() && $card->isSupportedType())
+				{
+					array_push($supportedRules, $card);
 				}
 			}
 		}
@@ -40,5 +46,19 @@ foreach($files as $file)
 	{
 		print "Exception caught for $file: " . $e->getMessage() . PHP_EOL;
 	}
+}
+
+// dump both arrays to separate files
+dumpArray($supportedCastingCost, "supportedCastingCost.txt");
+dumpArray($supportedRules, "supportedRules.txt");
+					
+function dumpArray($cards, $file)
+{
+	$output = "";
+	foreach($cards as $card)
+	{
+		$output .= $card->getName() . "\t" . CardType::getString($card->getType()) . PHP_EOL;
+	}
+	file_put_contents($file, $output);
 }
 ?>

@@ -1,6 +1,7 @@
 <?php
 final class CardType
 {
+	// TODO: Make an array like keywords
 	const BASIC_LAND = 0;
 	const LAND = 1;
 	const CREATURE = 2;
@@ -21,6 +22,25 @@ final class CardType
 	// other legendary stuff
 	
 	// legendary should be a modifier
+	
+	public function getString($type)
+	{
+		switch ($type)
+		{
+			case CardType::BASIC_LAND:
+				return "Basic Land";
+			case CardType::LAND:
+				return "Land";
+			case CardType::CREATURE:
+				return "Creature";
+			case CardType::INSTANT:
+				return "Instant";
+			case CardType::SORCERY:
+				return "Sorcery";
+			default:
+				return "Unknown";
+		}
+	}
 	
 	private function __construct()
 	{

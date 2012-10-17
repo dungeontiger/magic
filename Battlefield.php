@@ -14,7 +14,7 @@ class Battlefield extends CardCollection
 		foreach($cards as $card)
 		{
 			$candidateAbility = null;
-			$abilities = $card->getAbilities();
+			$abilities = $card->getRules();
 			foreach($abilities as $ability)
 			{
 				$effects = $ability->getEffects();
@@ -23,7 +23,7 @@ class Battlefield extends CardCollection
 					if (is_a($effect, "ProduceManaEffect"))
 					{
 						// produces mana, can it be paided?
-						$costs = $ability->getCosts();
+						$costs = $ability->getActivationCosts();
 						$canBePaid = true;
 						foreach ($costs as $cost)
 						{

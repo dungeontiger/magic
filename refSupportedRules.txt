@@ -1,0 +1,160 @@
+Abbey Griffin	Creature
+Air Elemental	Creature
+Ajani's Sunstriker	Creature
+Alpha Tyrranax	Creature
+Ambush Viper	Creature
+Amphin Cutthroat	Creature
+Angelic Wall	Creature
+Archangel	Creature
+Archweaver	Creature
+Armored Cancrix	Creature
+Armored Warhorse	Creature
+Assault Griffin	Creature
+Aven Fleetwing	Creature
+Aven Squire	Creature
+Axebane Stag	Creature
+Azure Drake	Creature
+Barony Vampire	Creature
+Bladetusk Boar	Creature
+Bonebreaker Giant	Creature
+Brushstrider	Creature
+Cancel	Instant
+Canyon Minotaur	Creature
+Caravan Hurda	Creature
+Catacomb Slug	Creature
+Centaur Courser	Creature
+Chapel Geist	Creature
+Child of Night	Creature
+Cloud Crusader	Creature
+Cobblebrute	Creature
+Concordia Pegasus	Creature
+Coral Merfolk	Creature
+Craw Wurm	Creature
+Daggerback Basilisk	Creature
+Daggerdrome Imp	Creature
+Deadly Recluse	Creature
+Duskdale Wurm	Creature
+Duskmantle Prowler	Creature
+Elite Vanguard	Creature
+Enormous Baloth	Creature
+Faerie Invaders	Creature
+Fencing Ace	Creature
+Fire Elemental	Creature
+Flameborn Viron	Creature
+Forest	Basic Land
+Fortress Crab	Creature
+Garruk's Companion	Creature
+Giant Scorpion	Creature
+Giant Spider	Creature
+Gladecover Scout	Creature
+Gloomhunter	Creature
+Glory Seeker	Creature
+Goblin Piker	Creature
+Greater Basilisk	Creature
+Griffin Sentinel	Creature
+Guardian Lions	Creature
+Guardians of Akrasa	Creature
+Highborn Ghoul	Creature
+Hollowhenge Beast	Creature
+Horned Turtle	Creature
+Hover Barrier	Creature
+Hussar Patrol	Creature
+Insectile Aberration	Creature
+Island	Basic Land
+Jwari Scuttler	Creature
+Kalonian Behemoth	Creature
+Kelinore Bat	Creature
+Kessig Recluse	Creature
+Kindercatch	Creature
+Kraken Hatchling	Creature
+Lagac Lizard	Creature
+Leonin Skyhunter	Creature
+Lightning Elemental	Creature
+Loxodon Convert	Creature
+Loxodon Wayfarer	Creature
+Ludevic's Abomination	Creature
+Makindi Griffin	Creature
+Maritime Guard	Creature
+Markov Patrician	Creature
+Markov's Servant	Creature
+Merfolk of the Pearl Trident	Creature
+Minotaur Aggressor	Creature
+Mist Leopard	Creature
+Moon Heron	Creature
+Moriok Reaver	Creature
+Mountain	Basic Land
+Nema Siltlurker	Creature
+Nephalia Seakite	Creature
+Nether Horror	Creature
+Nettle Swine	Creature
+Ogre Resister	Creature
+Ogre Sentry	Creature
+Peregrine Griffin	Creature
+Pillarfield Ox	Creature
+Plains	Basic Land
+Plated Seastrider	Creature
+Primal Huntbeast	Creature
+Quilled Slagwurm	Creature
+Raging Goblin	Creature
+Raging Poltergeist	Creature
+Rakdos Ragemutt	Creature
+Razorfoot Griffin	Creature
+Renegade Demon	Creature
+Riot Devils	Creature
+Risen Sanctuary	Creature
+Rotted Hystrix	Creature
+Rotting Fensnake	Creature
+Rubbleback Rhino	Creature
+Runeclaw Bear	Creature
+Russet Wolves	Creature
+Sacred Wolf	Creature
+Sanctuary Cat	Creature
+Scoria Elemental	Creature
+Sentinel Spider	Creature
+Seraph of Dawn	Creature
+Serra Angel	Creature
+Servant of Nefarox	Creature
+Shatterskull Giant	Creature
+Shepherd of the Lost	Creature
+Siege Mastodon	Creature
+Silverclaw Griffin	Creature
+Silvercoat Lion	Creature
+Sky Ruin Drake	Creature
+Skyline Predator	Creature
+Snapping Drake	Creature
+Soulbound Guardians	Creature
+Spectral Rider	Creature
+Spiked Baloth	Creature
+Spined Wurm	Creature
+Spire Monitor	Creature
+Sporecap Spider	Creature
+Stampeding Rhino	Creature
+Stomper Cub	Creature
+Stormfront Pegasus	Creature
+Sunspire Griffin	Creature
+Swamp	Basic Land
+Tangle Mantis	Creature
+Tenement Crasher	Creature
+Thraben Militia	Creature
+Thraben Purebloods	Creature
+Thraben Valiant	Creature
+Towering Indrik	Creature
+Trained Caracal	Creature
+Typhoid Rats	Creature
+Vampire Nighthawk	Creature
+Vastwood Gorger	Creature
+Viashino Spearhunter	Creature
+Voiceless Spirit	Creature
+Volcanic Dragon	Creature
+Vorstclaw	Creature
+Vulshok Berserker	Creature
+Walking Corpse	Creature
+Wall of Torches	Creature
+Wall of Vines	Creature
+Warclamp Mastiff	Creature
+Warpath Ghoul	Creature
+Wild Griffin	Creature
+Wind Drake	Creature
+Yavimaya Wurm	Creature
+Zephyr Sprite	Creature
+Zombie Goliath	Creature
