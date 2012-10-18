@@ -197,6 +197,44 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 //				
 //		Codex Shredder
 //		Gobbling Ooze
+// 		Rakdos Keyrune becomes a creature 
+	}
+	
+	public function testPayOrTap()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Hallowed Fountain");
+		$rules = $card->getRules();
+		assert($card->getType() == CardType::LAND);
+		assert($card->isASubType("Plains"));
+		assert($card->isASubType("Island"));
+		assert(count($rules) == 3);
+		
+		// test rule 0 (T:W mana)
+		$effects = $rules[0]->getEffects();
+		$costs = $rules[0]->getActivationCosts();
+		assert(count($effects) == 1);
+		assert(strcmp($effects[0]->getProducedMana()->getManaString(), "W") == 0);
+		assert(is_a($costs[0], "TapCost"));
+		
+		// test rule 1 (T:U mana)
+		$effects = $rules[1]->getEffects();
+		$costs = $rules[1]->getActivationCosts();
+		assert(count($effects) == 1);
+		assert(strcmp($effects[0]->getProducedMana()->getManaString(), "U") == 0);
+		assert(is_a($costs[0], "TapCost"));
+
+		// test rule 2 (choice)
+		$effects = $rules[2]->getEffects();
+		$costs = $rules[2]->getActivationCosts();
+		$choices = $effects[0]->getChoices();
+		assert(count($costs) == 0);
+		assert(count($effects) == 1);
+		assert(is_a($effects[0], "Choice"));
+		assert(count($choices) == 2);
+		assert(is_a($choices[0], "EntersBattlefieldTapped"));
+		assert(is_a($choices[1], "LoseLife"));
+		assert($choices[1]->getLife() == 2);
 	}
 	
 	public function testChoiceManaProduction()

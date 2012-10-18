@@ -18,6 +18,7 @@ Azorius Guildgate	Land
 Azure Drake	Creature
 Barony Vampire	Creature
 Bladetusk Boar	Creature
+Blood Crypt	Land
 Bonebreaker Giant	Creature
 Brushstrider	Creature
 Canyon Minotaur	Creature
@@ -60,6 +61,7 @@ Greenweaver Druid	Creature
 Griffin Sentinel	Creature
 Guardian Lions	Creature
 Guardians of Akrasa	Creature
+Hallowed Fountain	Land
 Highborn Ghoul	Creature
 Hollowhenge Beast	Creature
 Horned Turtle	Creature
@@ -97,6 +99,7 @@ Nether Horror	Creature
 Nettle Swine	Creature
 Ogre Resister	Creature
 Ogre Sentry	Creature
+Overgrown Tomb	Land
 Peregrine Griffin	Creature
 Pillarfield Ox	Creature
 Plains	Basic Land
@@ -141,11 +144,13 @@ Spined Wurm	Creature
 Spire Monitor	Creature
 Sporecap Spider	Creature
 Stampeding Rhino	Creature
+Steam Vents	Land
 Stomper Cub	Creature
 Stormfront Pegasus	Creature
 Sunspire Griffin	Creature
 Swamp	Basic Land
 Tangle Mantis	Creature
+Temple Garden	Land
 Tenement Crasher	Creature
 Thraben Militia	Creature
 Thraben Purebloods	Creature

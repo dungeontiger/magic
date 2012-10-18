@@ -8,6 +8,7 @@ include_once "Choice.php";
 include_once "KeywordRule.php";
 include_once "UnsupportedRule.php";
 include_once "EntersBattlefieldTapped.php";
+include_once "LoseLife.php";
 include_once "Destroy.php";
 include_once "CounterSpell.php";
 
@@ -34,14 +35,10 @@ class RulesFactory
 			return $this->ruleCache[$rule];
 		}
 		
-		// TODO: Look at the subtype only
-		// only one character, this is a basic land
+		// only one character, this is a basic land the rule has already been taken care of
 		if (strlen($rule) == 1)
 		{
-			// TODO: rename TapCost to Tap and ProduceManaEffect to ProduceMana
-			$ruleObj = new Rule(new ProduceManaEffect($rule), new TapCost(), null, null);
-			$this->ruleCache[$rule] = $ruleObj;
-			return $ruleObj;
+			return null;
 		}
 		
 		$keywordRules = $this->isAllKeywords($rule);
@@ -107,6 +104,18 @@ class RulesFactory
 				return $ruleObj;
 			}
 		}
+		
+		// 	As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.
+		if (preg_match("/^As $cardName enters the battlefield, you may pay (.*) life. If you don't, $cardName enters the battlefield tapped.$/", $remainingRule, $matches))
+		{
+			// choice between entering tapped or paying life.
+			$choiceRules = array();
+			array_push($choiceRules, new EntersBattlefieldTapped(), new LoseLife($matches[1]));
+			$ruleObj = new Rule(new Choice($choiceRules), $costs, null, null);
+			$this->ruleCache[$rule] = $ruleObj;
+			return $ruleObj;
+		}
+		
 /*
 		else if (CounterSpell::ruleMatches($rule))
 		{
@@ -121,6 +130,34 @@ class RulesFactory
 		$ruleObj = new UnsupportedRule($remainingRule, $costs); 
 		$this->ruleCache[$rule] = $ruleObj;
 		return $ruleObj;
+	}
+	
+	public function makeBasicLandRules($subTypes)
+	{
+		$rules = array();
+		foreach($subTypes as $subType)
+		{
+			switch ($subType)
+			{
+				case "Swamp":
+					array_push($rules, new Rule(new ProduceManaEffect("B"), new TapCost(), null, null));
+					break;
+				case "Island":
+					array_push($rules, new Rule(new ProduceManaEffect("U"), new TapCost(), null, null));
+					break;
+				case "Mountain":
+					array_push($rules, new Rule(new ProduceManaEffect("R"), new TapCost(), null, null));
+					break;
+				case "Forest":
+					array_push($rules, new Rule(new ProduceManaEffect("G"), new TapCost(), null, null));
+					break;
+				case "Plains":
+					array_push($rules, new Rule(new ProduceManaEffect("W"), new TapCost(), null, null));
+					break;
+				default:
+			}
+		}
+		return $rules;
 	}
 
 	private function createCosts($costRule)

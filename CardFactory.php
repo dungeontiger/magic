@@ -66,6 +66,13 @@ class CardFactory
 			// 2: Type - subtypes
 			$this->setTypes($card, $lines[2]);
 			
+			// if the subtype is a basic land type, create a tap to produce mana rule
+			$basicLandRules = $this->rulesFactory->makeBasicLandRules($card->getSubTypes());
+			foreach($basicLandRules as $basicLandRule)
+			{
+				$card->addRule($basicLandRule);
+			}
+			
 			// 3: Power and Toughness or loyalty
 			$this->setPowerToughness($card, $lines[3]);
 
@@ -149,6 +156,14 @@ class CardFactory
 		{
 			$card->setType(CardType::LAND);
 		}
+		else if (strcasecmp($type, "ARtifact") == 0)
+		{
+			$card->setType(CardType::ARTIFACT);
+		}
+		else if (strcasecmp($type, "Enchantment") == 0)
+		{
+			$card->setType(CardType::ENCHANTMENT);
+		}
 		else
 		{
 			$card->setUnsupportedType();
@@ -173,6 +188,7 @@ class CardFactory
 		// null is returned if there are no rules
 		// unknown rules are recorded as such
 		// when added to the card, it adjusts its unsupported status automatically
+		
 		$ruleResults = $this->rulesFactory->makeRule($card->getName(), $rule);
 		if ($ruleResults != null)
 		{
