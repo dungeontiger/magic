@@ -4,8 +4,10 @@ include_once "TapCost.php";
 include_once "ProduceManaEffect.php"; 
 include_once "Keywords.php";
 
+include_once "Choice.php";
 include_once "KeywordRule.php";
 include_once "UnsupportedRule.php";
+include_once "EntersBattlefieldTapped.php";
 include_once "Destroy.php";
 include_once "CounterSpell.php";
 
@@ -32,6 +34,7 @@ class RulesFactory
 			return $this->ruleCache[$rule];
 		}
 		
+		// TODO: Look at the subtype only
 		// only one character, this is a basic land
 		if (strlen($rule) == 1)
 		{
@@ -48,6 +51,62 @@ class RulesFactory
 			$this->ruleCache[$rule] = $keywordRules;
 			return $keywordRules;
 		}
+
+		// look for an activation
+		$costs = array();
+		$remainingRule = $rule;
+		if (preg_match("/^(.*): (.*)$/U", $rule, $matches))
+		{
+			$costs = $this->createCosts($matches[1]);
+			$remainingRule = $matches[2];
+		}
+		
+		if (preg_match("/^$cardName enters the battlefield tapped.$/", $remainingRule))
+		{
+			//TODO: Are costs possible?
+			return new EntersBattlefieldTapped();
+		}
+		
+		$remainingRule = str_replace("{", "", $remainingRule);
+		$remainingRule = str_replace("}", "", $remainingRule);
+		if (preg_match("/^Add (.*) to your mana pool.$/", $remainingRule, $matches))
+		{
+			// produces mana of some sort
+			if (ManaVector::areValidSymbols($matches[1]))
+			{
+				// simple mana production
+				$ruleObj = new Rule(new ProduceManaEffect($matches[1]), $costs, null, null);
+				$this->ruleCache[$rule] = $ruleObj;
+				return $ruleObj;
+			}
+			
+			// complex, W or B ....  R, B, or W
+			// get individual pieces, first split by ' or ' then by ','
+			$choices = explode(" or ", $matches[1]);
+			if (count($choices) > 1)
+			{
+				// only the first one might have , 
+				$choices2 = explode(", ", $choices[0]);
+				array_push($choices2, $choices[1]);
+				$choiceRules = array();
+				foreach($choices2 as $choice)
+				{
+					if (ManaVector::areValidSymbols($choice))
+					{
+						array_push($choiceRules, new ProduceManaEffect($choice));
+					}
+					else
+					{
+						$ruleObj = new UnsupportedRule($remainingRule, $costs); 
+						$this->ruleCache[$rule] = $ruleObj;
+						return $ruleObj;
+					}
+				}
+				$ruleObj = new Rule(new Choice($choiceRules), $costs, null, null);
+				$this->ruleCache[$rule] = $ruleObj;
+				return $ruleObj;
+			}
+		}
 /*
 		else if (CounterSpell::ruleMatches($rule))
 		{
@@ -59,7 +118,27 @@ class RulesFactory
 		}
 */
 		// if we get here it is an unsupported rule
-		return new UnsupportedRule($rule);
+		$ruleObj = new UnsupportedRule($remainingRule, $costs); 
+		$this->ruleCache[$rule] = $ruleObj;
+		return $ruleObj;
+	}
+
+	private function createCosts($costRule)
+	{
+		$costs = array();
+		$costRuleArray = explode(",", $costRule);
+		foreach($costRuleArray as $costPiece)
+		{
+			if (strcmp($costPiece, "{T}") == 0)
+			{
+				array_push($costs, new TapCost());
+				continue;
+			}
+			
+			// TODO: this is an unsupported cost
+			array_push($costs, $costPiece);
+		}
+		return $costs;
 	}
 
 	private function isAllKeywords($rule)

@@ -47,6 +47,24 @@ class ManaVector
 		}
 	}
 	
+	static public function areValidSymbols($symbols)
+	{
+		$manaSplit = str_split($symbols);
+		foreach($manaSplit as $symbol)
+		{
+			if (!ctype_digit($symbol) &&
+				strcasecmp($symbol, "B") != 0 &&
+				strcasecmp($symbol, "G") != 0 &&
+				strcasecmp($symbol, "R") != 0 &&
+				strcasecmp($symbol, "U") != 0 &&
+				strcasecmp($symbol, "W") != 0)
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+	
 	public function getArray()
 	{
 		return $this->mana;

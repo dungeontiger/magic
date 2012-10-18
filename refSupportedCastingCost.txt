@@ -17,8 +17,10 @@ Air Servant	Creature
 Ajani's Pridemate	Creature
 Ajani's Sunstriker	Creature
 Akoum Boulderfoot	Creature
+Akoum Refuge	Land
 Alabaster Mage	Creature
 Alchemist's Apprentice	Creature
+Alchemist's Refuge	Land
 Alluring Siren	Creature
 Alpha Brawl	Sorcery
 Alpha Tyrranax	Creature
@@ -59,6 +61,7 @@ Arctic Aven	Creature
 Ardent Recruit	Creature
 Argent Mutation	Instant
 Argent Sphinx	Creature
+Arid Mesa	Land
 Arm with Æther	Sorcery
 Armada Wurm	Creature
 Armament Master	Creature
@@ -100,6 +103,7 @@ Axebane Guardian	Creature
 Axebane Stag	Creature
 Azorius Arrester	Creature
 Azorius Charm	Instant
+Azorius Guildgate	Land
 Azorius Justiciar	Creature
 Azure Drake	Creature
 Azure Mage	Creature
@@ -139,6 +143,7 @@ Birds of Paradise	Creature
 Bitterheart Witch	Creature
 Black Cat	Creature
 Black Knight	Creature
+Blackcleave Cliffs	Land
 Blackcleave Goblin	Creature
 Blade-Tribe Berserkers	Creature
 Blade Splicer	Creature
@@ -154,6 +159,7 @@ Blinding Mage	Creature
 Blistergrub	Creature
 Blisterstick Shaman	Creature
 Blood Artist	Creature
+Blood Crypt	Land
 Blood Feud	Sorcery
 Blood Ogre	Creature
 Blood Seeker	Creature
@@ -202,6 +208,7 @@ Broodwarden	Creature
 Brushstrider	Creature
 Brutalizer Exarch	Creature
 Bump in the Night	Sorcery
+Buried Ruin	Land
 Burn at the Stake	Sorcery
 Burn the Impure	Instant
 Burning Inquiry	Sorcery
@@ -232,7 +239,9 @@ Carnival Hellsteed	Creature
 Carrion Call	Instant
 Catacomb Slug	Creature
 Cathedral Sanctifier	Creature
+Cathedral of War	Land
 Caustic Hound	Creature
+Cavern of Souls	Land
 Celestial Purge	Instant
 Cemetery Reaper	Creature
 Centaur Courser	Creature
@@ -265,6 +274,7 @@ Chosen of Markov	Creature
 Civilized Scholar	Creature
 Cleaver Riot	Sorcery
 Cliff Threader	Creature
+Clifftop Retreat	Land
 Clinging Mists	Instant
 Cloistered Youth	Creature
 Clone	Creature
@@ -284,8 +294,10 @@ Consecrated Sphinx	Creature
 Consume the Meek	Instant
 Consuming Vapors	Sorcery
 Contagious Nim	Creature
+Contested War Zone	Land
 Conundrum Sphinx	Creature
 Copperhorn Scout	Creature
+Copperline Gorge	Land
 Coral Merfolk	Creature
 Coralhelm Commander	Creature
 Corpse Lunge	Instant
@@ -317,6 +329,7 @@ Crush	Instant
 Crushing Vines	Instant
 Crypt Creeper	Creature
 Crypt Ripper	Creature
+Crypt of Agadeem	Land
 Cryptoplasm	Creature
 Cudgel Troll	Creature
 Cultivate	Sorcery
@@ -330,6 +343,7 @@ Dangerous Wager	Instant
 Dark Impostor	Creature
 Dark Revenant	Creature
 Darkslick Drake	Creature
+Darkslick Shores	Land
 Darkthicket Wolf	Creature
 Dawnglare Invoker	Creature
 Dawntreader Elk	Creature
@@ -360,6 +374,7 @@ Deranged Assistant	Creature
 Deranged Outcast	Creature
 Desecrated Earth	Sorcery
 Desecration Demon	Creature
+Desolate Lighthouse	Land
 Desperate Ravings	Instant
 Despise	Sorcery
 Destroy the Evidence	Sorcery
@@ -402,6 +417,7 @@ Downpour	Instant
 Downsize	Instant
 Dragon Hatchling	Creature
 Dragon Whelp	Creature
+Dragonskull Summit	Land
 Drainpipe Vermin	Creature
 Dramatic Rescue	Instant
 Dread Drone	Creature
@@ -416,6 +432,7 @@ Driver of the Dead	Creature
 Drogskol Captain	Creature
 Drogskol Reaver	Creature
 Dross Hopper	Creature
+Drowned Catacomb	Land
 Drudge Beetle	Creature
 Drudge Skeletons	Creature
 Druid's Deliverance	Instant
@@ -435,6 +452,7 @@ Echo Mage	Creature
 Elder Cathar	Creature
 Elder of Laurels	Creature
 Elderscale Wurm	Creature
+Eldrazi Temple	Land
 Electrickery	Instant
 Elemental Appeal	Sorcery
 Elgaud Inquisitor	Creature
@@ -450,6 +468,7 @@ Embersmith	Creature
 Emerald Oryx	Creature
 Emerge Unscathed	Instant
 Emeria Angel	Creature
+Emeria, the Sky Ruin	Land
 Emrakul's Hatcher	Creature
 Enclave Cryptologist	Creature
 Engulfing Slagwurm	Creature
@@ -466,6 +485,7 @@ Essence Scatter	Instant
 Essence of the Wild	Creature
 Evernight Shade	Creature
 Evil Twin	Creature
+Evolving Wilds	Land
 Excommunicate	Sorcery
 Explosive Impact	Instant
 Explosive Revelation	Sorcery
@@ -550,6 +570,7 @@ Galvanic Alchemist	Creature
 Galvanic Blast	Instant
 Galvanoth	Creature
 Gang of Devils	Creature
+Gargoyle Castle	Land
 Garruk's Companion	Creature
 Garruk's Horde	Creature
 Garruk's Packleader	Creature
@@ -559,6 +580,7 @@ Gather the Townsfolk	Sorcery
 Gatstaf Howler	Creature
 Gatstaf Shepherd	Creature
 Gavony Ironwright	Creature
+Gavony Township	Land
 Geist-Honored Monk	Creature
 Geist Snatch	Instant
 Geist Trappers	Creature
@@ -569,6 +591,7 @@ Geralf's Mindcrusher	Creature
 Geth's Verdict	Instant
 Geyser Glider	Creature
 Ghalma's Warden	Creature
+Ghost Quarter	Land
 Ghostform	Sorcery
 Ghostly Flicker	Instant
 Ghoulcaller's Chant	Sorcery
@@ -580,8 +603,10 @@ Giant Spider	Creature
 Gideon's Avenger	Creature
 Gideon's Lawkeeper	Creature
 Gigantomancer	Creature
+Glacial Fortress	Land
 Gladecover Scout	Creature
 Glimmerpoint Stag	Creature
+Glimmerpost	Land
 Glint Hawk	Creature
 Glissa's Courier	Creature
 Glissa's Scorn	Instant
@@ -618,6 +643,7 @@ Goldnight Commander	Creature
 Goldnight Redeemer	Creature
 Golgari Charm	Instant
 Golgari Decoy	Creature
+Golgari Guildgate	Land
 Gomazoa	Creature
 Gore-House Chainwalker	Creature
 Gore Vassal	Creature
@@ -633,6 +659,7 @@ Gravecrawler	Creature
 Gravedigger	Creature
 Gravepurge	Instant
 Gravetiller Wurm	Creature
+Graypelt Refuge	Land
 Grazing Gladehart	Creature
 Great Sable Stag	Creature
 Greater Basilisk	Creature
@@ -642,6 +669,7 @@ Griffin Protector	Creature
 Griffin Rider	Creature
 Griffin Sentinel	Creature
 Grim Affliction	Instant
+Grim Backwoods	Land
 Grim Discovery	Sorcery
 Grim Flowering	Sorcery
 Grim Lavamancer	Creature
@@ -650,6 +678,7 @@ Griptide	Instant
 Grisly Salvage	Instant
 Grizzled Outcasts	Creature
 Grotag Siege-Runner	Creature
+Grove of the Guardian	Land
 Growth Spasm	Sorcery
 Gruesome Discovery	Sorcery
 Gruesome Encore	Sorcery
@@ -667,6 +696,7 @@ Hada Spy Patrol	Creature
 Hagra Crocodile	Creature
 Hagra Diabolist	Creature
 Halimar Wavewatch	Creature
+Hallowed Fountain	Land
 Halo Hunter	Creature
 Halt Order	Instant
 Hamlet Captain	Creature
@@ -683,6 +713,7 @@ Harrow	Instant
 Harrowing Journey	Sorcery
 Harvest Pyre	Instant
 Harvester of Souls	Creature
+Haunted Fengraf	Land
 Haunting Echoes	Sorcery
 Havengul Lich	Creature
 Havengul Runebinder	Creature
@@ -699,6 +730,7 @@ Heirs of Stromkirk	Creature
 Hellcarver Demon	Creature
 Hellfire Mongrel	Creature
 Hellhole Flailer	Creature
+Hellion Crucible	Land
 Hellion Eruption	Sorcery
 Hellkite Charger	Creature
 Hellkite Igniter	Creature
@@ -711,6 +743,7 @@ Hideous End	Instant
 Hideous Visage	Sorcery
 Highborn Ghoul	Creature
 Highland Berserker	Creature
+Hinterland Harbor	Land
 Hinterland Hermit	Creature
 Hinterland Scourge	Creature
 Hoard-Smelter Dragon	Creature
@@ -764,6 +797,7 @@ Infernal Plunge	Sorcery
 Inferno Elemental	Creature
 Inferno Titan	Creature
 Inferno Trap	Instant
+Inkmoth Nexus	Land
 Inquisition of Kozilek	Sorcery
 Inquisitor Exarch	Creature
 Insectile Aberration	Creature
@@ -781,9 +815,11 @@ Invisible Stalker	Creature
 Ironfang	Creature
 Irresistible Prey	Sorcery
 Island	Basic Land
+Isolated Chapel	Land
 Isperia's Skywatch	Creature
 It That Betrays	Creature
 Izzet Charm	Instant
+Izzet Guildgate	Land
 Izzet Staticaster	Creature
 Jace's Archivist	Creature
 Jace's Ingenuity	Instant
@@ -796,12 +832,15 @@ Joint Assault	Instant
 Joraga Bard	Creature
 Joraga Treespeaker	Creature
 Jump	Instant
+Jwar Isle Refuge	Land
 Jwari Scuttler	Creature
+Kabira Crossroads	Land
 Kabira Evangel	Creature
 Kabira Vindicator	Creature
 Kalonian Behemoth	Creature
 Kargan Dragonlord	Creature
 Kazandu Blademaster	Creature
+Kazandu Refuge	Land
 Kazandu Tuskcaller	Creature
 Kazuul Warlord	Creature
 Keening Apparition	Creature
@@ -812,6 +851,7 @@ Kessig Cagebreakers	Creature
 Kessig Malcontents	Creature
 Kessig Recluse	Creature
 Kessig Wolf	Creature
+Kessig Wolf Run	Land
 Khalni Hydra	Creature
 Kiln Fiend	Creature
 Kindercatch	Creature
@@ -907,6 +947,7 @@ Mad Prophet	Creature
 Magma Phoenix	Creature
 Magma Rift	Sorcery
 Magmaw	Creature
+Magosi, the Waterveil	Land
 Make a Wish	Sorcery
 Makeshift Mauler	Creature
 Makindi Griffin	Creature
@@ -924,6 +965,7 @@ Markov Warlord	Creature
 Markov's Servant	Creature
 Marrow Bats	Creature
 Marsh Casualties	Sorcery
+Marsh Flats	Land
 Mass Appeal	Sorcery
 Mass Polymorph	Sorcery
 Massacre Wurm	Creature
@@ -978,6 +1020,7 @@ Mirror-Mad Phantasm	Creature
 Mist Leopard	Creature
 Mist Raven	Creature
 Misthollow Griffin	Creature
+Misty Rainforest	Land
 Mitotic Manipulation	Sorcery
 Mitotic Slime	Creature
 Mizzium Mortars	Sorcery
@@ -1000,6 +1043,7 @@ Moonlight Geist	Creature
 Moonmist	Instant
 Moonscarred Werewolf	Creature
 Moonveil Dragon	Creature
+Moorland Haunt	Land
 Moorland Inquisitor	Creature
 Morbid Plunder	Sorcery
 Moriok Reaver	Creature
@@ -1017,6 +1061,7 @@ Mwonvuli Beast Tracker	Creature
 Mycosynth Fiend	Creature
 Myrsmith	Creature
 Mystic Retrieval	Sorcery
+Mystifying Maze	Land
 Nantuko Shade	Creature
 Narrow Escape	Instant
 Natural End	Instant
@@ -1031,6 +1076,7 @@ Necrotic Ooze	Creature
 Needlebite Trap	Instant
 Negate	Instant
 Nema Siltlurker	Creature
+Nephalia Drownyard	Land
 Nephalia Seakite	Creature
 Nephalia Smuggler	Creature
 Nest Invader	Creature
@@ -1075,10 +1121,12 @@ Open the Vaults	Sorcery
 Oracle of Mul Daya	Creature
 Oran-Rief Recluse	Creature
 Oran-Rief Survivalist	Creature
+Oran-Rief, the Vastwood	Land
 Orchard Spirit	Creature
 Oust	Sorcery
 Outwit	Instant
 Overgrown Battlement	Creature
+Overgrown Tomb	Land
 Overrun	Sorcery
 Overwhelming Stampede	Sorcery
 Oxidda Daredevil	Creature
@@ -1107,6 +1155,7 @@ Phantom Beast	Creature
 Phantom General	Creature
 Phantom Warrior	Creature
 Phylactery Lich	Creature
+Phyrexia's Core	Land
 Phyrexian Crusader	Creature
 Phyrexian Hydra	Creature
 Phyrexian Ingester	Creature
@@ -1117,6 +1166,7 @@ Phyrexian Swarmlord	Creature
 Phyrexian Vatmother	Creature
 Pillar of Flame	Sorcery
 Pillarfield Ox	Creature
+Piranha Marsh	Land
 Pistus Strike	Instant
 Pitchburn Devils	Creature
 Pitfall Trap	Instant
@@ -1171,6 +1221,7 @@ Raging Poltergeist	Creature
 Rain of Blades	Instant
 Rain of Thorns	Sorcery
 Rakdos Charm	Instant
+Rakdos Guildgate	Land
 Rakdos Ragemutt	Creature
 Rakdos Ringleader	Creature
 Rakish Heir	Creature
@@ -1190,6 +1241,7 @@ Ray of Revelation	Instant
 Razor Hippogriff	Creature
 Razor Swine	Creature
 Razorfoot Griffin	Creature
+Razorverge Thicket	Land
 Realms Uncharted	Instant
 Reap the Seagraf	Sorcery
 Reaper from the Abyss	Creature
@@ -1208,6 +1260,7 @@ Regress	Instant
 Relentless Rats	Creature
 Relentless Skaabs	Creature
 Relic Crush	Instant
+Reliquary Tower	Land
 Remember the Fallen	Sorcery
 Renegade Demon	Creature
 Renegade Doppelganger	Creature
@@ -1237,9 +1290,11 @@ River Boa	Creature
 Rix Maadi Guildmage	Creature
 Roaring Primadox	Creature
 Roc Egg	Creature
+Rogue's Passage	Land
 Roil Elemental	Creature
 Rolling Temblor	Sorcery
 Rootborn Defenses	Instant
+Rootbound Crag	Land
 Rot Wolf	Creature
 Rotcrown Ghoul	Creature
 Rotted Hystrix	Creature
@@ -1266,6 +1321,7 @@ Sangromancer	Creature
 Savage Surge	Instant
 Saving Grasp	Instant
 Scalding Devil	Creature
+Scalding Tarn	Land
 Scorch the Fields	Sorcery
 Scoria Elemental	Creature
 Scorned Villager	Creature
@@ -1283,6 +1339,7 @@ Scute Mob	Creature
 Scythe Tiger	Creature
 Sea Gate Loremaster	Creature
 Sea Gate Oracle	Creature
+Seachrome Coast	Land
 Search Warrant	Sorcery
 Searchlight Geist	Creature
 Searing Spear	Instant
@@ -1293,7 +1350,9 @@ Seek the Horizon	Sorcery
 Seismic Shudder	Instant
 Seismic Strike	Instant
 Seize the Initiative	Instant
+Sejiri Refuge	Land
 Selesnya Charm	Instant
+Selesnya Guildgate	Land
 Selesnya Sentry	Creature
 Selfless Cathar	Creature
 Selhoff Occultist	Creature
@@ -1302,6 +1361,7 @@ Sengir Vampire	Creature
 Sensor Splicer	Creature
 Sentinel Spider	Creature
 Septic Rats	Creature
+Seraph Sanctuary	Land
 Seraph of Dawn	Creature
 Serpent of the Endless Sea	Creature
 Serpent's Gift	Instant
@@ -1323,6 +1383,7 @@ Sheltering Word	Instant
 Shepherd of the Lost	Creature
 Shieldmate's Blessing	Instant
 Shimian Specter	Creature
+Shimmering Grotto	Land
 Shivan Dragon	Creature
 Shoal Serpent	Creature
 Shock	Instant
@@ -1363,6 +1424,7 @@ Slagstorm	Sorcery
 Slaughter Cry	Instant
 Slaughter Games	Sorcery
 Slayer of the Wicked	Creature
+Slayers' Stronghold	Land
 Sleep	Sorcery
 Slice in Twain	Instant
 Sluiceway Scorpion	Creature
@@ -1375,6 +1437,7 @@ Smite the Monstrous	Instant
 Snapcaster Mage	Creature
 Snapping Drake	Creature
 Snare the Skies	Instant
+Soaring Seacliff	Land
 Solemn Offering	Sorcery
 Somberwald Dryad	Creature
 Somberwald Sage	Creature
@@ -1429,7 +1492,9 @@ Stampeding Rhino	Creature
 Stave Off	Instant
 Steady Progress	Instant
 Stealer of Secrets	Creature
+Steam Vents	Land
 Steel Sabotage	Instant
+Stensia Bloodhall	Land
 Steppe Lynx	Creature
 Stern Mentor	Creature
 Stingerfling Spider	Creature
@@ -1454,10 +1519,12 @@ Student of Warfare	Creature
 Sturmgeist	Creature
 Sublime Archangel	Creature
 Sudden Disappearance	Sorcery
+Sulfur Falls	Land
 Summoner's Bane	Instant
 Summoning Trap	Instant
 Sun Titan	Creature
 Sunblast Angel	Creature
+Sunpetal Grove	Land
 Sunspear Shikari	Creature
 Sunspire Griffin	Creature
 Supreme Verdict	Sorcery
@@ -1483,16 +1550,19 @@ Tanglesap	Instant
 Taste of Blood	Sorcery
 Tavern Swindler	Creature
 Tectonic Rift	Sorcery
+Teetering Peaks	Land
 Tel-Jilad Defiance	Instant
 Tel-Jilad Fallen	Creature
 Teleportal	Sorcery
 Tempest Owl	Creature
 Tempest of Light	Instant
+Temple Garden	Land
 Temporal Mastery	Sorcery
 Tendrils of Corruption	Instant
 Tenement Crasher	Creature
 Terminus	Sorcery
 Terra Stomper	Creature
+Terramorphic Expanse	Land
 Terrifying Presence	Instant
 Territorial Baloth	Creature
 Terror of Kruin Pass	Creature
@@ -1542,6 +1612,7 @@ Trained Caracal	Creature
 Traitorous Blood	Sorcery
 Traitorous Instinct	Sorcery
 Transcendent Master	Creature
+Transguild Promenade	Land
 Trapfinder's Trick	Sorcery
 Trapmaker's Snare	Instant
 Traumatize	Sorcery
@@ -1564,6 +1635,7 @@ Turn the Tide	Instant
 Turn to Frog	Instant
 Turn to Slag	Sorcery
 Turntimber Basilisk	Creature
+Turntimber Grove	Land
 Turntimber Ranger	Creature
 Twincast	Instant
 Twisted Image	Instant
@@ -1594,6 +1666,7 @@ Unsummon	Instant
 Urgent Exorcism	Instant
 Utvara Hellkite	Creature
 Valakut Fireboar	Creature
+Valakut, the Molten Pinnacle	Land
 Vampire Aristocrat	Creature
 Vampire Hexmage	Creature
 Vampire Interloper	Creature
@@ -1608,6 +1681,7 @@ Vanishment	Instant
 Vapor Snag	Instant
 Vastwood Gorger	Creature
 Vault Skyward	Instant
+Vault of the Archangel	Land
 Vedalken Anatomist	Creature
 Vedalken Certarch	Creature
 Vedalken Entrancer	Creature
@@ -1620,6 +1694,7 @@ Vengeful Pharaoh	Creature
 Vengeful Vampire	Creature
 Vengevine	Creature
 Vent Sentinel	Creature
+Verdant Catacombs	Land
 Veteran Armorsmith	Creature
 Veteran Swordsmith	Creature
 Vexing Devil	Creature
@@ -1702,6 +1777,7 @@ Withstand Death	Instant
 Wolfbitten Captive	Creature
 Wolfir Avenger	Creature
 Wolfir Silverheart	Creature
+Woodland Cemetery	Land
 Woodland Sleuth	Creature
 World Queller	Creature
 World at War	Sorcery

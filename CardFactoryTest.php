@@ -178,6 +178,46 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$card = $factory->createCard("Abattoir Ghoul");
 		assert(!$card->isSupportedRules());
 	}
+	
+	public function testManaActivation()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Crypt of Agadeem");
+		$rules = $card->getRules();
+		assert($card->getType() == CardType::LAND);
+		assert(!$card->isSupportedRules());
+		assert(count($rules) == 3);
+		assert(is_a($rules[0], "EntersBattlefieldTapped"));
+		assert(is_a($rules[1], "Rule"));
+		$costs = $rules[1]->getActivationCosts();
+		$effects = $rules[1]->getEffects();
+		assert(is_a($costs[0], "TapCost"));
+		assert(strcmp($effects[0]->getProducedMana()->getManaString(), "B") == 0);
+		assert(is_a($rules[2], "UnsupportedRule"));
+//				
+//		Codex Shredder
+//		Gobbling Ooze
+	}
+	
+	public function testChoiceManaProduction()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Azorius Guildgate");
+		$rules = $card->getRules();
+		assert($card->getType() == CardType::LAND);
+		assert($card->isSupportedRules());
+		assert(count($rules) == 2);
+		assert(is_a($rules[0], "EntersBattlefieldTapped"));
+		assert(is_a($rules[1], "Rule"));
+		$costs = $rules[1]->getActivationCosts();
+		$effects = $rules[1]->getEffects();
+		$effect = $effects[0];
+		assert(is_a($costs[0], "TapCost"));
+		assert(is_a($effect, "Choice"));
+		$choices = $effect->getChoices();
+		assert(strcmp($choices[0]->getProducedMana()->getManaString(), "W") == 0);
+		assert(strcmp($choices[1]->getProducedMana()->getManaString(), "U") == 0);
+	}
 /*		
 	public function testCounterSpell()
 	{

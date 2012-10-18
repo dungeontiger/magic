@@ -113,5 +113,19 @@ class ManaVectorTest extends PHPUnit_Framework_TestCase
 		assert($mana->getColorCount() == 2);
 		assert($mana->getConvertedTotal() == 8);
 	}
+	
+	public function testBadWithOr()
+	{
+		$found = false;
+		try
+		{
+			$mana = new ManaVector("W or U");
+		}
+		catch (Exception $e)
+		{
+			$found = true;
+		}
+		assert($found);
+	}
 }
 ?>

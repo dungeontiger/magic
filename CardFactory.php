@@ -145,6 +145,10 @@ class CardFactory
 		{
 			$card->setType(CardType::SORCERY);
 		}
+		else if (strcasecmp($type, "Land") == 0)
+		{
+			$card->setType(CardType::LAND);
+		}
 		else
 		{
 			$card->setUnsupportedType();
