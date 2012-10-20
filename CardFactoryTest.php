@@ -256,6 +256,27 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(strcmp($choices[0]->getProducedMana()->getManaString(), "W") == 0);
 		assert(strcmp($choices[1]->getProducedMana()->getManaString(), "U") == 0);
 	}
+	
+	public function testSearch()
+	{
+		// {T}, Sacrifice Evolving Wilds: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
+		$factory = new CardFactory();
+		$card = $factory->createCard("Evolving Wilds");
+		$rules = $card->getRules();
+		assert(count($rules) == 1);
+		$costs = $rules[0]->getActivationCosts();
+		assert(count($costs) == 2);
+		assert(is_a($costs[0], "TapCost"));
+		assert(is_a($costs[1], "Sacrifice"));
+		assert($costs[1]->thisCard());
+		$effects = $rules[0]->getEffects();
+		assert(count($effects) == 1);
+		assert($effects[0]->getSearchCollection() == SearchForCard::LIBRARY);
+		assert($effects[0]->getSearchFor() == SearchForCard::BASIC_LAND);
+		assert($effects[0]->getTargetLocation() == SearchForCard::BATTLEFIELD_TAPPED);
+		assert($effects[0]->getNumber() == 1);
+
+	}
 /*		
 	public function testCounterSpell()
 	{

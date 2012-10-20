@@ -18,7 +18,7 @@ class UnsupportedRule
 		return $this->rule;
 	}
 	
-	public function getCosts()
+	public function getActivationCosts()
 	{
 		return $this->costs;
 	}

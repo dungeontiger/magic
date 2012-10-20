@@ -9,10 +9,11 @@ include_once "KeywordRule.php";
 include_once "UnsupportedRule.php";
 include_once "EntersBattlefieldTapped.php";
 include_once "LoseLife.php";
+include_once "Sacrifice.php";
+include_once "SearchForCard.php";
+
 include_once "Destroy.php";
 include_once "CounterSpell.php";
-
-//TODO: Dual lands are not handled properly, need to look at sub type to determine 'rules'
 
 class RulesFactory
 {
@@ -54,7 +55,7 @@ class RulesFactory
 		$remainingRule = $rule;
 		if (preg_match("/^(.*): (.*)$/U", $rule, $matches))
 		{
-			$costs = $this->createCosts($matches[1]);
+			$costs = $this->createCosts($cardName, $matches[1]);
 			$remainingRule = $matches[2];
 		}
 		
@@ -105,7 +106,7 @@ class RulesFactory
 			}
 		}
 		
-		// 	As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.
+		// As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.
 		if (preg_match("/^As $cardName enters the battlefield, you may pay (.*) life. If you don't, $cardName enters the battlefield tapped.$/", $remainingRule, $matches))
 		{
 			// choice between entering tapped or paying life.
@@ -116,6 +117,17 @@ class RulesFactory
 			return $ruleObj;
 		}
 		
+		// Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
+		$searchString = "/^Search your library for a (.*) and put it onto the battlefield tapped. Then shuffle your library.$/U";
+		if (preg_match($searchString, $remainingRule, $matches))
+		{
+			if (strcasecmp($matches[1], "basic land card") == 0)
+			{
+				$ruleObj = new Rule(new SearchForCard(SearchForCard::LIBRARY, SearchForCard::BASIC_LAND, 1, SearchForCard::BATTLEFIELD_TAPPED, false), $costs, null, null);
+				$this->ruleCache[$rule] = $ruleObj;
+				return $ruleObj;
+			}
+		}
 /*
 		else if (CounterSpell::ruleMatches($rule))
 		{
@@ -160,15 +172,27 @@ class RulesFactory
 		return $rules;
 	}
 
-	private function createCosts($costRule)
+	private function createCosts($cardName, $costRule)
 	{
 		$costs = array();
 		$costRuleArray = explode(",", $costRule);
 		foreach($costRuleArray as $costPiece)
 		{
-			if (strcmp($costPiece, "{T}") == 0)
+			$costPiece = ltrim($costPiece);
+			$costPiece = rtrim($costPiece);
+			$costPiece = str_replace("{", "", $costPiece);
+			$costPiece = str_replace("}", "", $costPiece);
+			
+			if (strcmp($costPiece, "T") == 0)
 			{
 				array_push($costs, new TapCost());
+				continue;
+			}
+			
+			if (preg_match("/^Sacrifice $cardName$/", $costPiece))
+			{
+				// sacrifice this card
+				array_push($costs, new Sacrifice(true));
 				continue;
 			}
 			

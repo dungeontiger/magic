@@ -42,12 +42,14 @@ Duskdale Wurm	Creature
 Duskmantle Prowler	Creature
 Elite Vanguard	Creature
 Enormous Baloth	Creature
+Evolving Wilds	Land
 Faerie Invaders	Creature
 Fencing Ace	Creature
 Fire Elemental	Creature
 Flameborn Viron	Creature
 Forest	Basic Land
 Fortress Crab	Creature
+Frontier Guide	Creature
 Garruk's Companion	Creature
 Giant Scorpion	Creature
 Giant Spider	Creature
@@ -152,6 +154,7 @@ Swamp	Basic Land
 Tangle Mantis	Creature
 Temple Garden	Land
 Tenement Crasher	Creature
+Terramorphic Expanse	Land
 Thraben Militia	Creature
 Thraben Purebloods	Creature
 Thraben Valiant	Creature
