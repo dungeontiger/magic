@@ -17,6 +17,7 @@ Axebane Stag	Creature
 Azorius Guildgate	Land
 Azure Drake	Creature
 Barony Vampire	Creature
+Birds of Paradise	Creature
 Bladetusk Boar	Creature
 Blood Crypt	Land
 Bonebreaker Giant	Creature
@@ -86,6 +87,7 @@ Loxodon Convert	Creature
 Loxodon Wayfarer	Creature
 Ludevic's Abomination	Creature
 Makindi Griffin	Creature
+Manalith	Artifact
 Maritime Guard	Creature
 Markov Patrician	Creature
 Markov's Servant	Creature
@@ -133,6 +135,7 @@ Serra Angel	Creature
 Servant of Nefarox	Creature
 Shatterskull Giant	Creature
 Shepherd of the Lost	Creature
+Shimmering Grotto	Land
 Siege Mastodon	Creature
 Silverclaw Griffin	Creature
 Silvercoat Lion	Creature
@@ -160,6 +163,7 @@ Thraben Purebloods	Creature
 Thraben Valiant	Creature
 Towering Indrik	Creature
 Trained Caracal	Creature
+Transguild Promenade	Land
 Typhoid Rats	Creature
 Vampire Nighthawk	Creature
 Vastwood Gorger	Creature

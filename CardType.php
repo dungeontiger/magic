@@ -37,6 +37,10 @@ final class CardType
 				return "Instant";
 			case CardType::SORCERY:
 				return "Sorcery";
+			case CardType::ARTIFACT:
+				return "Artifact";
+			case CardType::ENCHANTMENT:
+				return "Enchantment";
 			default:
 				return "Unknown";
 		}

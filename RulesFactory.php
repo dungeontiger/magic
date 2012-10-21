@@ -11,6 +11,7 @@ include_once "EntersBattlefieldTapped.php";
 include_once "LoseLife.php";
 include_once "Sacrifice.php";
 include_once "SearchForCard.php";
+include_once "SacrificeUnless.php";
 
 include_once "Destroy.php";
 include_once "CounterSpell.php";
@@ -61,8 +62,9 @@ class RulesFactory
 		
 		if (preg_match("/^$cardName enters the battlefield tapped.$/", $remainingRule))
 		{
-			//TODO: Are costs possible?
-			return new EntersBattlefieldTapped();
+			$ruleObj = new Rule(new EntersBattlefieldTapped(), $costs, null, null);
+			$this->ruleCache[$rule] = $ruleObj;
+			return $ruleObj;
 		}
 		
 		$remainingRule = str_replace("{", "", $remainingRule);
@@ -74,6 +76,19 @@ class RulesFactory
 			{
 				// simple mana production
 				$ruleObj = new Rule(new ProduceManaEffect($matches[1]), $costs, null, null);
+				$this->ruleCache[$rule] = $ruleObj;
+				return $ruleObj;
+			}
+			
+			if (strcasecmp($matches[1], "one mana of any color") == 0)
+			{
+				$any = array();
+				array_push($any, new ProduceManaEffect("B"));
+				array_push($any, new ProduceManaEffect("G"));
+				array_push($any, new ProduceManaEffect("R"));
+				array_push($any, new ProduceManaEffect("U"));
+				array_push($any, new ProduceManaEffect("W"));
+				$ruleObj = new Rule(new Choice($any), $costs, null, null);
 				$this->ruleCache[$rule] = $ruleObj;
 				return $ruleObj;
 			}
@@ -126,6 +141,39 @@ class RulesFactory
 				$ruleObj = new Rule(new SearchForCard(SearchForCard::LIBRARY, SearchForCard::BASIC_LAND, 1, SearchForCard::BATTLEFIELD_TAPPED, false), $costs, null, null);
 				$this->ruleCache[$rule] = $ruleObj;
 				return $ruleObj;
+			}
+		}
+		
+		// When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1}.
+		$searchSting = "/^When $cardName (.*), sacrifice it unless you pay (.*).$/U";
+		if (preg_match($searchSting, $remainingRule, $matches))
+		{
+			// TODO: Fix this -1 one thing, bad
+			$when = -1;
+			if (strcasecmp($matches[1], "enters the battlefield") == 0)
+			{
+				$when = SacrificeUnless::ENTERS_BATTLEFIELD;
+			}
+			
+			$life = null;
+			$mana = null;
+			
+			$testMana = str_replace("{", "", $matches[2]);
+			$testMana = str_replace("}", "", $testMana);
+			
+			if (ManaVector::areValidSymbols($testMana))
+			{
+				$mana = new ManaVector($testMana);
+			}
+			
+			if ($when >= 0)
+			{
+				if ($mana != null)
+				{
+					$ruleObj = new Rule(new SacrificeUnless($when, $life, $mana), $costs, null, null);
+					$this->ruleCache[$rule] = $ruleObj;
+					return $ruleObj;
+				}
 			}
 		}
 /*

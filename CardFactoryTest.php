@@ -187,7 +187,8 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert($card->getType() == CardType::LAND);
 		assert(!$card->isSupportedRules());
 		assert(count($rules) == 3);
-		assert(is_a($rules[0], "EntersBattlefieldTapped"));
+		$effects = $rules[0]->getEffects();
+		assert(is_a($effects[0], "EntersBattlefieldTapped"));
 		assert(is_a($rules[1], "Rule"));
 		$costs = $rules[1]->getActivationCosts();
 		$effects = $rules[1]->getEffects();
@@ -245,7 +246,8 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert($card->getType() == CardType::LAND);
 		assert($card->isSupportedRules());
 		assert(count($rules) == 2);
-		assert(is_a($rules[0], "EntersBattlefieldTapped"));
+		$effects = $rules[0]->getEffects();
+		assert(is_a($effects[0], "EntersBattlefieldTapped"));
 		assert(is_a($rules[1], "Rule"));
 		$costs = $rules[1]->getActivationCosts();
 		$effects = $rules[1]->getEffects();
@@ -277,6 +279,35 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert($effects[0]->getNumber() == 1);
 
 	}
+	
+	public function testSacrificeUnless()
+	{
+		
+		// Transguild Promenade enters the battlefield tapped.
+		// When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1}.
+		// {T}: Add one mana of any color to your mana pool.
+		$factory = new CardFactory();
+		$card = $factory->createCard("Transguild Promenade");
+		$rules = $card->getRules();
+		assert(count($rules) == 3);
+		$effects = $rules[0]->getEffects();
+		assert(count($effects) == 1);
+		assert(is_a($effects[0], "EntersBattlefieldTapped"));
+		$effects = $rules[1]->getEffects();
+		assert(is_a($effects[0], "SacrificeUnless"));
+		assert($effects[0]->getMana()->getManaString() == 1);
+		$effects = $rules[2]->getEffects();
+		$costs = $rules[2]->getActivationCosts();
+		assert(is_a($costs[0], "TapCost"));
+		assert(is_a($effects[0], "Choice"));
+		$choices = $effects[0]->getChoices();
+		assert($choices[0]->getProducedMana()->get(Color::BLACK) == 1);
+		assert($choices[1]->getProducedMana()->get(Color::GREEN) == 1);
+		assert($choices[2]->getProducedMana()->get(Color::RED) == 1);
+		assert($choices[3]->getProducedMana()->get(Color::BLUE) == 1);
+		assert($choices[4]->getProducedMana()->get(Color::WHITE) == 1);
+	}
+	
 /*		
 	public function testCounterSpell()
 	{

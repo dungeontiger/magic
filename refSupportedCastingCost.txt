@@ -2,14 +2,14 @@ Abattoir Ghoul	Creature
 Abbey Griffin	Creature
 Abrupt Decay	Instant
 Abuna Acolyte	Creature
-Abundant Growth	Unknown
+Abundant Growth	Enchantment
 Accorder Paladin	Creature
-Accorder's Shield	Unknown
+Accorder's Shield	Artifact
 Acid Web Spider	Creature
 Acidic Slime	Creature
 Acolyte of Xathrid	Creature
 Act of Treason	Sorcery
-Adventuring Gear	Unknown
+Adventuring Gear	Artifact
 Aegis Angel	Creature
 Aerial Predation	Instant
 Affa Guard Hound	Creature
@@ -17,7 +17,7 @@ Afflicted Deserter	Creature
 Aggravate	Instant
 Air Elemental	Creature
 Air Servant	Creature
-Ajani's Mantra	Unknown
+Ajani's Mantra	Enchantment
 Ajani's Pridemate	Creature
 Ajani's Sunstriker	Creature
 Akoum Boulderfoot	Creature
@@ -28,7 +28,7 @@ Alchemist's Refuge	Land
 Alluring Siren	Creature
 Alpha Brawl	Sorcery
 Alpha Tyrranax	Creature
-Altar of the Lost	Unknown
+Altar of the Lost	Artifact
 Altar's Reap	Instant
 Amass the Components	Sorcery
 Ambush Viper	Creature
@@ -40,14 +40,14 @@ Angel of Flight Alabaster	Creature
 Angel of Glory's Rise	Creature
 Angel of Jubilation	Creature
 Angel of Serenity	Creature
-Angel's Feather	Unknown
+Angel's Feather	Artifact
 Angel's Mercy	Instant
-Angel's Tomb	Unknown
-Angelheart Vial	Unknown
+Angel's Tomb	Artifact
+Angelheart Vial	Artifact
 Angelic Arbiter	Creature
-Angelic Armaments	Unknown
-Angelic Benediction	Unknown
-Angelic Destiny	Unknown
+Angelic Armaments	Artifact
+Angelic Benediction	Enchantment
+Angelic Destiny	Enchantment
 Angelic Overseer	Creature
 Angelic Wall	Creature
 Annihilating Fire	Instant
@@ -55,18 +55,18 @@ Ant Queen	Creature
 Appetite for Brains	Sorcery
 Aquus Steed	Creature
 Arachnus Spinner	Creature
-Arachnus Web	Unknown
+Arachnus Web	Enchantment
 Arbalest Elite	Creature
 Arbor Elf	Creature
 Arc Runner	Creature
 Arc Trail	Sorcery
-Arcane Melee	Unknown
+Arcane Melee	Enchantment
 Archaeomancer	Creature
 Archangel	Creature
 Archangel's Light	Sorcery
 Archdemon of Greed	Creature
 Archive Trap	Instant
-Archmage Ascension	Unknown
+Archmage Ascension	Enchantment
 Archon of Justice	Creature
 Archon of the Triumvirate	Creature
 Archweaver	Creature
@@ -75,25 +75,25 @@ Arctic Aven	Creature
 Ardent Recruit	Creature
 Argent Mutation	Instant
 Argent Sphinx	Creature
-Argentum Armor	Unknown
+Argentum Armor	Artifact
 Arid Mesa	Land
 Arm with Æther	Sorcery
 Armada Wurm	Creature
 Armament Master	Creature
-Armored Ascension	Unknown
+Armored Ascension	Enchantment
 Armored Cancrix	Creature
 Armored Skaab	Creature
 Armored Warhorse	Creature
 Armory Guard	Creature
 Arms Dealer	Creature
 Army of the Damned	Sorcery
-Arrest	Unknown
+Arrest	Enchantment
 Arrogant Bloodlord	Creature
 Arrow Volley Trap	Instant
 Artful Dodge	Sorcery
 Artillerize	Instant
 Artisan of Kozilek	Creature
-Asceticism	Unknown
+Asceticism	Enchantment
 Ash Zealot	Creature
 Ashmouth Hound	Creature
 Assassin's Strike	Sorcery
@@ -111,24 +111,24 @@ Auriok Edgewright	Creature
 Auriok Sunchaser	Creature
 Auriok Survivors	Creature
 Autumn's Veil	Instant
-Avacyn's Collar	Unknown
+Avacyn's Collar	Artifact
 Avacyn's Pilgrim	Creature
 Avacynian Priest	Creature
 Aven Fleetwing	Creature
 Aven Squire	Creature
 Avenging Arrow	Instant
 Awakener Druid	Creature
-Awakening Zone	Unknown
+Awakening Zone	Enchantment
 Axebane Guardian	Creature
 Axebane Stag	Creature
 Azorius Arrester	Creature
 Azorius Charm	Instant
 Azorius Guildgate	Land
 Azorius Justiciar	Creature
-Azorius Keyrune	Unknown
+Azorius Keyrune	Artifact
 Azure Drake	Creature
 Azure Mage	Creature
-Back from the Brink	Unknown
+Back from the Brink	Enchantment
 Back to Nature	Instant
 Bala Ged Scorpion	Creature
 Bala Ged Thief	Creature
@@ -137,30 +137,30 @@ Ball Lightning	Creature
 Baloth Cage Trap	Instant
 Baloth Woodcrasher	Creature
 Bane of Hanweir	Creature
-Baneful Omen	Unknown
+Baneful Omen	Enchantment
 Baneslayer Angel	Creature
 Banishing Stroke	Instant
 Banishment Decree	Instant
 Banners Raised	Instant
 Bar the Door	Instant
-Barbed Battlegear	Unknown
+Barbed Battlegear	Artifact
 Barony Vampire	Creature
 Barrage Ogre	Creature
 Barter in Blood	Sorcery
 Batterhorn	Creature
-Batterskull	Unknown
+Batterskull	Artifact
 Battle-Rattle Shaman	Creature
 Battle Hymn	Instant
 Battle Rampart	Creature
-Battle of Wits	Unknown
+Battle of Wits	Enchantment
 Battleflight Eagle	Creature
 Battleground Geist	Creature
 Bazaar Krovod	Creature
-Bear Umbra	Unknown
+Bear Umbra	Enchantment
 Beast Hunt	Sorcery
 Beast Within	Instant
 Beastbreaker of Bala Ged	Creature
-Beastmaster Ascension	Unknown
+Beastmaster Ascension	Enchantment
 Beguiler of Wills	Creature
 Bellowing Tanglewurm	Creature
 Bellows Lizard	Creature
@@ -175,12 +175,12 @@ Blackcleave Cliffs	Land
 Blackcleave Goblin	Creature
 Blade-Tribe Berserkers	Creature
 Blade Splicer	Creature
-Blade of the Bloodchief	Unknown
-Bladed Bracers	Unknown
-Bladed Pinions	Unknown
+Blade of the Bloodchief	Artifact
+Bladed Bracers	Artifact
+Bladed Pinions	Artifact
 Bladetusk Boar	Creature
 Blasphemous Act	Sorcery
-Blazing Torch	Unknown
+Blazing Torch	Artifact
 Bleak Coven Vampires	Creature
 Blessings of Nature	Sorcery
 Blight Mamba	Creature
@@ -194,11 +194,11 @@ Blood Artist	Creature
 Blood Crypt	Land
 Blood Feud	Sorcery
 Blood Ogre	Creature
-Blood Reckoning	Unknown
+Blood Reckoning	Enchantment
 Blood Seeker	Creature
 Blood Tithe	Sorcery
 Blood Tribute	Sorcery
-Bloodchief Ascension	Unknown
+Bloodchief Ascension	Enchantment
 Bloodcrazed Goblin	Creature
 Bloodcrazed Neonate	Creature
 Bloodflow Connoisseur	Creature
@@ -212,27 +212,27 @@ Bloodrage Vampire	Creature
 Bloodrite Invoker	Creature
 Bloodshot Trainee	Creature
 Bloodthrone Vampire	Creature
-Bludgeon Brawl	Unknown
+Bludgeon Brawl	Enchantment
 Blunt the Assault	Instant
 Blustersquall	Instant
-Boar Umbra	Unknown
+Boar Umbra	Enchantment
 Bog Raiders	Creature
 Bog Tatters	Creature
 Bog Wraith	Creature
 Bogardan Hellkite	Creature
 Bold Defense	Instant
 Bond Beetle	Creature
-Bonds of Faith	Unknown
-Bonds of Quicksilver	Unknown
+Bonds of Faith	Enchantment
+Bonds of Quicksilver	Enchantment
 Bone Splinters	Sorcery
 Bone to Ash	Instant
 Bonebreaker Giant	Creature
-Bonehoard	Unknown
+Bonehoard	Artifact
 Boneyard Wurm	Creature
 Borderland Ranger	Creature
 Boundless Realms	Sorcery
 Bountiful Harvest	Sorcery
-Bower Passage	Unknown
+Bower Passage	Enchantment
 Brain Weevil	Creature
 Bramble Creeper	Creature
 Bramblecrush	Sorcery
@@ -243,33 +243,33 @@ Briarpack Alpha	Creature
 Brimstone Mage	Creature
 Brimstone Volley	Instant
 Brindle Boar	Creature
-Brink of Disaster	Unknown
-Brittle Effigy	Unknown
+Brink of Disaster	Enchantment
+Brittle Effigy	Artifact
 Brood Birthing	Sorcery
 Broodwarden	Creature
 Brushstrider	Creature
 Brutalizer Exarch	Creature
-Builder's Blessing	Unknown
+Builder's Blessing	Enchantment
 Bump in the Night	Sorcery
-Burden of Guilt	Unknown
+Burden of Guilt	Enchantment
 Buried Ruin	Land
 Burn at the Stake	Sorcery
 Burn the Impure	Instant
 Burning Inquiry	Sorcery
 Burning Oil	Instant
-Burning Vengeance	Unknown
+Burning Vengeance	Enchantment
 Burst Lightning	Instant
 Burst of Speed	Sorcery
 Butcher Ghoul	Creature
-Butcher's Cleaver	Unknown
+Butcher's Cleaver	Artifact
 Cackling Counterpart	Instant
 Cadaver Imp	Creature
-Caged Sun	Unknown
+Caged Sun	Artifact
 Call of the Conclave	Sorcery
 Call to Mind	Sorcery
-Call to Serve	Unknown
-Call to the Grave	Unknown
-Call to the Kindred	Unknown
+Call to Serve	Enchantment
+Call to the Grave	Enchantment
+Call to the Kindred	Enchantment
 Caller of Gales	Creature
 Cancel	Instant
 Canyon Minotaur	Creature
@@ -283,29 +283,29 @@ Caravan Escort	Creature
 Caravan Hurda	Creature
 Caravan Vigil	Sorcery
 Caress of Phyrexia	Sorcery
-Carnage Altar	Unknown
+Carnage Altar	Artifact
 Carnage Wurm	Creature
 Carnifex Demon	Creature
 Carnival Hellsteed	Creature
 Carrion Call	Instant
-Cast Through Time	Unknown
+Cast Through Time	Enchantment
 Catacomb Slug	Creature
-Cathars' Crusade	Unknown
+Cathars' Crusade	Enchantment
 Cathedral Sanctifier	Creature
 Cathedral of War	Land
 Caustic Hound	Creature
 Cavern of Souls	Land
-Celestial Mantle	Unknown
+Celestial Mantle	Enchantment
 Celestial Purge	Instant
-Cellar Door	Unknown
+Cellar Door	Artifact
 Cemetery Reaper	Creature
 Centaur Courser	Creature
 Centaur Healer	Creature
 Centaur's Herald	Creature
 Cerebral Eruption	Sorcery
 Chained Throatseeker	Creature
-Chalice of Death	Unknown
-Chalice of Life	Unknown
+Chalice of Death	Artifact
+Chalice of Life	Artifact
 Champion of Lambholt	Creature
 Champion of the Parish	Creature
 Champion's Drake	Creature
@@ -318,7 +318,7 @@ Chandra's Fury	Instant
 Chandra's Outrage	Instant
 Chandra's Phoenix	Creature
 Chandra's Spitfire	Creature
-Chant of the Skifsang	Unknown
+Chant of the Skifsang	Enchantment
 Chaos Imps	Creature
 Chapel Geist	Creature
 Charmbreaker Devils	Creature
@@ -329,50 +329,50 @@ Chill of Foreboding	Sorcery
 Choking Fumes	Instant
 Chorus of Might	Instant
 Chosen of Markov	Creature
-Chromatic Lantern	Unknown
-Chronic Flooding	Unknown
-Circle of Flame	Unknown
-Civic Saber	Unknown
+Chromatic Lantern	Artifact
+Chronic Flooding	Enchantment
+Circle of Flame	Enchantment
+Civic Saber	Artifact
 Civilized Scholar	Creature
-Claustrophobia	Unknown
+Claustrophobia	Enchantment
 Cleaver Riot	Sorcery
 Cliff Threader	Creature
 Clifftop Retreat	Land
 Clinging Mists	Instant
-Clock of Omens	Unknown
+Clock of Omens	Artifact
 Cloistered Youth	Creature
 Clone	Creature
 Cloud Crusader	Creature
 Cloud Elemental	Creature
 Cloudshift	Instant
-Coat of Arms	Unknown
+Coat of Arms	Artifact
 Cobblebrute	Creature
-Cobbled Wings	Unknown
+Cobbled Wings	Artifact
 Cobra Trap	Instant
-Codex Shredder	Unknown
-Collective Blessing	Unknown
+Codex Shredder	Artifact
+Collective Blessing	Enchantment
 Combust	Instant
-Commander's Authority	Unknown
+Commander's Authority	Enchantment
 Common Bond	Instant
 Concordia Pegasus	Creature
 Concussive Bolt	Sorcery
 Condemn	Instant
-Conjured Currency	Unknown
-Conjurer's Closet	Unknown
+Conjured Currency	Enchantment
+Conjurer's Closet	Artifact
 Conquering Manticore	Creature
 Conqueror's Pledge	Sorcery
 Consecrated Sphinx	Creature
 Consume the Meek	Instant
 Consuming Vapors	Sorcery
-Contagion Clasp	Unknown
-Contagion Engine	Unknown
+Contagion Clasp	Artifact
+Contagion Engine	Artifact
 Contagious Nim	Creature
-Contaminated Ground	Unknown
+Contaminated Ground	Enchantment
 Contested War Zone	Land
 Conundrum Sphinx	Creature
-Conversion Chamber	Unknown
-Convincing Mirage	Unknown
-Copper Carapace	Unknown
+Conversion Chamber	Artifact
+Convincing Mirage	Enchantment
+Copper Carapace	Artifact
 Copperhorn Scout	Creature
 Copperline Gorge	Land
 Coral Merfolk	Creature
@@ -382,7 +382,7 @@ Corpse Traders	Creature
 Corpsehatch	Sorcery
 Corpsejack Menace	Creature
 Corrupt	Sorcery
-Corrupted Conscience	Unknown
+Corrupted Conscience	Enchantment
 Corrupted Harvester	Creature
 Corrupted Resolve	Instant
 Cosi's Trickster	Creature
@@ -391,7 +391,7 @@ Counterlash	Instant
 Coursers' Accord	Sorcery
 Courtly Provocateur	Creature
 Cower in Fear	Instant
-Crab Umbra	Unknown
+Crab Umbra	Enchantment
 Craterhoof Behemoth	Creature
 Craterize	Sorcery
 Craw Wurm	Creature
@@ -400,11 +400,11 @@ Creeping Renaissance	Sorcery
 Cremate	Instant
 Crimson Mage	Creature
 Crimson Muckwader	Creature
-Crippling Blight	Unknown
+Crippling Blight	Enchantment
 Crippling Chill	Instant
 Crosstown Courier	Creature
 Crossway Vampire	Creature
-Crown of Empires	Unknown
+Crown of Empires	Artifact
 Crusader of Odric	Creature
 Crush	Instant
 Crushing Vines	Instant
@@ -412,23 +412,23 @@ Crypt Creeper	Creature
 Crypt Ripper	Creature
 Crypt of Agadeem	Land
 Cryptoplasm	Creature
-Crystal Ball	Unknown
+Crystal Ball	Artifact
 Cudgel Troll	Creature
-Culling Dais	Unknown
+Culling Dais	Artifact
 Cultivate	Sorcery
-Curiosity	Unknown
-Curse of Bloodletting	Unknown
-Curse of Death's Hold	Unknown
-Curse of Echoes	Unknown
-Curse of Exhaustion	Unknown
-Curse of Misfortunes	Unknown
-Curse of Oblivion	Unknown
-Curse of Stalked Prey	Unknown
-Curse of Thirst	Unknown
-Curse of Wizardry	Unknown
-Curse of the Bloody Tome	Unknown
-Curse of the Nightly Hunt	Unknown
-Curse of the Pierced Heart	Unknown
+Curiosity	Enchantment
+Curse of Bloodletting	Enchantment
+Curse of Death's Hold	Enchantment
+Curse of Echoes	Enchantment
+Curse of Exhaustion	Enchantment
+Curse of Misfortunes	Enchantment
+Curse of Oblivion	Enchantment
+Curse of Stalked Prey	Enchantment
+Curse of Thirst	Enchantment
+Curse of Wizardry	Enchantment
+Curse of the Bloody Tome	Enchantment
+Curse of the Nightly Hunt	Enchantment
+Curse of the Pierced Heart	Enchantment
 Cursebreak	Instant
 Cyclonic Rift	Instant
 Cyclops Gladiator	Creature
@@ -436,22 +436,22 @@ Cystbearer	Creature
 Daggerback Basilisk	Creature
 Daggerdrome Imp	Creature
 Dangerous Wager	Instant
-Dark Favor	Unknown
+Dark Favor	Enchantment
 Dark Impostor	Creature
 Dark Revenant	Creature
-Dark Tutelage	Unknown
+Dark Tutelage	Enchantment
 Darkslick Drake	Creature
 Darkslick Shores	Land
-Darksteel Axe	Unknown
-Darksteel Plate	Unknown
-Darksteel Relic	Unknown
+Darksteel Axe	Artifact
+Darksteel Plate	Artifact
+Darksteel Relic	Artifact
 Darkthicket Wolf	Creature
 Dawnglare Invoker	Creature
 Dawntreader Elk	Creature
 Day of Judgment	Sorcery
 Daybreak Ranger	Creature
 Dead Reveler	Creature
-Dead Weight	Unknown
+Dead Weight	Enchantment
 Deadbridge Goliath	Creature
 Deadeye Navigator	Creature
 Deadly Allure	Sorcery
@@ -460,30 +460,30 @@ Dearly Departed	Creature
 Death-Hood Cobra	Creature
 Death Cultist	Creature
 Death's Caress	Sorcery
-Death's Presence	Unknown
+Death's Presence	Enchantment
 Deathless Angel	Creature
 Deathmark	Sorcery
 Deceiver Exarch	Creature
-Decimator Web	Unknown
-Defang	Unknown
-Defensive Stance	Unknown
+Decimator Web	Artifact
+Defang	Enchantment
+Defensive Stance	Enchantment
 Defy Death	Sorcery
 Delver of Secrets	Creature
 Dementia Bat	Creature
 Demolish	Sorcery
 Demon of Death's Gate	Creature
-Demon's Horn	Unknown
-Demonic Appetite	Unknown
-Demonic Rising	Unknown
+Demon's Horn	Artifact
+Demonic Appetite	Enchantment
+Demonic Rising	Enchantment
 Demonic Taskmaster	Creature
 Demonlord of Ashmouth	Creature
-Demonmail Hauberk	Unknown
+Demonmail Hauberk	Artifact
 Demystify	Instant
 Deprive	Instant
 Deranged Assistant	Creature
 Deranged Outcast	Creature
-Descendants' Path	Unknown
-Descent into Madness	Unknown
+Descendants' Path	Enchantment
+Descent into Madness	Enchantment
 Desecrated Earth	Sorcery
 Desecration Demon	Creature
 Desolate Lighthouse	Land
@@ -491,10 +491,10 @@ Desperate Ravings	Instant
 Despise	Sorcery
 Destroy the Evidence	Sorcery
 Destructive Force	Sorcery
-Detention Sphere	Unknown
+Detention Sphere	Enchantment
 Devastating Summons	Sorcery
 Devastation Tide	Sorcery
-Deviant Glee	Unknown
+Deviant Glee	Enchantment
 Devouring Swarm	Creature
 Devout Chaplain	Creature
 Devout Lightcaster	Creature
@@ -514,20 +514,20 @@ Dispel	Instant
 Dispense Justice	Instant
 Disperse	Instant
 Dissipate	Instant
-Dissipation Field	Unknown
+Dissipation Field	Enchantment
 Distant Memories	Sorcery
 Distortion Strike	Sorcery
 Distress	Sorcery
 Divination	Sorcery
-Divine Favor	Unknown
+Divine Favor	Enchantment
 Divine Offering	Instant
 Divine Reckoning	Sorcery
 Divine Verdict	Instant
 Djinn of Wishes	Creature
-Domestication	Unknown
+Domestication	Enchantment
 Doom Blade	Instant
 Doomed Traveler	Creature
-Door to Nothingness	Unknown
+Door to Nothingness	Artifact
 Doorkeeper	Creature
 Dormant Gomazoa	Creature
 Doubling Chant	Sorcery
@@ -535,10 +535,10 @@ Downpour	Instant
 Downsize	Instant
 Dragon Hatchling	Creature
 Dragon Whelp	Creature
-Dragon's Claw	Unknown
+Dragon's Claw	Artifact
 Dragonskull Summit	Land
 Drainpipe Vermin	Creature
-Drake Umbra	Unknown
+Drake Umbra	Enchantment
 Dramatic Rescue	Instant
 Dread Drone	Creature
 Dread Slaver	Creature
@@ -546,7 +546,7 @@ Dread Warlock	Creature
 Dreadbore	Sorcery
 Dreadwaters	Sorcery
 Dream Twist	Instant
-Dreamstone Hedron	Unknown
+Dreamstone Hedron	Artifact
 Dreg Mangler	Creature
 Drifting Shade	Creature
 Driver of the Dead	Creature
@@ -558,10 +558,10 @@ Drudge Beetle	Creature
 Drudge Skeletons	Creature
 Druid's Deliverance	Instant
 Druid's Familiar	Creature
-Druidic Satchel	Unknown
-Druids' Repository	Unknown
-Dryad's Favor	Unknown
-Dual Casting	Unknown
+Druidic Satchel	Artifact
+Druids' Repository	Enchantment
+Dryad's Favor	Enchantment
+Dual Casting	Enchantment
 Due Respect	Instant
 Dungeon Geists	Creature
 Dungrove Elder	Creature
@@ -573,23 +573,23 @@ Duty-Bound Dead	Creature
 Dynacharge	Instant
 Earth Servant	Creature
 Eaten by Spiders	Instant
-Echo Circlet	Unknown
+Echo Circlet	Artifact
 Echo Mage	Creature
-Eel Umbra	Unknown
-Eland Umbra	Unknown
+Eel Umbra	Enchantment
+Eland Umbra	Enchantment
 Elder Cathar	Creature
 Elder of Laurels	Creature
 Elderscale Wurm	Creature
-Eldrazi Monument	Unknown
+Eldrazi Monument	Artifact
 Eldrazi Temple	Land
 Electrickery	Instant
-Electropotence	Unknown
+Electropotence	Enchantment
 Elemental Appeal	Sorcery
 Elgaud Inquisitor	Creature
 Elgaud Shieldmate	Creature
 Elite Inquisitor	Creature
 Elite Vanguard	Creature
-Elixir of Immortality	Unknown
+Elixir of Immortality	Artifact
 Elvish Archdruid	Creature
 Elvish Piper	Creature
 Elvish Visionary	Creature
@@ -602,12 +602,12 @@ Emeria Angel	Creature
 Emeria, the Sky Ruin	Land
 Emrakul's Hatcher	Creature
 Enclave Cryptologist	Creature
-Encrust	Unknown
-Endless Ranks of the Dead	Unknown
+Encrust	Enchantment
+Endless Ranks of the Dead	Enchantment
 Engulfing Slagwurm	Creature
 Enormous Baloth	Creature
-Enslave	Unknown
-Entangling Vines	Unknown
+Enslave	Enchantment
+Entangling Vines	Enchantment
 Entomber Exarch	Creature
 Erase	Instant
 Erdwal Ripper	Creature
@@ -618,20 +618,20 @@ Essence Feed	Sorcery
 Essence Harvest	Sorcery
 Essence Scatter	Instant
 Essence of the Wild	Creature
-Eternity Vessel	Unknown
-Ethereal Armor	Unknown
+Eternity Vessel	Artifact
+Ethereal Armor	Enchantment
 Evernight Shade	Creature
-Evil Presence	Unknown
+Evil Presence	Enchantment
 Evil Twin	Creature
 Evolving Wilds	Land
-Exclusion Ritual	Unknown
+Exclusion Ritual	Enchantment
 Excommunicate	Sorcery
-Executioner's Hood	Unknown
-Expedition Map	Unknown
-Explorer's Scope	Unknown
+Executioner's Hood	Artifact
+Expedition Map	Artifact
+Explorer's Scope	Artifact
 Explosive Impact	Instant
 Explosive Revelation	Sorcery
-Exquisite Blood	Unknown
+Exquisite Blood	Enchantment
 Eyes in the Skies	Instant
 Ezuri's Archers	Creature
 Ezuri's Brigade	Creature
@@ -653,17 +653,17 @@ Farbog Boneflinger	Creature
 Farbog Explorer	Creature
 Farseek	Sorcery
 Fauna Shaman	Creature
-Favor of the Woods	Unknown
-Favorable Winds	Unknown
+Favor of the Woods	Enchantment
+Favorable Winds	Enchantment
 Feast of Blood	Sorcery
-Feed the Pack	Unknown
+Feed the Pack	Enchantment
 Feeling of Dread	Instant
 Felidar Sovereign	Creature
 Fencing Ace	Creature
 Feral Ridgewolf	Creature
 Ferrovore	Creature
 Fervent Cathar	Creature
-Fervor	Unknown
+Fervor	Enchantment
 Festerhide Boar	Creature
 Fettergeist	Creature
 Fiend Hunter	Creature
@@ -671,7 +671,7 @@ Fiend of the Shadows	Creature
 Fiery Hellhound	Creature
 Fire Elemental	Creature
 Fire Servant	Creature
-Firebreathing	Unknown
+Firebreathing	Enchantment
 Firemind's Foresight	Instant
 Fires of Undeath	Instant
 Firewing Phoenix	Creature
@@ -682,21 +682,21 @@ Flameborn Hellion	Creature
 Flameborn Viron	Creature
 Flames of the Firebrand	Sorcery
 Flashfreeze	Instant
-Flayer Husk	Unknown
+Flayer Husk	Artifact
 Flayer of the Hatebound	Creature
 Fleeting Distraction	Instant
 Flensermite	Creature
 Flesh-Eater Imp	Creature
 Flesh Allergy	Sorcery
-Flight	Unknown
-Flight Spellbomb	Unknown
+Flight	Enchantment
+Flight Spellbomb	Artifact
 Fling	Instant
 Flinthoof Boar	Creature
 Flowering Lumberknot	Creature
 Fog	Instant
 Fog Bank	Creature
 Forbidden Alchemy	Instant
-Forced Worship	Unknown
+Forced Worship	Enchantment
 Foresee	Sorcery
 Forest	Basic Land
 Forge Devil	Creature
@@ -711,17 +711,17 @@ Frost Titan	Creature
 Frostwind Invoker	Creature
 Fuel for the Cause	Instant
 Fulgent Distraction	Instant
-Full Moon's Rise	Unknown
+Full Moon's Rise	Enchantment
 Fume Spitter	Creature
 Fungal Sprouting	Sorcery
-Furnace Celebration	Unknown
+Furnace Celebration	Enchantment
 Furnace Scamp	Creature
 Furnace Whelp	Creature
-Furor of the Bitten	Unknown
+Furor of the Bitten	Enchantment
 Furyborn Hellkite	Creature
 Gaea's Revenge	Creature
 Gallows Warden	Creature
-Gallows at Willow Hill	Unknown
+Gallows at Willow Hill	Artifact
 Galvanic Alchemist	Creature
 Galvanic Blast	Instant
 Galvanoth	Creature
@@ -741,22 +741,22 @@ Geist-Honored Monk	Creature
 Geist Snatch	Instant
 Geist Trappers	Creature
 Geistflame	Instant
-Gem of Becoming	Unknown
+Gem of Becoming	Artifact
 Geosurge	Sorcery
 Geralf's Messenger	Creature
 Geralf's Mindcrusher	Creature
 Geth's Verdict	Instant
 Geyser Glider	Creature
 Ghalma's Warden	Creature
-Ghastly Haunting	Unknown
+Ghastly Haunting	Enchantment
 Ghost Quarter	Land
 Ghostform	Sorcery
 Ghostly Flicker	Instant
-Ghostly Possession	Unknown
-Ghostly Touch	Unknown
-Ghoulcaller's Bell	Unknown
+Ghostly Possession	Enchantment
+Ghostly Touch	Enchantment
+Ghoulcaller's Bell	Artifact
 Ghoulcaller's Chant	Sorcery
-Ghoulflesh	Unknown
+Ghoulflesh	Enchantment
 Ghoulraiser	Creature
 Ghoultree	Creature
 Giant Growth	Instant
@@ -764,19 +764,19 @@ Giant Scorpion	Creature
 Giant Spider	Creature
 Gideon's Avenger	Creature
 Gideon's Lawkeeper	Creature
-Gigantiform	Unknown
+Gigantiform	Enchantment
 Gigantomancer	Creature
-Gilded Lotus	Unknown
+Gilded Lotus	Artifact
 Glacial Fortress	Land
 Gladecover Scout	Creature
 Glimmerpoint Stag	Creature
 Glimmerpost	Land
 Glint Hawk	Creature
-Glint Hawk Idol	Unknown
+Glint Hawk Idol	Artifact
 Glissa's Courier	Creature
 Glissa's Scorn	Instant
 Glistener Elf	Creature
-Glistening Oil	Unknown
+Glistening Oil	Enchantment
 Gloom Surgeon	Creature
 Gloomhunter	Creature
 Gloomwidow	Creature
@@ -803,31 +803,31 @@ Goblin Rally	Sorcery
 Goblin Ruinblaster	Creature
 Goblin Shortcutter	Creature
 Goblin Tunneler	Creature
-Goblin War Paint	Unknown
+Goblin War Paint	Enchantment
 Goblin Wardriver	Creature
-Golden Urn	Unknown
+Golden Urn	Artifact
 Goldenglow Moth	Creature
 Goldnight Commander	Creature
 Goldnight Redeemer	Creature
-Golem Foundry	Unknown
-Golem's Heart	Unknown
+Golem Foundry	Artifact
+Golem's Heart	Artifact
 Golgari Charm	Instant
 Golgari Decoy	Creature
 Golgari Guildgate	Land
-Golgari Keyrune	Unknown
+Golgari Keyrune	Artifact
 Gomazoa	Creature
 Gore-House Chainwalker	Creature
 Gore Vassal	Creature
 Gorehorn Minotaurs	Creature
-Gorgon Flail	Unknown
-Grafdigger's Cage	Unknown
-Grafted Exoskeleton	Unknown
+Gorgon Flail	Artifact
+Grafdigger's Cage	Artifact
+Grafted Exoskeleton	Artifact
 Grand Abolisher	Creature
 Grand Architect	Creature
-Grappling Hook	Unknown
+Grappling Hook	Artifact
 Grasp of Darkness	Instant
 Grasp of Phantoms	Sorcery
-Grave Betrayal	Unknown
+Grave Betrayal	Enchantment
 Grave Bramble	Creature
 Grave Exchange	Sorcery
 Grave Titan	Creature
@@ -835,17 +835,17 @@ Gravecrawler	Creature
 Gravedigger	Creature
 Gravepurge	Instant
 Gravetiller Wurm	Creature
-Graveyard Shovel	Unknown
-Gravitational Shift	Unknown
-Gravity Well	Unknown
+Graveyard Shovel	Artifact
+Gravitational Shift	Enchantment
+Gravity Well	Enchantment
 Graypelt Refuge	Land
 Grazing Gladehart	Creature
 Great Sable Stag	Creature
 Greater Basilisk	Creature
-Greatsword	Unknown
+Greatsword	Artifact
 Greenhilt Trainee	Creature
 Greenweaver Druid	Creature
-Gremlin Mine	Unknown
+Gremlin Mine	Artifact
 Griffin Protector	Creature
 Griffin Rider	Creature
 Griffin Sentinel	Creature
@@ -855,28 +855,28 @@ Grim Discovery	Sorcery
 Grim Flowering	Sorcery
 Grim Lavamancer	Creature
 Grim Roustabout	Creature
-Grindclock	Unknown
+Grindclock	Artifact
 Griptide	Instant
 Grisly Salvage	Instant
 Grizzled Outcasts	Creature
 Grotag Siege-Runner	Creature
-Ground Seal	Unknown
-Grounded	Unknown
+Ground Seal	Enchantment
+Grounded	Enchantment
 Grove of the Guardian	Land
 Growth Spasm	Sorcery
-Gruesome Deformity	Unknown
+Gruesome Deformity	Enchantment
 Gruesome Discovery	Sorcery
 Gruesome Encore	Sorcery
 Gryff Vanguard	Creature
-Guard Duty	Unknown
+Guard Duty	Enchantment
 Guard Gomazoa	Creature
 Guardian Lions	Creature
 Guardian Seraph	Creature
 Guardians' Pledge	Instant
 Guardians of Akrasa	Creature
-Guild Feud	Unknown
-Guise of Fire	Unknown
-Gutter Grime	Unknown
+Guild Feud	Enchantment
+Guise of Fire	Enchantment
+Gutter Grime	Enchantment
 Guttersnipe	Creature
 Guul Draz Assassin	Creature
 Guul Draz Specter	Creature
@@ -908,18 +908,18 @@ Havengul Lich	Creature
 Havengul Runebinder	Creature
 Havengul Skaab	Creature
 Havengul Vampire	Creature
-Havoc Festival	Unknown
+Havoc Festival	Enchantment
 Haze Frog	Creature
 Headless Skaab	Creature
 Healer of the Pride	Creature
-Heartless Summoning	Unknown
+Heartless Summoning	Enchantment
 Heartstabber Mosquito	Creature
-Heavy Arbalest	Unknown
-Heavy Mattock	Unknown
+Heavy Arbalest	Artifact
+Heavy Mattock	Artifact
 Heckling Fiends	Creature
 Hedron-Field Purists	Creature
 Hedron Crab	Creature
-Hedron Matrix	Unknown
+Hedron Matrix	Artifact
 Heirs of Stromkirk	Creature
 Hellcarver Demon	Creature
 Hellfire Mongrel	Creature
@@ -930,7 +930,7 @@ Hellkite Charger	Creature
 Hellkite Igniter	Creature
 Hellrider	Creature
 Herald of War	Creature
-Heretic's Punishment	Unknown
+Heretic's Punishment	Enchantment
 Hero of Bladehold	Creature
 Hero of Oxid Ridge	Creature
 Heroes' Reunion	Instant
@@ -941,18 +941,18 @@ Highland Berserker	Creature
 Hinterland Harbor	Land
 Hinterland Hermit	Creature
 Hinterland Scourge	Creature
-Hive Mind	Unknown
+Hive Mind	Enchantment
 Hoard-Smelter Dragon	Creature
 Hoarding Dragon	Creature
 Hollowhenge Beast	Creature
 Hollowhenge Scavenger	Creature
 Hollowhenge Spirit	Creature
 Holy Justiciar	Creature
-Holy Strength	Unknown
+Holy Strength	Enchantment
 Homicidal Brute	Creature
-Homicidal Seclusion	Unknown
-Honor of the Pure	Unknown
-Horizon Spellbomb	Unknown
+Homicidal Seclusion	Enchantment
+Honor of the Pure	Enchantment
+Horizon Spellbomb	Artifact
 Horncaller's Chant	Sorcery
 Horned Turtle	Creature
 Hornet Sting	Instant
@@ -962,7 +962,7 @@ Hover Barrier	Creature
 Howl of the Night Pack	Sorcery
 Howlgeist	Creature
 Howling Banshee	Creature
-Howling Mine	Unknown
+Howling Mine	Artifact
 Howlpack Alpha	Creature
 Howlpack of Estwald	Creature
 Human Frailty	Instant
@@ -973,14 +973,14 @@ Hunters' Feast	Sorcery
 Huntmaster of the Fells	Creature
 Hussar Patrol	Creature
 Hydrosurge	Instant
-Hyena Umbra	Unknown
+Hyena Umbra	Enchantment
 Hypersonic Dragon	Creature
 Hypnotic Specter	Creature
 Hysterical Blindness	Instant
-Ice Cage	Unknown
+Ice Cage	Enchantment
 Ichor Explosion	Sorcery
 Ichor Rats	Creature
-Ichor Wellspring	Unknown
+Ichor Wellspring	Artifact
 Ignite Disorder	Instant
 Ikiral Outrider	Creature
 Illusionary Servant	Creature
@@ -993,28 +993,28 @@ Increasing Ambition	Sorcery
 Increasing Devotion	Sorcery
 Increasing Savagery	Sorcery
 Increasing Vengeance	Instant
-Indestructibility	Unknown
+Indestructibility	Enchantment
 Index	Sorcery
 Indomitable Archangel	Creature
 Induce Despair	Instant
-Inexorable Tide	Unknown
+Inexorable Tide	Enchantment
 Infantry Veteran	Creature
 Infernal Plunge	Sorcery
 Inferno Elemental	Creature
 Inferno Titan	Creature
 Inferno Trap	Instant
-Infiltration Lens	Unknown
-Infinite Reflection	Unknown
+Infiltration Lens	Artifact
+Infinite Reflection	Enchantment
 Inkmoth Nexus	Land
 Inquisition of Kozilek	Sorcery
 Inquisitor Exarch	Creature
-Inquisitor's Flail	Unknown
+Inquisitor's Flail	Artifact
 Insectile Aberration	Creature
 Inspiration	Instant
 Inspired Charge	Instant
 Instigator Gang	Creature
 Instill Infection	Instant
-Intangible Virtue	Unknown
+Intangible Virtue	Enchantment
 Into the Core	Instant
 Into the Maw of Hell	Sorcery
 Into the Roil	Instant
@@ -1022,33 +1022,33 @@ Into the Void	Sorcery
 Intrepid Hero	Creature
 Invader Parasite	Creature
 Invisible Stalker	Creature
-Ior Ruin Expedition	Unknown
+Ior Ruin Expedition	Enchantment
 Ironfang	Creature
 Irresistible Prey	Sorcery
 Island	Basic Land
 Isolated Chapel	Land
-Isolation Cell	Unknown
+Isolation Cell	Artifact
 Isperia's Skywatch	Creature
 It That Betrays	Creature
 Izzet Charm	Instant
 Izzet Guildgate	Land
-Izzet Keyrune	Unknown
+Izzet Keyrune	Artifact
 Izzet Staticaster	Creature
 Jace's Archivist	Creature
-Jace's Erasure	Unknown
+Jace's Erasure	Enchantment
 Jace's Ingenuity	Instant
 Jace's Phantasm	Creature
 Jackal Familiar	Creature
 Jaddi Lifestrider	Creature
 Jade Mage	Creature
-Jar of Eyeballs	Unknown
+Jar of Eyeballs	Artifact
 Jarad's Orders	Sorcery
-Jayemdae Tome	Unknown
-Jinxed Idol	Unknown
+Jayemdae Tome	Artifact
+Jinxed Idol	Artifact
 Joint Assault	Instant
 Joraga Bard	Creature
 Joraga Treespeaker	Creature
-Journey to Nowhere	Unknown
+Journey to Nowhere	Enchantment
 Jump	Instant
 Jwar Isle Refuge	Land
 Jwari Scuttler	Creature
@@ -1062,7 +1062,7 @@ Kazandu Refuge	Land
 Kazandu Tuskcaller	Creature
 Kazuul Warlord	Creature
 Keening Apparition	Creature
-Keening Stone	Unknown
+Keening Stone	Artifact
 Kelinore Bat	Creature
 Kemba's Legion	Creature
 Kemba's Skyguard	Creature
@@ -1071,20 +1071,20 @@ Kessig Malcontents	Creature
 Kessig Recluse	Creature
 Kessig Wolf	Creature
 Kessig Wolf Run	Land
-Khalni Gem	Unknown
-Khalni Heart Expedition	Unknown
+Khalni Gem	Artifact
+Khalni Heart Expedition	Enchantment
 Khalni Hydra	Creature
 Kiln Fiend	Creature
 Kindercatch	Creature
 Kindled Fury	Instant
-Kite Shield	Unknown
-Kitesail	Unknown
+Kite Shield	Artifact
+Kitesail	Artifact
 Knight Exemplar	Creature
 Knight of Cliffhaven	Creature
 Knight of Glory	Creature
 Knight of Infamy	Creature
-Knightly Valor	Unknown
-Knowledge Pool	Unknown
+Knightly Valor	Enchantment
+Knowledge Pool	Artifact
 Kor Aeronaut	Creature
 Kor Cartographer	Creature
 Kor Duelist	Creature
@@ -1099,7 +1099,7 @@ Korozda Monitor	Creature
 Koth's Courier	Creature
 Kozilek's Predator	Creature
 Kraken Hatchling	Creature
-Kraken's Eye	Unknown
+Kraken's Eye	Artifact
 Krallenhorde Killer	Creature
 Krallenhorde Wantons	Creature
 Krenko's Command	Sorcery
@@ -1115,7 +1115,7 @@ Lair Delve	Sorcery
 Lambholt Elder	Creature
 Landbind Ritual	Sorcery
 Lantern Spirit	Creature
-Lashwrithe	Unknown
+Lashwrithe	Artifact
 Last Kiss	Instant
 Latch Seeker	Creature
 Launch Party	Instant
@@ -1131,29 +1131,29 @@ Leonin Arbiter	Creature
 Leonin Relic-Warder	Creature
 Leonin Skyhunter	Creature
 Lethargy Trap	Instant
-Levitation	Unknown
-Leyline of Anticipation	Unknown
-Leyline of Punishment	Unknown
-Leyline of Sanctity	Unknown
-Leyline of Vitality	Unknown
-Leyline of the Void	Unknown
+Levitation	Enchantment
+Leyline of Anticipation	Enchantment
+Leyline of Punishment	Enchantment
+Leyline of Sanctity	Enchantment
+Leyline of Vitality	Enchantment
+Leyline of the Void	Enchantment
 Liege of the Tangle	Creature
 Life's Finale	Sorcery
-Lifelink	Unknown
+Lifelink	Enchantment
 Lifesmith	Creature
 Lighthouse Chronologist	Creature
-Lightmine Field	Unknown
+Lightmine Field	Enchantment
 Lightning Bolt	Instant
 Lightning Elemental	Creature
 Lightning Mauler	Creature
-Lightning Prowess	Unknown
+Lightning Prowess	Enchantment
 Lightwielder Paladin	Creature
-Liliana's Caress	Unknown
+Liliana's Caress	Enchantment
 Liliana's Shade	Creature
 Liliana's Specter	Creature
 Lingering Souls	Sorcery
-Liquimetal Coating	Unknown
-Livewire Lash	Unknown
+Liquimetal Coating	Artifact
+Livewire Lash	Artifact
 Living Destiny	Instant
 Living Tsunami	Creature
 Llanowar Elves	Creature
@@ -1166,7 +1166,7 @@ Lord of Shatterskull Pass	Creature
 Lord of the Unreal	Creature
 Lost Leonin	Creature
 Lost in the Mist	Instant
-Lost in the Woods	Unknown
+Lost in the Woods	Enchantment
 Lotleth Troll	Creature
 Lotus Cobra	Creature
 Loxodon Convert	Creature
@@ -1179,39 +1179,39 @@ Ludevic's Test Subject	Creature
 Lullmage Mentor	Creature
 Lumberknot	Creature
 Lumengrid Drake	Creature
-Luminarch Ascension	Unknown
-Luminous Wake	Unknown
+Luminarch Ascension	Enchantment
+Luminous Wake	Enchantment
 Lunar Mystic	Creature
-Lure	Unknown
+Lure	Enchantment
 Lurking Crocodile	Creature
-Lurking Predators	Unknown
-Lust for War	Unknown
-Lux Cannon	Unknown
+Lurking Predators	Enchantment
+Lust for War	Enchantment
+Lux Cannon	Artifact
 Lyev Skyknight	Creature
 Maalfeld Twins	Creature
 Mad Prophet	Creature
-Magebane Armor	Unknown
+Magebane Armor	Artifact
 Magma Phoenix	Creature
 Magma Rift	Sorcery
 Magmaw	Creature
-Magnetic Mine	Unknown
+Magnetic Mine	Artifact
 Magosi, the Waterveil	Land
 Make a Wish	Sorcery
 Makeshift Mauler	Creature
 Makindi Griffin	Creature
 Makindi Shieldmate	Creature
 Malakir Bloodwitch	Creature
-Malicious Intent	Unknown
+Malicious Intent	Enchantment
 Malignus	Creature
-Mammoth Umbra	Unknown
+Mammoth Umbra	Enchantment
 Mana Leak	Instant
-Manabarbs	Unknown
-Manalith	Unknown
+Manabarbs	Enchantment
+Manalith	Artifact
 Manic Vandal	Creature
 Manor Skeleton	Creature
 Maritime Guard	Creature
 Mark of Mutiny	Sorcery
-Mark of the Vampire	Unknown
+Mark of the Vampire	Enchantment
 Markov Blademaster	Creature
 Markov Patrician	Creature
 Markov Warlord	Creature
@@ -1219,8 +1219,8 @@ Markov's Servant	Creature
 Marrow Bats	Creature
 Marsh Casualties	Sorcery
 Marsh Flats	Land
-Martial Law	Unknown
-Mask of Avacyn	Unknown
+Martial Law	Enchantment
+Mask of Avacyn	Artifact
 Mass Appeal	Sorcery
 Mass Polymorph	Sorcery
 Massacre Wurm	Creature
@@ -1233,7 +1233,7 @@ Maul Splicer	Creature
 Mausoleum Guard	Creature
 Maw of the Mire	Sorcery
 Mayor of Avabruck	Creature
-Megrim	Unknown
+Megrim	Enchantment
 Melira's Keepers	Creature
 Melt Terrain	Sorcery
 Memoricide	Sorcery
@@ -1260,26 +1260,26 @@ Midvast Protector	Creature
 Might of Oaks	Instant
 Might of the Masses	Instant
 Mighty Leap	Instant
-Mimic Vat	Unknown
-Mind Control	Unknown
+Mimic Vat	Artifact
+Mind Control	Enchantment
 Mind Rot	Sorcery
 Mind Sculpt	Sorcery
 Mind Sludge	Sorcery
-Mind Unbound	Unknown
+Mind Unbound	Enchantment
 Mindbreak Trap	Instant
 Mindclaw Shaman	Creature
-Mindcrank	Unknown
+Mindcrank	Artifact
 Mindculling	Sorcery
 Mindless Null	Creature
 Mindshrieker	Creature
 Minotaur Aggressor	Creature
-Mire Blight	Unknown
+Mire Blight	Enchantment
 Mirran Crusader	Creature
 Mirran Mettle	Instant
 Mirran Spy	Creature
 Mirror-Mad Phantasm	Creature
-Mirror of Fate	Unknown
-Mirrorworks	Unknown
+Mirror of Fate	Artifact
+Mirrorworks	Artifact
 Mist Leopard	Creature
 Mist Raven	Creature
 Misthollow Griffin	Creature
@@ -1305,14 +1305,14 @@ Moon Heron	Creature
 Moonlight Geist	Creature
 Moonmist	Instant
 Moonscarred Werewolf	Creature
-Moonsilver Spear	Unknown
+Moonsilver Spear	Artifact
 Moonveil Dragon	Creature
 Moorland Haunt	Land
 Moorland Inquisitor	Creature
 Morbid Plunder	Sorcery
 Moriok Reaver	Creature
 Morkrut Banshee	Creature
-Mortarpod	Unknown
+Mortarpod	Artifact
 Mortician Beetle	Creature
 Mortis Dogs	Creature
 Mountain	Basic Land
@@ -1324,28 +1324,28 @@ Murder of Crows	Creature
 Mutilate	Sorcery
 Mwonvuli Beast Tracker	Creature
 Mycosynth Fiend	Creature
-Mycosynth Wellspring	Unknown
-Myr Reservoir	Unknown
-Myr Turbine	Unknown
+Mycosynth Wellspring	Artifact
+Myr Reservoir	Artifact
+Myr Turbine	Artifact
 Myrsmith	Creature
 Mystic Retrieval	Sorcery
 Mystifying Maze	Land
 Nantuko Shade	Creature
-Narcolepsy	Unknown
+Narcolepsy	Enchantment
 Narrow Escape	Instant
 Natural End	Instant
 Naturalize	Instant
 Nature's Spiral	Sorcery
-Near-Death Experience	Unknown
+Near-Death Experience	Enchantment
 Nearheath Pilgrim	Creature
 Nearheath Stalker	Creature
 Necrobite	Instant
-Necrogen Censer	Unknown
+Necrogen Censer	Artifact
 Necrogen Scudder	Creature
 Necropolis Regent	Creature
-Necropouncer	Unknown
+Necropouncer	Artifact
 Necrotic Ooze	Creature
-Necrotic Plague	Unknown
+Necrotic Plague	Enchantment
 Needlebite Trap	Instant
 Negate	Instant
 Nema Siltlurker	Creature
@@ -1358,7 +1358,7 @@ Nether Horror	Creature
 Nettle Swine	Creature
 Neurok Commando	Creature
 Neurok Invisimancer	Creature
-Nevermore	Unknown
+Nevermore	Enchantment
 New Prahv Guildmage	Creature
 Niblis of the Breath	Creature
 Niblis of the Mist	Creature
@@ -1371,10 +1371,10 @@ Nighthaze	Sorcery
 Nightmare	Creature
 Nightshade Peddler	Creature
 Nightwing Shade	Creature
-Nihil Spellbomb	Unknown
-Nim Deathmantle	Unknown
+Nihil Spellbomb	Artifact
+Nim Deathmantle	Artifact
 Nimana Sell-Sword	Creature
-Nimbus Wings	Unknown
+Nimbus Wings	Enchantment
 Nirkana Cutthroat	Creature
 Nirkana Revenant	Creature
 Nissa's Chosen	Creature
@@ -1382,10 +1382,10 @@ Nivix Guildmage	Creature
 Noble Vestige	Creature
 Nomads' Assembly	Sorcery
 Null Champion	Creature
-Numbing Dose	Unknown
+Numbing Dose	Enchantment
 Oak Street Innkeeper	Creature
-Oakenform	Unknown
-Oblivion Ring	Unknown
+Oakenform	Enchantment
+Oblivion Ring	Enchantment
 Obsidian Fireheart	Creature
 Obstinate Baloth	Creature
 Oculus	Creature
@@ -1394,9 +1394,9 @@ Ogre Jailbreaker	Creature
 Ogre Menial	Creature
 Ogre Resister	Creature
 Ogre Sentry	Creature
-Ogre's Cleaver	Unknown
-Omen Machine	Unknown
-Omniscience	Unknown
+Ogre's Cleaver	Artifact
+Omen Machine	Artifact
+Omniscience	Enchantment
 Ondu Cleric	Creature
 Ondu Giant	Creature
 Onyx Mage	Creature
@@ -1406,8 +1406,8 @@ Oran-Rief Recluse	Creature
 Oran-Rief Survivalist	Creature
 Oran-Rief, the Vastwood	Land
 Orchard Spirit	Creature
-Origin Spellbomb	Unknown
-Otherworld Atlas	Unknown
+Origin Spellbomb	Artifact
+Otherworld Atlas	Artifact
 Oust	Sorcery
 Outwit	Instant
 Overgrown Battlement	Creature
@@ -1416,29 +1416,29 @@ Overrun	Sorcery
 Overwhelming Stampede	Sorcery
 Oxidda Daredevil	Creature
 Oxidda Scrapmelter	Creature
-Pacifism	Unknown
+Pacifism	Enchantment
 Pack Rat	Creature
-Painful Quandary	Unknown
+Painful Quandary	Enchantment
 Painsmith	Creature
 Palace Guard	Creature
 Palisade Giant	Creature
 Panic Attack	Sorcery
-Panic Spellbomb	Unknown
-Parallel Lives	Unknown
-Paralyzing Grasp	Unknown
+Panic Spellbomb	Artifact
+Parallel Lives	Enchantment
+Paralyzing Grasp	Enchantment
 Paraselene	Sorcery
-Parasitic Implant	Unknown
+Parasitic Implant	Enchantment
 Past in Flames	Sorcery
 Pathbreaker Wurm	Creature
 Pathrazer of Ulamog	Creature
 Pawn of Ulamog	Creature
 Peel from Reality	Instant
 Pelakka Wurm	Creature
-Pennon Blade	Unknown
+Pennon Blade	Artifact
 Peregrine Griffin	Creature
 Perilous Shadow	Creature
 Perish the Thought	Sorcery
-Personal Sanctuary	Unknown
+Personal Sanctuary	Enchantment
 Pestilence Demon	Creature
 Phantasmal Abomination	Creature
 Phantasmal Bear	Creature
@@ -1448,7 +1448,7 @@ Phantom Beast	Creature
 Phantom General	Creature
 Phantom Warrior	Creature
 Phylactery Lich	Creature
-Phyresis	Unknown
+Phyresis	Enchantment
 Phyrexia's Core	Land
 Phyrexian Crusader	Creature
 Phyrexian Hydra	Creature
@@ -1457,16 +1457,16 @@ Phyrexian Obliterator	Creature
 Phyrexian Rager	Creature
 Phyrexian Rebirth	Sorcery
 Phyrexian Swarmlord	Creature
-Phyrexian Unlife	Unknown
+Phyrexian Unlife	Enchantment
 Phyrexian Vatmother	Creature
 Pillar of Flame	Sorcery
 Pillarfield Ox	Creature
 Piranha Marsh	Land
-Piston Sledge	Unknown
+Piston Sledge	Artifact
 Pistus Strike	Instant
 Pitchburn Devils	Creature
 Pitfall Trap	Instant
-Pithing Needle	Unknown
+Pithing Needle	Artifact
 Plague Stinger	Creature
 Plaguemaw Beast	Creature
 Plains	Basic Land
@@ -1481,9 +1481,9 @@ Praetor's Counsel	Sorcery
 Praetor's Grasp	Sorcery
 Precinct Captain	Creature
 Predator Ooze	Creature
-Predator's Gambit	Unknown
+Predator's Gambit	Enchantment
 Predatory Rampage	Sorcery
-Predatory Urge	Unknown
+Predatory Urge	Enchantment
 Preordain	Sorcery
 Prey Upon	Sorcery
 Prey's Vengeance	Instant
@@ -1491,54 +1491,54 @@ Pride Guardian	Creature
 Priest of Urabrask	Creature
 Priests of Norn	Creature
 Primal Bellow	Instant
-Primal Cocoon	Unknown
+Primal Cocoon	Enchantment
 Primal Huntbeast	Creature
 Primal Surge	Sorcery
 Primeval Titan	Creature
-Pristine Talisman	Unknown
+Pristine Talisman	Artifact
 Prized Elephant	Creature
 Prized Unicorn	Creature
 Prodigal Pyromancer	Creature
-Prophetic Prism	Unknown
-Prototype Portal	Unknown
+Prophetic Prism	Artifact
+Prototype Portal	Artifact
 Psychic Barrier	Instant
 Psychic Miasma	Sorcery
 Psychic Spiral	Instant
-Psychic Surgery	Unknown
+Psychic Surgery	Enchantment
 Public Execution	Instant
 Puncturing Light	Instant
 Punishing Fire	Instant
 Puresteel Paladin	Creature
 Purify the Grave	Instant
-Pursuit of Flight	Unknown
+Pursuit of Flight	Enchantment
 Putrefax	Creature
 Pyreheart Wolf	Creature
 Pyretic Ritual	Instant
 Pyroclasm	Sorcery
-Pyroconvergence	Unknown
-Pyromancer Ascension	Unknown
-Quag Sickness	Unknown
-Quest for Ancient Secrets	Unknown
-Quest for Pure Flame	Unknown
-Quest for the Gemblades	Unknown
-Quest for the Gravelord	Unknown
-Quest for the Holy Relic	Unknown
-Quicksilver Amulet	Unknown
+Pyroconvergence	Enchantment
+Pyromancer Ascension	Enchantment
+Quag Sickness	Enchantment
+Quest for Ancient Secrets	Enchantment
+Quest for Pure Flame	Enchantment
+Quest for the Gemblades	Enchantment
+Quest for the Gravelord	Enchantment
+Quest for the Holy Relic	Enchantment
+Quicksilver Amulet	Artifact
 Quicksilver Gargantuan	Creature
 Quicksilver Geyser	Instant
 Quilled Slagwurm	Creature
 Quirion Dryad	Creature
-Racecourse Fury	Unknown
+Racecourse Fury	Enchantment
 Rage Nimbus	Creature
 Rage Thrower	Creature
 Raging Goblin	Creature
 Raging Poltergeist	Creature
-Raid Bombardment	Unknown
+Raid Bombardment	Enchantment
 Rain of Blades	Instant
 Rain of Thorns	Sorcery
 Rakdos Charm	Instant
 Rakdos Guildgate	Land
-Rakdos Keyrune	Unknown
+Rakdos Keyrune	Artifact
 Rakdos Ragemutt	Creature
 Rakdos Ringleader	Creature
 Rakish Heir	Creature
@@ -1547,11 +1547,11 @@ Rally the Peasants	Instant
 Rampaging Baloths	Creature
 Rampaging Werewolf	Creature
 Rampant Growth	Sorcery
-Rancor	Unknown
+Rancor	Enchantment
 Ranger's Guile	Instant
 Ranger's Path	Sorcery
 Rapacious One	Creature
-Ratchet Bomb	Unknown
+Ratchet Bomb	Artifact
 Ravager of the Fells	Creature
 Ravenous Demon	Creature
 Ravenous Rats	Creature
@@ -1579,7 +1579,7 @@ Regress	Instant
 Relentless Rats	Creature
 Relentless Skaabs	Creature
 Relic Crush	Instant
-Relic Putrescence	Unknown
+Relic Putrescence	Enchantment
 Reliquary Tower	Land
 Remember the Fallen	Sorcery
 Renegade Demon	Creature
@@ -1587,7 +1587,7 @@ Renegade Doppelganger	Creature
 Repay in Kind	Sorcery
 Repel the Darkness	Instant
 Requiem Angel	Creature
-Rest in Peace	Unknown
+Rest in Peace	Enchantment
 Restoration Angel	Creature
 Revenge of the Hunted	Sorcery
 Reverberate	Instant
@@ -1598,31 +1598,31 @@ Rhox Faithmender	Creature
 Rhox Pikemaster	Creature
 Riddlesmith	Creature
 Riders of Gavony	Creature
-Righteous Authority	Unknown
+Righteous Authority	Enchantment
 Righteous Blow	Instant
 Righteousness	Instant
-Ring of Evos Isle	Unknown
-Ring of Kalonia	Unknown
-Ring of Thune	Unknown
-Ring of Valkas	Unknown
-Ring of Xathrid	Unknown
+Ring of Evos Isle	Artifact
+Ring of Kalonia	Artifact
+Ring of Thune	Artifact
+Ring of Valkas	Artifact
+Ring of Xathrid	Artifact
 Riot Devils	Creature
 Riot Ringleader	Creature
 Rise from the Grave	Sorcery
 Risen Sanctuary	Creature
 Rite of Replication	Sorcery
 Rite of Ruin	Sorcery
-Rites of Flourishing	Unknown
+Rites of Flourishing	Enchantment
 Rites of Reaping	Sorcery
 River Boa	Creature
 Rix Maadi Guildmage	Creature
 Roaring Primadox	Creature
 Roc Egg	Creature
-Rod of Ruin	Unknown
+Rod of Ruin	Artifact
 Rogue's Passage	Land
 Roil Elemental	Creature
 Rolling Temblor	Sorcery
-Rooftop Storm	Unknown
+Rooftop Storm	Enchantment
 Rootborn Defenses	Instant
 Rootbound Crag	Land
 Rot Wolf	Creature
@@ -1635,29 +1635,29 @@ Rubbleback Rhino	Creature
 Ruinous Minotaur	Creature
 Rummaging Goblin	Creature
 Rune-Scarred Demon	Creature
-Runechanter's Pike	Unknown
+Runechanter's Pike	Artifact
 Runeclaw Bear	Creature
 Runeflare Trap	Instant
 Runewing	Creature
 Runic Repetition	Sorcery
 Rush of Blood	Instant
 Russet Wolves	Creature
-Rusted Relic	Unknown
+Rusted Relic	Artifact
 Sacred Wolf	Creature
 Sadistic Sacrament	Sorcery
 Safe Passage	Instant
 Sage Owl	Creature
 Salvage Scout	Creature
 Sanctuary Cat	Creature
-Sands of Delirium	Unknown
+Sands of Delirium	Artifact
 Sangromancer	Creature
-Sanguine Bond	Unknown
-Savage Silhouette	Unknown
+Sanguine Bond	Enchantment
+Savage Silhouette	Enchantment
 Savage Surge	Instant
 Saving Grasp	Instant
 Scalding Devil	Creature
 Scalding Tarn	Land
-Scepter of Empires	Unknown
+Scepter of Empires	Artifact
 Scorch the Fields	Sorcery
 Scoria Elemental	Creature
 Scorned Villager	Creature
@@ -1671,21 +1671,21 @@ Screeching Bat	Creature
 Screeching Silcaw	Creature
 Screeching Skaab	Creature
 Scroll Thief	Creature
-Scroll of Avacyn	Unknown
-Scroll of Griselbrand	Unknown
+Scroll of Avacyn	Artifact
+Scroll of Griselbrand	Artifact
 Scute Mob	Creature
 Scythe Tiger	Creature
 Sea Gate Loremaster	Creature
 Sea Gate Oracle	Creature
 Seachrome Coast	Land
 Search Warrant	Sorcery
-Search the City	Unknown
+Search the City	Enchantment
 Searchlight Geist	Creature
 Searing Spear	Instant
 Seascape Aerialist	Creature
 Second Guess	Instant
-Secrets of the Dead	Unknown
-Security Blockade	Unknown
+Secrets of the Dead	Enchantment
+Security Blockade	Enchantment
 See Beyond	Sorcery
 Seek the Horizon	Sorcery
 Seismic Shudder	Instant
@@ -1694,15 +1694,15 @@ Seize the Initiative	Instant
 Sejiri Refuge	Land
 Selesnya Charm	Instant
 Selesnya Guildgate	Land
-Selesnya Keyrune	Unknown
+Selesnya Keyrune	Artifact
 Selesnya Sentry	Creature
 Selfless Cathar	Creature
 Selhoff Occultist	Creature
 Seller of Songbirds	Creature
-Semblance Anvil	Unknown
+Semblance Anvil	Artifact
 Sengir Vampire	Creature
 Sensor Splicer	Creature
-Sensory Deprivation	Unknown
+Sensory Deprivation	Enchantment
 Sentinel Spider	Creature
 Septic Rats	Creature
 Seraph Sanctuary	Land
@@ -1719,7 +1719,7 @@ Sever the Bloodline	Sorcery
 Sewer Shambler	Creature
 Shape Anew	Sorcery
 Shared Discovery	Sorcery
-Sharpened Pitchfork	Unknown
+Sharpened Pitchfork	Artifact
 Shatter	Instant
 Shattered Angel	Creature
 Shattered Perception	Sorcery
@@ -1729,22 +1729,22 @@ Shepherd of the Lost	Creature
 Shieldmate's Blessing	Instant
 Shimian Specter	Creature
 Shimmering Grotto	Land
-Shiv's Embrace	Unknown
+Shiv's Embrace	Enchantment
 Shivan Dragon	Creature
 Shoal Serpent	Creature
 Shock	Instant
 Show of Valor	Instant
 Shriek Raptor	Creature
 Shriekgeist	Creature
-Shriekhorn	Unknown
-Shrieking Affliction	Unknown
-Shrine of Boundless Growth	Unknown
-Shrine of Burning Rage	Unknown
-Shrine of Limitless Power	Unknown
-Shrine of Loyal Legions	Unknown
-Shrine of Piercing Vision	Unknown
+Shriekhorn	Artifact
+Shrieking Affliction	Enchantment
+Shrine of Boundless Growth	Artifact
+Shrine of Burning Rage	Artifact
+Shrine of Limitless Power	Artifact
+Shrine of Loyal Legions	Artifact
+Shrine of Piercing Vision	Artifact
 Shrivel	Sorcery
-Sickleslicer	Unknown
+Sickleslicer	Artifact
 Siege-Gang Commander	Creature
 Siege Mastodon	Creature
 Sightless Ghoul	Creature
@@ -1752,21 +1752,21 @@ Sign in Blood	Sorcery
 Silence	Instant
 Silent Departure	Sorcery
 Silklash Spider	Creature
-Silver-Inlaid Dagger	Unknown
+Silver-Inlaid Dagger	Artifact
 Silverblade Paladin	Creature
 Silverchase Fox	Creature
 Silverclaw Griffin	Creature
 Silvercoat Lion	Creature
 Silverpelt Werewolf	Creature
-Silverskin Armor	Unknown
+Silverskin Armor	Artifact
 Skaab Goliath	Creature
 Skaab Ruinator	Creature
-Skeletal Grimace	Unknown
+Skeletal Grimace	Enchantment
 Skeletal Wurm	Creature
 Skillful Lunge	Instant
 Skinrender	Creature
 Skinshifter	Creature
-Skinwing	Unknown
+Skinwing	Artifact
 Skirsdag Cultist	Creature
 Skirsdag Flayer	Creature
 Skirsdag High Priest	Creature
@@ -1792,7 +1792,7 @@ Smallpox	Sorcery
 Smelt	Instant
 Smite	Instant
 Smite the Monstrous	Instant
-Snake Umbra	Unknown
+Snake Umbra	Enchantment
 Snapcaster Mage	Creature
 Snapping Drake	Creature
 Snare the Skies	Instant
@@ -1802,15 +1802,15 @@ Somberwald Dryad	Creature
 Somberwald Sage	Creature
 Somberwald Spider	Creature
 Somberwald Vigilante	Creature
-Sorcerer's Strongbox	Unknown
+Sorcerer's Strongbox	Artifact
 Sorin's Thirst	Instant
 Sorin's Vengeance	Sorcery
-Soul Bleed	Unknown
-Soul Conduit	Unknown
+Soul Bleed	Enchantment
+Soul Conduit	Artifact
 Soul Parry	Instant
 Soul Seizer	Creature
-Soul Stair Expedition	Unknown
-Soul Tithe	Unknown
+Soul Stair Expedition	Enchantment
+Soul Tithe	Enchantment
 Soul Warden	Creature
 Soul of the Harvest	Creature
 Soul's Attendant	Creature
@@ -1823,16 +1823,16 @@ Sparkmage Apprentice	Creature
 Spawn of Rix Maadi	Creature
 Spawning Breath	Instant
 Spawnsire of Ulamog	Creature
-Spectral Flight	Unknown
+Spectral Flight	Enchantment
 Spectral Gateguards	Creature
-Spectral Prison	Unknown
+Spectral Prison	Enchantment
 Spectral Rider	Creature
 Spell Pierce	Instant
-Spellbook	Unknown
+Spellbook	Artifact
 Spelltwine	Sorcery
-Sphere of Safety	Unknown
-Sphere of the Suns	Unknown
-Sphinx-Bone Wand	Unknown
+Sphere of Safety	Enchantment
+Sphere of the Suns	Artifact
+Sphinx-Bone Wand	Artifact
 Sphinx Ambassador	Creature
 Sphinx of Jwar Isle	Creature
 Sphinx of Lost Truths	Creature
@@ -1840,31 +1840,31 @@ Sphinx of Magosi	Creature
 Sphinx of Uthuun	Creature
 Sphinx of the Chimes	Creature
 Spider Spawning	Sorcery
-Spider Umbra	Unknown
-Spidersilk Net	Unknown
+Spider Umbra	Enchantment
+Spidersilk Net	Artifact
 Spidery Grasp	Instant
 Spiked Baloth	Creature
 Spikeshot Elder	Creature
-Spine of Ish Sah	Unknown
+Spine of Ish Sah	Artifact
 Spinebiter	Creature
 Spined Wurm	Creature
 Spiraling Duelist	Creature
 Spire Barrage	Sorcery
 Spire Monitor	Creature
 Spire Serpent	Creature
-Spirit Away	Unknown
-Spirit Mantle	Unknown
-Spiteful Shadows	Unknown
+Spirit Away	Enchantment
+Spirit Mantle	Enchantment
+Spiteful Shadows	Enchantment
 Splatter Thug	Creature
-Splinter Twin	Unknown
+Splinter Twin	Enchantment
 Splinterfright	Creature
 Sporecap Spider	Creature
 Spread the Sickness	Sorcery
-Spreading Seas	Unknown
+Spreading Seas	Enchantment
 Squadron Hawk	Creature
-Stab Wound	Unknown
+Stab Wound	Enchantment
 Stabbing Pain	Instant
-Staff of Nin	Unknown
+Staff of Nin	Artifact
 Staggershock	Instant
 Stalking Vampire	Creature
 Stalwart Shield-Bearers	Creature
@@ -1887,15 +1887,15 @@ Stone Giant	Creature
 Stonefare Crocodile	Creature
 Stonehorn Dignitary	Creature
 Stonewright	Creature
-Stony Silence	Unknown
+Stony Silence	Enchantment
 Stormblood Berserker	Creature
 Stormbound Geist	Creature
 Stormfront Pegasus	Creature
 Stormtide Leviathan	Creature
-Strandwalker	Unknown
+Strandwalker	Artifact
 Strangleroot Geist	Creature
-Strata Scythe	Unknown
-Strider Harness	Unknown
+Strata Scythe	Artifact
+Strider Harness	Artifact
 Stromkirk Captain	Creature
 Stromkirk Noble	Creature
 Stromkirk Patrol	Creature
@@ -1908,13 +1908,13 @@ Summoner's Bane	Instant
 Summoning Trap	Instant
 Sun Titan	Creature
 Sunblast Angel	Creature
-Sundial of the Infinite	Unknown
+Sundial of the Infinite	Artifact
 Sunpetal Grove	Land
 Sunspear Shikari	Creature
 Sunspire Griffin	Creature
-Sunspring Expedition	Unknown
+Sunspring Expedition	Enchantment
 Supreme Verdict	Sorcery
-Surge Node	Unknown
+Surge Node	Artifact
 Surrakar Marauder	Creature
 Surrakar Spellblade	Creature
 Surreal Memoir	Sorcery
@@ -1924,20 +1924,20 @@ Suture Priest	Creature
 Sutured Ghoul	Creature
 Swamp	Basic Land
 Swift Justice	Instant
-Swiftfoot Boots	Unknown
+Swiftfoot Boots	Artifact
 Switcheroo	Sorcery
-Sword of Body and Mind	Unknown
-Sword of Feast and Famine	Unknown
-Sword of Vengeance	Unknown
-Sword of War and Peace	Unknown
+Sword of Body and Mind	Artifact
+Sword of Feast and Famine	Artifact
+Sword of Vengeance	Artifact
+Sword of War and Peace	Artifact
 Sylvan Ranger	Creature
-Sylvok Lifestaff	Unknown
-Séance	Unknown
-Tablet of the Guilds	Unknown
+Sylvok Lifestaff	Artifact
+Séance	Enchantment
+Tablet of the Guilds	Artifact
 Tainted Strike	Instant
 Tajuru Archer	Creature
 Tajuru Preserver	Creature
-Talons of Falkenrath	Unknown
+Talons of Falkenrath	Enchantment
 Talrand's Invocation	Sorcery
 Tandem Lookout	Creature
 Tangle Angler	Creature
@@ -1949,12 +1949,12 @@ Tectonic Rift	Sorcery
 Teetering Peaks	Land
 Tel-Jilad Defiance	Instant
 Tel-Jilad Fallen	Creature
-Telepathy	Unknown
+Telepathy	Enchantment
 Teleportal	Sorcery
-Tempered Steel	Unknown
+Tempered Steel	Enchantment
 Tempest Owl	Creature
 Tempest of Light	Instant
-Temple Bell	Unknown
+Temple Bell	Artifact
 Temple Garden	Land
 Temporal Mastery	Sorcery
 Tendrils of Corruption	Instant
@@ -1979,8 +1979,8 @@ Thraben Sentry	Creature
 Thraben Valiant	Creature
 Thragtusk	Creature
 Thrill-Kill Assassin	Creature
-Throne of Empires	Unknown
-Throne of Geth	Unknown
+Throne of Empires	Artifact
+Throne of Geth	Artifact
 Thrummingbird	Creature
 Thunder Strike	Instant
 Thunderbolt	Instant
@@ -1991,11 +1991,11 @@ Timbermaw Larva	Creature
 Timberpack Wolf	Creature
 Time Reversal	Sorcery
 Time Warp	Sorcery
-Time of Heroes	Unknown
+Time of Heroes	Enchantment
 Timely Reinforcements	Sorcery
 Tine Shrike	Creature
 Tireless Missionaries	Creature
-Titan Forge	Unknown
+Titan Forge	Artifact
 Titanic Growth	Instant
 Tome Scour	Sorcery
 Torch Fiend	Creature
@@ -2003,23 +2003,23 @@ Torch Slinger	Creature
 Tormented Pariah	Creature
 Tormented Soul	Creature
 Tormentor Exarch	Creature
-Tormentor's Trident	Unknown
-Tormod's Crypt	Unknown
-Torpor Orb	Unknown
+Tormentor's Trident	Artifact
+Tormod's Crypt	Artifact
+Torpor Orb	Artifact
 Totem-Guide Hartebeest	Creature
-Touch of the Eternal	Unknown
+Touch of the Eternal	Enchantment
 Tovolar's Magehunter	Creature
 Tower Drake	Creature
 Tower Geist	Creature
-Tower of Calamities	Unknown
+Tower of Calamities	Artifact
 Towering Indrik	Creature
 Toxic Nim	Creature
 Tracker's Instincts	Sorcery
-Trading Post	Unknown
+Trading Post	Artifact
 Tragic Slip	Instant
-Trailblazer's Boots	Unknown
+Trailblazer's Boots	Artifact
 Trained Caracal	Creature
-Training Grounds	Unknown
+Training Grounds	Enchantment
 Traitorous Blood	Sorcery
 Traitorous Instinct	Sorcery
 Transcendent Master	Creature
@@ -2028,32 +2028,32 @@ Trapfinder's Trick	Sorcery
 Trapmaker's Snare	Instant
 Traumatize	Sorcery
 Travel Preparations	Sorcery
-Traveler's Amulet	Unknown
+Traveler's Amulet	Artifact
 Treacherous Pit-Dweller	Creature
 Treasure Mage	Creature
 Treasured Find	Sorcery
 Tree of Redemption	Creature
-Trepanation Blade	Unknown
+Trepanation Blade	Artifact
 Trestle Troll	Creature
 Tribute to Hunger	Instant
-Tricks of the Trade	Unknown
-Trigon of Corruption	Unknown
-Trigon of Infestation	Unknown
-Trigon of Mending	Unknown
-Trigon of Rage	Unknown
-Trigon of Thought	Unknown
+Tricks of the Trade	Enchantment
+Trigon of Corruption	Artifact
+Trigon of Infestation	Artifact
+Trigon of Mending	Artifact
+Trigon of Rage	Artifact
+Trigon of Thought	Artifact
 Trinket Mage	Creature
-Triumph of Cruelty	Unknown
-Triumph of Ferocity	Unknown
+Triumph of Cruelty	Enchantment
+Triumph of Ferocity	Enchantment
 Triumph of the Hordes	Sorcery
-Trollhide	Unknown
+Trollhide	Enchantment
 Trostani's Judgment	Instant
-True Conviction	Unknown
+True Conviction	Enchantment
 Trumpet Blast	Instant
 Trusted Forcemage	Creature
-Trusty Machete	Unknown
+Trusty Machete	Artifact
 Tuktuk Grunts	Creature
-Tumble Magnet	Unknown
+Tumble Magnet	Artifact
 Tunnel Ignus	Creature
 Turn Aside	Instant
 Turn the Tide	Instant
@@ -2080,20 +2080,20 @@ Uncanny Speed	Instant
 Undead Alchemist	Creature
 Undead Executioner	Creature
 Undead Slayer	Creature
-Underworld Connections	Unknown
-Underworld Dreams	Unknown
+Underworld Connections	Enchantment
+Underworld Dreams	Enchantment
 Undying Evil	Instant
 Unhallowed Cathar	Creature
-Unhallowed Pact	Unknown
+Unhallowed Pact	Enchantment
 Unholy Fiend	Creature
-Unholy Strength	Unknown
+Unholy Strength	Enchantment
 Unified Will	Instant
 Unnatural Predation	Instant
 Unruly Mob	Creature
 Unstable Footing	Instant
 Unsummon	Instant
-Unwinding Clock	Unknown
-Urban Burgeoning	Unknown
+Unwinding Clock	Artifact
+Urban Burgeoning	Enchantment
 Urgent Exorcism	Instant
 Utvara Hellkite	Creature
 Valakut Fireboar	Creature
@@ -2108,7 +2108,7 @@ Vampire Outcasts	Creature
 Vampire's Bite	Instant
 Vampiric Fury	Instant
 Vandalblast	Sorcery
-Vanguard's Shield	Unknown
+Vanguard's Shield	Artifact
 Vanishment	Instant
 Vapor Snag	Instant
 Vastwood Gorger	Creature
@@ -2125,10 +2125,10 @@ Vengeful Archon	Creature
 Vengeful Pharaoh	Creature
 Vengeful Vampire	Creature
 Vengevine	Creature
-Venser's Journal	Unknown
+Venser's Journal	Artifact
 Vent Sentinel	Creature
 Verdant Catacombs	Land
-Vessel of Endless Rest	Unknown
+Vessel of Endless Rest	Artifact
 Veteran Armorsmith	Creature
 Veteran Swordsmith	Creature
 Vexing Devil	Creature
@@ -2137,8 +2137,8 @@ Viashino Spearhunter	Creature
 Victim of Night	Instant
 Victorious Destruction	Sorcery
 Victory's Herald	Creature
-Vigil for the Lost	Unknown
-Vigilante Justice	Unknown
+Vigil for the Lost	Enchantment
+Vigilante Justice	Enchantment
 Vile Rebirth	Instant
 Village Bell-Ringer	Creature
 Village Cannibals	Creature
@@ -2148,11 +2148,11 @@ Villagers of Estwald	Creature
 Vines of Vastwood	Instant
 Viral Drake	Creature
 Viridian Betrayers	Creature
-Viridian Claw	Unknown
+Viridian Claw	Artifact
 Viridian Corrupter	Creature
 Viridian Emissary	Creature
-Viridian Harvest	Unknown
-Viridian Revel	Unknown
+Viridian Harvest	Enchantment
+Viridian Revel	Enchantment
 Virulent Swipe	Instant
 Virulent Wound	Instant
 Viscera Seer	Creature
@@ -2165,10 +2165,10 @@ Voiceless Spirit	Creature
 Void Stalker	Creature
 Voidwielder	Creature
 Volcanic Dragon	Creature
-Volcanic Strength	Unknown
-Volition Reins	Unknown
+Volcanic Strength	Enchantment
+Volition Reins	Enchantment
 Volt Charge	Instant
-Voltaic Key	Unknown
+Voltaic Key	Artifact
 Vorapede	Creature
 Vorstclaw	Creature
 Vulshok Berserker	Creature
@@ -2188,28 +2188,28 @@ War Falcon	Creature
 War Priest of Thune	Creature
 War Report	Instant
 Warclamp Mastiff	Creature
-Warden of the Wall	Unknown
-Warlord's Axe	Unknown
-Warmonger's Chariot	Unknown
+Warden of the Wall	Artifact
+Warlord's Axe	Artifact
+Warmonger's Chariot	Artifact
 Warp World	Sorcery
 Warpath Ghoul	Creature
 Warren Instigator	Creature
-Warstorm Surge	Unknown
+Warstorm Surge	Enchantment
 Water Servant	Creature
 Watercourser	Creature
 Wayfaring Temple	Creature
-Weakness	Unknown
+Weakness	Enchantment
 Welkin Tern	Creature
 Werewolf Ransacker	Creature
 Whipflare	Sorcery
 Whiplash Trap	Instant
 Whispering Specter	Creature
-Whispersilk Cloak	Unknown
+Whispersilk Cloak	Artifact
 White Knight	Creature
 Whitesun's Passage	Instant
 Wild Beastmaster	Creature
-Wild Defiance	Unknown
-Wild Evocation	Unknown
+Wild Defiance	Enchantment
+Wild Evocation	Enchantment
 Wild Griffin	Creature
 Wild Guess	Sorcery
 Wild Hunger	Instant
@@ -2223,28 +2223,28 @@ Wing Puncture	Instant
 Wing Splicer	Creature
 Wingcrafter	Creature
 Wit's End	Sorcery
-Witchbane Orb	Unknown
+Witchbane Orb	Artifact
 Withstand Death	Instant
 Wolfbitten Captive	Creature
-Wolfhunter's Quiver	Unknown
+Wolfhunter's Quiver	Artifact
 Wolfir Avenger	Creature
 Wolfir Silverheart	Creature
-Wooden Stake	Unknown
+Wooden Stake	Artifact
 Woodland Cemetery	Land
 Woodland Sleuth	Creature
 World Queller	Creature
 World at War	Sorcery
 Worldfire	Sorcery
-Worldslayer	Unknown
+Worldslayer	Artifact
 Worldspine Wurm	Creature
 Wrack with Madness	Sorcery
 Wrap in Flames	Sorcery
-Wreath of Geists	Unknown
+Wreath of Geists	Enchantment
 Wring Flesh	Instant
-Wurm's Tooth	Unknown
+Wurm's Tooth	Artifact
 Xathrid Demon	Creature
 Xathrid Gorgon	Creature
-Xenograft	Unknown
+Xenograft	Enchantment
 Yavimaya Wurm	Creature
 Yawning Fissure	Sorcery
 Yeva's Forcemage	Creature
@@ -2253,13 +2253,13 @@ Young Wolf	Creature
 Zanikev Locust	Creature
 Zealous Conscripts	Creature
 Zealous Strike	Instant
-Zektar Shrine Expedition	Unknown
+Zektar Shrine Expedition	Enchantment
 Zendikar Farguide	Creature
 Zephyr Sprite	Creature
 Zof Shade	Creature
 Zombie Apocalypse	Sorcery
 Zombie Goliath	Creature
-Zombie Infestation	Unknown
+Zombie Infestation	Enchantment
 Zulaport Enforcer	Creature
 Æther Adept	Creature
 Æther Figment	Creature

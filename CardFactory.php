@@ -132,11 +132,7 @@ class CardFactory
 			$type = substr($line, 0, $index - 1);
 		}
 		
-		if (strcasecmp($type, "null") == 0)
-		{
-			$card->setType(CardType::BLANK);
-		}
-		else if (strcasecmp($type, "Basic Land") == 0)
+		if (strcasecmp($type, "Basic Land") == 0)
 		{
 			$card->setType(CardType::BASIC_LAND);
 		}
@@ -156,7 +152,7 @@ class CardFactory
 		{
 			$card->setType(CardType::LAND);
 		}
-		else if (strcasecmp($type, "ARtifact") == 0)
+		else if (strcasecmp($type, "Artifact") == 0)
 		{
 			$card->setType(CardType::ARTIFACT);
 		}
