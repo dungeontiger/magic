@@ -1,6 +1,7 @@
 Abbey Griffin	Creature
 Air Elemental	Creature
 Ajani's Sunstriker	Creature
+Alloy Myr	Artifact Creature
 Alpha Tyrranax	Creature
 Ambush Viper	Creature
 Amphin Cutthroat	Creature
@@ -32,6 +33,7 @@ Child of Night	Creature
 Cloud Crusader	Creature
 Cobblebrute	Creature
 Concordia Pegasus	Creature
+Copper Myr	Artifact Creature
 Coral Merfolk	Creature
 Craw Wurm	Creature
 Daggerback Basilisk	Creature
@@ -58,6 +60,7 @@ Gladecover Scout	Creature
 Gloomhunter	Creature
 Glory Seeker	Creature
 Goblin Piker	Creature
+Gold Myr	Artifact Creature
 Golgari Guildgate	Land
 Greater Basilisk	Creature
 Greenweaver Druid	Creature
@@ -65,12 +68,16 @@ Griffin Sentinel	Creature
 Guardian Lions	Creature
 Guardians of Akrasa	Creature
 Hallowed Fountain	Land
+Haunted Guardian	Artifact Creature
+Hexplate Golem	Artifact Creature
 Highborn Ghoul	Creature
 Hollowhenge Beast	Creature
 Horned Turtle	Creature
 Hover Barrier	Creature
+Hovermyr	Artifact Creature
 Hussar Patrol	Creature
 Insectile Aberration	Creature
+Iron Myr	Artifact Creature
 Island	Basic Land
 Izzet Guildgate	Land
 Jwari Scuttler	Creature
@@ -80,17 +87,20 @@ Kessig Recluse	Creature
 Kindercatch	Creature
 Kraken Hatchling	Creature
 Lagac Lizard	Creature
+Leaden Myr	Artifact Creature
 Leonin Skyhunter	Creature
 Lightning Elemental	Creature
 Llanowar Elves	Creature
 Loxodon Convert	Creature
 Loxodon Wayfarer	Creature
 Ludevic's Abomination	Creature
+Lumengrid Gargoyle	Artifact Creature
 Makindi Griffin	Creature
 Manalith	Artifact
 Maritime Guard	Creature
 Markov Patrician	Creature
 Markov's Servant	Creature
+Memnite	Artifact Creature
 Merfolk of the Pearl Trident	Creature
 Minotaur Aggressor	Creature
 Mist Leopard	Creature
@@ -103,8 +113,11 @@ Nether Horror	Creature
 Nettle Swine	Creature
 Ogre Resister	Creature
 Ogre Sentry	Creature
+Ornithopter	Artifact Creature
 Overgrown Tomb	Land
+Palladium Myr	Artifact Creature
 Peregrine Griffin	Creature
+Phyrexian Hulk	Artifact Creature
 Pillarfield Ox	Creature
 Plains	Basic Land
 Plated Seastrider	Creature
@@ -115,6 +128,7 @@ Raging Goblin	Creature
 Raging Poltergeist	Creature
 Rakdos Guildgate	Land
 Rakdos Ragemutt	Creature
+Razorfield Thresher	Artifact Creature
 Razorfoot Griffin	Creature
 Renegade Demon	Creature
 Riot Devils	Creature
@@ -125,6 +139,7 @@ Rotting Legion	Creature
 Rubbleback Rhino	Creature
 Runeclaw Bear	Creature
 Russet Wolves	Creature
+Rusted Sentinel	Artifact Creature
 Sacred Wolf	Creature
 Sanctuary Cat	Creature
 Scoria Elemental	Creature
@@ -137,6 +152,7 @@ Shatterskull Giant	Creature
 Shepherd of the Lost	Creature
 Shimmering Grotto	Land
 Siege Mastodon	Creature
+Silver Myr	Artifact Creature
 Silverclaw Griffin	Creature
 Silvercoat Lion	Creature
 Sky Ruin Drake	Creature
@@ -151,6 +167,8 @@ Sporecap Spider	Creature
 Stampeding Rhino	Creature
 Steam Vents	Land
 Stomper Cub	Creature
+Stone Golem	Artifact Creature
+Stonework Puma	Artifact Creature
 Stormfront Pegasus	Creature
 Sunspire Griffin	Creature
 Swamp	Basic Land

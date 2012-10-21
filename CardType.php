@@ -41,6 +41,8 @@ final class CardType
 				return "Artifact";
 			case CardType::ENCHANTMENT:
 				return "Enchantment";
+			case CardType::ARTIFACT_CREATURE;
+				return "Artifact Creature";
 			default:
 				return "Unknown";
 		}

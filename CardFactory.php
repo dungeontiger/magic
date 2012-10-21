@@ -160,6 +160,10 @@ class CardFactory
 		{
 			$card->setType(CardType::ENCHANTMENT);
 		}
+		else if (strcasecmp($type, "Artifact Creature") == 0)
+		{
+			$card->setType(CardType::ARTIFACT_CREATURE);
+		}
 		else
 		{
 			$card->setUnsupportedType();

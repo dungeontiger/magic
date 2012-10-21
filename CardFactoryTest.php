@@ -195,10 +195,6 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(is_a($costs[0], "TapCost"));
 		assert(strcmp($effects[0]->getProducedMana()->getManaString(), "B") == 0);
 		assert(is_a($rules[2], "UnsupportedRule"));
-//				
-//		Codex Shredder
-//		Gobbling Ooze
-// 		Rakdos Keyrune becomes a creature 
 	}
 	
 	public function testPayOrTap()
@@ -307,7 +303,17 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert($choices[3]->getProducedMana()->get(Color::BLUE) == 1);
 		assert($choices[4]->getProducedMana()->get(Color::WHITE) == 1);
 	}
-	
+//		Civic Wayfinder	
+//		Alloy Myr
+//		Dragonskull Summit
+//		Chromatic Lantern
+//		Darksteel Ignot
+// 		Gilded Lotus
+//		Lotus Cobra
+//		Reliquary Tower 
+
+// 		Rakdos Keyrune becomes a creature 
+//		Civic Wayfinder	
 /*		
 	public function testCounterSpell()
 	{
