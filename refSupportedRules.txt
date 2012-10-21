@@ -30,6 +30,7 @@ Cathedral of War	Land
 Centaur Courser	Creature
 Chapel Geist	Creature
 Child of Night	Creature
+Clifftop Retreat	Land
 Cloud Crusader	Creature
 Cobblebrute	Creature
 Concordia Pegasus	Creature
@@ -41,6 +42,8 @@ Daggerdrome Imp	Creature
 Deadly Recluse	Creature
 Deranged Assistant	Creature
 Diregraf Ghoul	Creature
+Dragonskull Summit	Land
+Drowned Catacomb	Land
 Duskdale Wurm	Creature
 Duskmantle Prowler	Creature
 Elite Vanguard	Creature
@@ -56,6 +59,7 @@ Frontier Guide	Creature
 Garruk's Companion	Creature
 Giant Scorpion	Creature
 Giant Spider	Creature
+Glacial Fortress	Land
 Gladecover Scout	Creature
 Gloomhunter	Creature
 Glory Seeker	Creature
@@ -71,6 +75,7 @@ Hallowed Fountain	Land
 Haunted Guardian	Artifact Creature
 Hexplate Golem	Artifact Creature
 Highborn Ghoul	Creature
+Hinterland Harbor	Land
 Hollowhenge Beast	Creature
 Horned Turtle	Creature
 Hover Barrier	Creature
@@ -79,6 +84,7 @@ Hussar Patrol	Creature
 Insectile Aberration	Creature
 Iron Myr	Artifact Creature
 Island	Basic Land
+Isolated Chapel	Land
 Izzet Guildgate	Land
 Jwari Scuttler	Creature
 Kalonian Behemoth	Creature
@@ -133,6 +139,7 @@ Razorfoot Griffin	Creature
 Renegade Demon	Creature
 Riot Devils	Creature
 Risen Sanctuary	Creature
+Rootbound Crag	Land
 Rotted Hystrix	Creature
 Rotting Fensnake	Creature
 Rotting Legion	Creature
@@ -170,6 +177,8 @@ Stomper Cub	Creature
 Stone Golem	Artifact Creature
 Stonework Puma	Artifact Creature
 Stormfront Pegasus	Creature
+Sulfur Falls	Land
+Sunpetal Grove	Land
 Sunspire Griffin	Creature
 Swamp	Basic Land
 Tangle Mantis	Creature
@@ -197,6 +206,7 @@ Warclamp Mastiff	Creature
 Warpath Ghoul	Creature
 Wild Griffin	Creature
 Wind Drake	Creature
+Woodland Cemetery	Land
 Yavimaya Wurm	Creature
 Zephyr Sprite	Creature
 Zombie Goliath	Creature

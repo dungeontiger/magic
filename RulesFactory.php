@@ -12,6 +12,7 @@ include_once "LoseLife.php";
 include_once "Sacrifice.php";
 include_once "SearchForCard.php";
 include_once "SacrificeUnless.php";
+include_once "EntersBattlefieldTappedUnless.php";
 
 include_once "Destroy.php";
 include_once "CounterSpell.php";
@@ -60,7 +61,7 @@ class RulesFactory
 			$remainingRule = $matches[2];
 		}
 		
-		if (preg_match("/^$cardName enters the battlefield tapped.$/", $remainingRule))
+		if (preg_match("/^$cardName enters the battlefield tapped\.$/", $remainingRule))
 		{
 			$ruleObj = new Rule(new EntersBattlefieldTapped(), $costs, null, null);
 			$this->ruleCache[$rule] = $ruleObj;
@@ -69,7 +70,7 @@ class RulesFactory
 		
 		$remainingRule = str_replace("{", "", $remainingRule);
 		$remainingRule = str_replace("}", "", $remainingRule);
-		if (preg_match("/^Add (.*) to your mana pool.$/", $remainingRule, $matches))
+		if (preg_match("/^Add (.*) to your mana pool\.$/", $remainingRule, $matches))
 		{
 			// produces mana of some sort
 			if (ManaVector::areValidSymbols($matches[1]))
@@ -122,7 +123,7 @@ class RulesFactory
 		}
 		
 		// As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don't, Hallowed Fountain enters the battlefield tapped.
-		if (preg_match("/^As $cardName enters the battlefield, you may pay (.*) life. If you don't, $cardName enters the battlefield tapped.$/", $remainingRule, $matches))
+		if (preg_match("/^As $cardName enters the battlefield, you may pay (.*) life. If you don't, $cardName enters the battlefield tapped\.$/", $remainingRule, $matches))
 		{
 			// choice between entering tapped or paying life.
 			$choiceRules = array();
@@ -133,7 +134,7 @@ class RulesFactory
 		}
 		
 		// Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.
-		$searchString = "/^Search your library for a (.*) and put it onto the battlefield tapped. Then shuffle your library.$/U";
+		$searchString = "/^Search your library for a (.*) and put it onto the battlefield tapped. Then shuffle your library\.$/U";
 		if (preg_match($searchString, $remainingRule, $matches))
 		{
 			if (strcasecmp($matches[1], "basic land card") == 0)
@@ -145,7 +146,7 @@ class RulesFactory
 		}
 		
 		// When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1}.
-		$searchSting = "/^When $cardName (.*), sacrifice it unless you pay (.*).$/U";
+		$searchSting = "/^When $cardName (.*), sacrifice it unless you pay (.*)\.$/U";
 		if (preg_match($searchSting, $remainingRule, $matches))
 		{
 			// TODO: Fix this -1 one thing, bad
@@ -174,6 +175,54 @@ class RulesFactory
 					$this->ruleCache[$rule] = $ruleObj;
 					return $ruleObj;
 				}
+			}
+		}
+		
+		// Hinterland Harbor enters the battlefield tapped unless you control a Forest or an Island.
+		if (preg_match("/^$cardName enters the battlefield tapped unless you control (.*)\.$/U", $remainingRule, $matches))
+		{
+			// get rid of a, or, an and , then split on space and get rid of leading and trailing space
+			$unlessOr = array();
+			$testPieces = explode(" ", $matches[1]);
+			$supported = true;
+			foreach($testPieces as $test)
+			{
+				if (strlen($test) == 0 || strcasecmp("a", $test) == 0 || strcasecmp("an", $test) == 0 || strcasecmp("or", $test) == 0)
+				{
+					continue;
+				}
+				else if (strcasecmp("forest", $test) == 0)
+				{
+					array_push($unlessOr, "forest");
+				}
+				else if (strcasecmp("mountain", $test) == 0)
+				{
+					array_push($unlessOr, "mountain");
+				}
+				else if (strcasecmp("swamp", $test) == 0)
+				{
+					array_push($unlessOr, "swamp");
+				}
+				else if (strcasecmp("island", $test) == 0)
+				{
+					array_push($unlessOr, "island");
+				}
+				else if (strcasecmp("plains", $test) == 0)
+				{
+					array_push($unlessOr, "plains");
+				}
+				else
+				{
+					$supported = false;
+					break;
+				}
+			}
+			
+			if ($supported == true)
+			{
+				$ruleObj = new Rule(new EntersBattlefieldTappedUnless($unlessOr), $costs, null, null);
+				$this->ruleCache[$rule] = $ruleObj;
+				return $ruleObj;
 			}
 		}
 /*

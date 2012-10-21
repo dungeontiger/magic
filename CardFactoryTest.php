@@ -303,6 +303,23 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert($choices[3]->getProducedMana()->get(Color::BLUE) == 1);
 		assert($choices[4]->getProducedMana()->get(Color::WHITE) == 1);
 	}
+	
+	public function testTappedUnless()
+	{
+		// Hinterland Harbor enters the battlefield tapped unless you control a Forest or an Island.
+		$factory = new CardFactory();
+		$card = $factory->createCard("Hinterland Harbor");
+		$rules = $card->getRules();
+		assert(count($rules) == 2);
+		$effects = $rules[0]->getEffects();
+		assert(is_a($effects[0], "EntersBattlefieldTappedUnless"));
+		$subTypes = $effects[0]->getSubTypes();
+		assert(is_array($subTypes));
+		assert(count($subTypes) == 2);
+		assert(strcasecmp($subTypes[0], "forest") == 0);
+		assert(strcasecmp($subTypes[1], "island") == 0);
+	}
+	
 //		Civic Wayfinder	
 //		Alloy Myr
 //		Dragonskull Summit
