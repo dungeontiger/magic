@@ -67,7 +67,7 @@ class CardFactory
 			$this->setTypes($card, $lines[2]);
 			
 			// if the subtype is a basic land type, create a tap to produce mana rule
-			$basicLandRules = $this->rulesFactory->makeBasicLandRules($card->getSubTypes());
+			$basicLandRules = $this->rulesFactory->makeBasicLandRules($card->getType()->getSubTypes());
 			foreach($basicLandRules as $basicLandRule)
 			{
 				$card->addRule($basicLandRule);
@@ -117,68 +117,7 @@ class CardFactory
 	
 	private function setTypes($card, $line)
 	{
-		// basic type — sub_types
-		$index = strpos($line, "-");
-		
-		// get the basic type first
-		$type = "";
-		if ($index === FALSE)
-		{
-			$type = $line;
-		}
-		else
-		{
-			// there is always a space before the dash
-			$type = substr($line, 0, $index - 1);
-		}
-		
-		if (strcasecmp($type, "Basic Land") == 0)
-		{
-			$card->setType(CardType::BASIC_LAND);
-		}
-		else if (strcasecmp($type, "Creature") == 0)
-		{
-			$card->setType(CardType::CREATURE);
-		}
-		else if (strcasecmp($type, "Instant") == 0)
-		{
-			$card->setType(CardType::INSTANT);
-		}
-		else if (strcasecmp($type, "Sorcery") == 0)
-		{
-			$card->setType(CardType::SORCERY);
-		}
-		else if (strcasecmp($type, "Land") == 0)
-		{
-			$card->setType(CardType::LAND);
-		}
-		else if (strcasecmp($type, "Artifact") == 0)
-		{
-			$card->setType(CardType::ARTIFACT);
-		}
-		else if (strcasecmp($type, "Enchantment") == 0)
-		{
-			$card->setType(CardType::ENCHANTMENT);
-		}
-		else if (strcasecmp($type, "Artifact Creature") == 0)
-		{
-			$card->setType(CardType::ARTIFACT_CREATURE);
-		}
-		else
-		{
-			$card->setUnsupportedType();
-			return;
-		}
-		
-		// get the list of sub types, they are space separated
-		// find first space and start from there, dash is always followed by a space
-		$space = strpos($line, " ", $index);
-		$subTypeText = substr($line, $space + 1);
-		$subTypes = explode(" ", $subTypeText);
-		foreach($subTypes as $subType)
-		{
-			$card->addSubType($subType);
-		}
+		$card->setType(new CardType($line));
 	}
 	
 	private function addRule($card, $rule)

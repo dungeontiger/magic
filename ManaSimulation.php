@@ -129,40 +129,37 @@ class ManaSimulation extends Simulation
 		foreach ($hand->getCards() as $card)
 		{
 			// look at each by type
-			switch ($card->getType())
+			if ($card->isType(CardType::BASIC_LAND))
 			{
-				case CardType::BASIC_LAND:
-					if ($this->landPlayedThisTurn == false)
+				if ($this->landPlayedThisTurn == false)
+				{
+					if ($candidate == null)
 					{
-						if ($candidate == null)
+						$candidate = $card;
+					}
+					else
+					{
+						// compare card to candidate and see which is better
+						$manaWithCandidate = $this->getBattlefield()->getAvailableMana();
+						$manaWithCard = clone $manaWithCandidate;
+						
+						// TODO: Which ability to use?; since this is for comparison, just use all I guess
+						foreach($candidate->getRules() as $ability)
+						{
+							$manaWithCandidate->applyEffects($ability->getEffects());
+						}
+						
+						foreach($card->getRules() as $ability)
+						{
+							$manaWithCard->applyEffects($ability->getEffects());
+						}
+						
+						if ($manaWithCard->betterThan($manaWithCandidate))
 						{
 							$candidate = $card;
 						}
-						else
-						{
-							// compare card to candidate and see which is better
-							$manaWithCandidate = $this->getBattlefield()->getAvailableMana();
-							$manaWithCard = clone $manaWithCandidate;
-							
-							// TODO: Which ability to use?; since this is for comparison, just use all I guess
-							foreach($candidate->getRules() as $ability)
-							{
-								$manaWithCandidate->applyEffects($ability->getEffects());
-							}
-							
-							foreach($card->getRules() as $ability)
-							{
-								$manaWithCard->applyEffects($ability->getEffects());
-							}
-							
-							if ($manaWithCard->betterThan($manaWithCandidate))
-							{
-								$candidate = $card;
-							}
-						}
 					}
-					break;
-				default;
+				}
 			}
 		}
 		
@@ -173,7 +170,7 @@ class ManaSimulation extends Simulation
 			$this->currentTurnResults->incrementPlayed();
 			
 			// TODO: Worry about other land types
-			if ($candidate->getType() == CardType::BASIC_LAND)
+			if ($candidate->isType(CardType::BASIC_LAND))
 			{
 				$this->landPlayedThisTurn = true;
 			}
@@ -198,7 +195,7 @@ class ManaSimulation extends Simulation
 			foreach ($cards as $card)
 			{
 				// finds the first non-basic land
-				if ($card->getType() != CardType::BASIC_LAND)
+				if (!$card->isType(CardType::BASIC_LAND))
 				{
 					$candidate = $card;
 					break;

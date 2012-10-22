@@ -30,12 +30,12 @@ foreach($files as $file)
 			}
 			else
 			{
-				if ($card->isSupportedCastingCost() && $card->isSupportedType())
+				if ($card->isSupportedCastingCost())
 				{
 					array_push($supportedCastingCost, $card);
 				}
 				
-				if ($card->isSupportedRules() && $card->isSupportedCastingCost() && $card->isSupportedType())
+				if ($card->isSupportedRules() && $card->isSupportedCastingCost())
 				{
 					array_push($supportedRules, $card);
 				}
@@ -57,7 +57,7 @@ function dumpArray($cards, $file)
 	$output = "";
 	foreach($cards as $card)
 	{
-		$output .= $card->getName() . "\t" . CardType::getString($card->getType()) . PHP_EOL;
+		$output .= $card->getName() . "\t" . $card->getType()->getString() . PHP_EOL;
 	}
 	file_put_contents($file, $output);
 }

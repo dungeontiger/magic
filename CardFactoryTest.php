@@ -10,7 +10,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$card = $factory->createCard("Swamp");
 		$rules = $card->getRules();
 		
-		assert($card->getType() == CardType::BASIC_LAND);
+		assert($card->isType(CardType::BASIC_LAND));
 		assert($card->isASubType("Swamp"));
 		assert($card->getCastingCost() == null);
 		assert($card->getPower() == null);
@@ -33,7 +33,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$card = $factory->createCard("Mountain");
 		$rules = $card->getRules();
 		
-		assert($card->getType() == CardType::BASIC_LAND);
+		assert($card->isType(CardType::BASIC_LAND));
 		assert($card->isASubType("Mountain"));
 		assert(count($rules) == 1);
 		$ability = $rules[0];
@@ -52,7 +52,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$card = $factory->createCard("Forest");
 		$rules = $card->getRules();
 		
-		assert($card->getType() == CardType::BASIC_LAND);
+		assert($card->isType(CardType::BASIC_LAND));
 		assert($card->isASubType("Forest"));
 		$ability = $rules[0];
 		$costs = $ability->getActivationCosts();
@@ -70,7 +70,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$card = $factory->createCard("Island");
 		$rules = $card->getRules();
 		
-		assert($card->getType() == CardType::BASIC_LAND);
+		assert($card->isType(CardType::BASIC_LAND));
 		assert($card->isASubType("Island"));
 		$ability = $rules[0];
 		$costs = $ability->getActivationCosts();
@@ -88,7 +88,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$card = $factory->createCard("Plains");
 		$rules = $card->getRules();
 
-		assert($card->getType() == CardType::BASIC_LAND);
+		assert($card->isType(CardType::BASIC_LAND));
 		assert($card->isASubType("Plains"));
 		$ability = $rules[0];
 		$costs = $ability->getActivationCosts();
@@ -122,7 +122,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$card = $factory->createCard("Amphin Cutthroat");
 		$cost = $card->getCastingCost();
 		
-		assert($card->getType() == CardType::CREATURE);
+		assert($card->isType(CardType::CREATURE));
 		assert($cost->getConvertedTotal() == 4);
 		assert($cost->get(Color::BLUE) == 1);
 		assert($card->getPower() == 2);
@@ -184,7 +184,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$factory = new CardFactory();
 		$card = $factory->createCard("Crypt of Agadeem");
 		$rules = $card->getRules();
-		assert($card->getType() == CardType::LAND);
+		assert($card->isType(CardType::LAND));
 		assert(!$card->isSupportedRules());
 		assert(count($rules) == 3);
 		$effects = $rules[0]->getEffects();
@@ -202,7 +202,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$factory = new CardFactory();
 		$card = $factory->createCard("Hallowed Fountain");
 		$rules = $card->getRules();
-		assert($card->getType() == CardType::LAND);
+		assert($card->isType(CardType::LAND));
 		assert($card->isASubType("Plains"));
 		assert($card->isASubType("Island"));
 		assert(count($rules) == 3);
@@ -239,7 +239,7 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		$factory = new CardFactory();
 		$card = $factory->createCard("Azorius Guildgate");
 		$rules = $card->getRules();
-		assert($card->getType() == CardType::LAND);
+		assert($card->isType(CardType::LAND));
 		assert($card->isSupportedRules());
 		assert(count($rules) == 2);
 		$effects = $rules[0]->getEffects();
@@ -320,9 +320,9 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(strcasecmp($subTypes[1], "island") == 0);
 	}
 	
+	// Do Cycling
+	
 //		Civic Wayfinder	
-//		Alloy Myr
-//		Dragonskull Summit
 //		Chromatic Lantern
 //		Darksteel Ignot
 // 		Gilded Lotus
@@ -330,7 +330,6 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 //		Reliquary Tower 
 
 // 		Rakdos Keyrune becomes a creature 
-//		Civic Wayfinder	
 /*		
 	public function testCounterSpell()
 	{

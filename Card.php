@@ -3,6 +3,8 @@
  * Any card.  If an attribute is null it does not apply to this card
  */
 include_once "ManaVector.php";
+include_once "CardType.php";
+
 class Card
 {
 	public function __construct($name, $type = null, $castingCost = null) 
@@ -24,21 +26,6 @@ class Card
 	public function getName()
 	{
 		return $this->name;
-	}
-	
-	public function getType()
-	{
-		return $this->type;
-	}
-	
-	public function setType($type)
-	{
-		$this->type = $type;
-	}
-	
-	public function getSubType()
-	{
-		return $this->subType;
 	}
 	
 	public function getCastingCost()
@@ -76,26 +63,26 @@ class Card
 		$this->castingCost = $castingCost;
 	}
 	
-	public function addSubType($subType)
+	public function setType($type)
 	{
-		array_push($this->subTypes, $subType);
+		$this->cardType = $type;
 	}
 	
-	public function getSubTypes()
+	public function getType()
 	{
-		return $this->subTypes;
+		return $this->cardType;
+	}
+	
+	public function isType($type)
+	{
+		return $this->cardType->isType($type);
 	}
 	
 	public function isASubType($subType)
 	{
-		return in_array($subType, $this->subTypes);
+		return $this->cardType->isSubType($subType);
 	}
 	
-	public function getSubTypeString()
-	{
-		return implode(" ", $this->subTypes);
-	}
-
 	public function setPower($power)
 	{
 		$this->power = $power;
@@ -136,11 +123,6 @@ class Card
 		$this->unsupportedType = true;
 	}
 	
-	public function isSupportedType()
-	{
-		return !$this->unsupportedType;
-	}
-	
 	public function addRule($rule)
 	{
 		array_push($this->rules, $rule);
@@ -173,8 +155,6 @@ class Card
 	// TODO: clean up the rules members
 	private $castingCost = null;
 	private $name;
-	private $type;
-	private $subTypes = array();
 	private $power = null;
 	private $toughness = null;
 	private $loyalty = null;
@@ -182,6 +162,7 @@ class Card
 	private $unsupportedRules = false;
 	private $unsupportedCastingCost = false;
 	private $unsupportedType = false;
+	private $subTypes;
 	
 	private $rules = array();
 	
