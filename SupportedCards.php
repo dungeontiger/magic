@@ -1,8 +1,6 @@
 <?php
 include_once "CardFactory.php";
 
-//print "Listing all cards that are understood..." . PHP_EOL;
-
 $factory = new CardFactory();
 $files = scandir("cards");
 $supportedCastingCost = array();
