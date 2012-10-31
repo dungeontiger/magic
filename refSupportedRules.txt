@@ -1,6 +1,7 @@
 Abbey Griffin	Creature - Griffin
 Air Elemental	Creature - Elemental
 Ajani's Sunstriker	Creature - Cat Cleric
+Akrasan Squire	Creature - Human Soldier
 Alloy Myr	Artifact Creature - Myr
 Alpha Tyrranax	Creature - Beast
 Ambush Viper	Creature - Snake
@@ -24,11 +25,13 @@ Bladetusk Boar	Creature - Boar
 Blood Crypt	Land - Swamp Mountain
 Bonebreaker Giant	Creature - Giant
 Brushstrider	Creature - Beast
+Bull Cerodon	Creature - Beast
 Canyon Minotaur	Creature - Minotaur Warrior
 Caravan Hurda	Creature - Giant
 Catacomb Slug	Creature - Slug
 Cathedral of War	Land
 Centaur Courser	Creature - Centaur Warrior
+Cerodon Yearling	Creature - Beast
 Chapel Geist	Creature - Spirit
 Child of Night	Creature - Vampire
 Clifftop Retreat	Land
@@ -37,18 +40,24 @@ Cobblebrute	Creature - Elemental
 Concordia Pegasus	Creature - Pegasus
 Copper Myr	Artifact Creature - Myr
 Coral Merfolk	Creature - Merfolk
+Court Archers	Creature - Human Archer
 Craw Wurm	Creature - Wurm
+Cylian Elf	Creature - Elf Scout
 Daggerback Basilisk	Creature - Basilisk
 Daggerdrome Imp	Creature - Imp
 Deadly Recluse	Creature - Spider
+Deft Duelist	Creature - Human Rogue
 Deranged Assistant	Creature - Human Wizard
 Diregraf Ghoul	Creature - Zombie
 Dragonskull Summit	Land
+Dreg Reaver	Creature - Zombie Beast
 Drowned Catacomb	Land
 Duskdale Wurm	Creature - Wurm
 Duskmantle Prowler	Creature - Vampire Rogue
 Elite Vanguard	Creature - Human Soldier
 Enormous Baloth	Creature - Beast
+Esper Cormorants	Artifact Creature - Bird
+Ethercaste Knight	Artifact Creature - Human Knight
 Evolving Wilds	Land
 Faerie Invaders	Creature - Faerie Rogue
 Fencing Ace	Creature - Human Soldier
@@ -57,6 +66,7 @@ Flameborn Viron	Creature - Insect
 Forest	Basic Land - Forest
 Fortress Crab	Creature - Crab
 Frontier Guide	Creature - Elf Scout
+Fusion Elemental	Creature - Elemental
 Garruk's Companion	Creature - Beast
 Giant Scorpion	Creature - Scorpion
 Giant Spider	Creature - Spider
@@ -64,6 +74,7 @@ Glacial Fortress	Land
 Gladecover Scout	Creature - Elf Scout
 Gloomhunter	Creature - Bat
 Glory Seeker	Creature - Human Soldier
+Goblin Deathraiders	Creature - Goblin Warrior
 Goblin Piker	Creature - Goblin Warrior
 Goblin Roughrider	Creature - Goblin Knight
 Gold Myr	Artifact Creature - Myr
@@ -73,6 +84,7 @@ Grappler Spider	Creature - Spider
 Greater Basilisk	Creature - Basilisk
 Greenweaver Druid	Creature - Elf Druid
 Griffin Sentinel	Creature - Griffin
+Grizzled Leotau	Creature - Cat
 Guardian Lions	Creature - Cat
 Guardians of Akrasa	Creature - Human Soldier
 Hallowed Fountain	Land - Plains Island
@@ -85,17 +97,20 @@ Horned Turtle	Creature - Turtle
 Hover Barrier	Creature - Illusion Wall
 Hovermyr	Artifact Creature - Myr
 Hussar Patrol	Creature - Human Knight
+Incurable Ogre	Creature - Ogre Mutant
 Insectile Aberration	Creature - Human Insect
 Iron Myr	Artifact Creature - Myr
 Island	Basic Land - Island
 Isolated Chapel	Land
 Izzet Guildgate	Land - Gate
 Jagwasp Swarm	Creature - Insect
+Jhessian Lookout	Creature - Human Scout
 Jwari Scuttler	Creature - Crab
 Kalonian Behemoth	Creature - Beast
 Kelinore Bat	Creature - Bat
 Kessig Recluse	Creature - Spider
 Kindercatch	Creature - Spirit
+Knotvine Mystic	Creature - Elf Druid
 Kraken Hatchling	Creature - Kraken
 Lagac Lizard	Creature - Lizard
 Leaden Myr	Artifact Creature - Myr
@@ -108,6 +123,7 @@ Loxodon Wayfarer	Creature - Elephant Monk
 Ludevic's Abomination	Creature - Lizard Horror
 Lumengrid Gargoyle	Artifact Creature - Gargoyle
 Makindi Griffin	Creature - Griffin
+Mana Cylix	Artifact
 Manalith	Artifact
 Maritime Guard	Creature - Merfolk Soldier
 Markov Patrician	Creature - Vampire
@@ -126,6 +142,7 @@ Nettle Swine	Creature - Boar
 Ogre Resister	Creature - Ogre
 Ogre Sentry	Creature - Ogre Warrior
 Ornithopter	Artifact Creature - Thopter
+Outrider of Jhess	Creature - Human Knight
 Overgrown Tomb	Land - Swamp Forest
 Palladium Myr	Artifact Creature - Myr
 Peregrine Griffin	Creature - Griffin
@@ -143,7 +160,11 @@ Rakdos Ragemutt	Creature - Elemental Hound
 Razorfield Thresher	Artifact Creature - Construct
 Razorfoot Griffin	Creature - Griffin
 Renegade Demon	Creature - Demon
+Rhox Brute	Creature - Rhino Warrior
+Rhox Charger	Creature - Rhino Soldier
+Rhox War Monk	Creature - Rhino Monk
 Riot Devils	Creature - Devil
+Rip-Clan Crasher	Creature - Human Warrior
 Risen Sanctuary	Creature - Elemental
 Rootbound Crag	Land
 Rotted Hystrix	Creature - Beast
@@ -151,6 +172,7 @@ Rotting Fensnake	Creature - Zombie Snake
 Rotting Legion	Creature - Zombie
 Rubbleback Rhino	Creature - Rhino
 Runeclaw Bear	Creature - Bear
+Rupture Spire	Land
 Russet Wolves	Creature - Wolf
 Rusted Sentinel	Artifact Creature - Golem
 Sacred Wolf	Creature - Wolf
@@ -165,6 +187,8 @@ Shatterskull Giant	Creature - Giant Warrior
 Shepherd of the Lost	Creature - Angel
 Shimmering Grotto	Land
 Siege Mastodon	Creature - Elephant
+Sigiled Behemoth	Creature - Beast
+Sigiled Paladin	Creature - Human Knight
 Silver Myr	Artifact Creature - Myr
 Silverclaw Griffin	Creature - Griffin
 Silvercoat Lion	Creature - Cat
@@ -179,6 +203,7 @@ Spire Monitor	Creature - Drake
 Sporecap Spider	Creature - Spider
 Stampeding Rhino	Creature - Rhino
 Steam Vents	Land - Island Mountain
+Steward of Valeron	Creature - Human Druid Knight
 Stomper Cub	Creature - Beast
 Stone Golem	Artifact Creature - Golem
 Stonework Puma	Artifact Creature - Cat Ally
@@ -187,6 +212,7 @@ Sulfur Falls	Land
 Sunpetal Grove	Land
 Sunspire Griffin	Creature - Griffin
 Swamp	Basic Land - Swamp
+Talon Trooper	Creature - Bird Scout
 Tangle Mantis	Creature - Insect
 Temple Garden	Land - Forest Plains
 Tenement Crasher	Creature - Beast
@@ -194,10 +220,13 @@ Terramorphic Expanse	Land
 Thraben Militia	Creature - Human Soldier
 Thraben Purebloods	Creature - Hound
 Thraben Valiant	Creature - Human Soldier
+Tidehollow Strix	Artifact Creature - Bird
+Tower Gargoyle	Artifact Creature - Gargoyle
 Towering Indrik	Creature - Beast
 Trained Caracal	Creature - Cat
 Transguild Promenade	Land
 Typhoid Rats	Creature - Rat
+Valiant Guard	Creature - Human Soldier
 Vampire Nighthawk	Creature - Vampire Shaman
 Vastwood Gorger	Creature - Wurm
 Viashino Spearhunter	Creature - Viashino Warrior
@@ -206,13 +235,17 @@ Volcanic Dragon	Creature - Dragon
 Vorstclaw	Creature - Elemental Horror
 Vulshok Berserker	Creature - Human Berserker
 Walking Corpse	Creature - Zombie
+Wall of Denial	Creature - Wall
 Wall of Torches	Creature - Wall
 Wall of Vines	Creature - Plant Wall
 Warclamp Mastiff	Creature - Hound
 Warpath Ghoul	Creature - Zombie
+Waveskimmer Aven	Creature - Bird Soldier
 Wild Griffin	Creature - Griffin
 Wind Drake	Creature - Drake
+Winged Coatl	Creature - Snake
 Woodland Cemetery	Land
+Woolly Thoctar	Creature - Beast
 Yavimaya Wurm	Creature - Wurm
 Zephyr Sprite	Creature - Faerie
 Zombie Goliath	Creature - Zombie Giant

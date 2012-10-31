@@ -1,6 +1,7 @@
 Abattoir Ghoul	Creature - Zombie
 Abbey Griffin	Creature - Griffin
 Abrupt Decay	Instant
+Absorb Vis	Sorcery
 Abuna Acolyte	Creature - Cat Cleric
 Abundant Growth	Enchantment - Aura
 Abyssal Persecutor	Creature - Demon
@@ -10,18 +11,22 @@ Acid Web Spider	Creature - Spider
 Acidic Slime	Creature - Ooze
 Acolyte of Xathrid	Creature - Human Cleric
 Act of Treason	Sorcery
+Ad Nauseam	Instant
 Adaptive Automaton	Artifact Creature - Construct
 Admonition Angel	Creature - Angel
 Adventuring Gear	Artifact - Equipment
 Aegis Angel	Creature - Angel
 Aerial Predation	Instant
+Aerie Mystics	Creature - Bird Wizard
 Affa Guard Hound	Creature - Hound
 Afflicted Deserter	Creature - Human Werewolf
 Agadeem Occultist	Creature - Human Shaman Ally
 Aggravate	Instant
+Agony Warp	Instant
 Air Elemental	Creature - Elemental
 Air Servant	Creature - Elemental
 Ajani Goldmane	Planeswalker - Ajani
+Ajani Vengeant	Planeswalker - Ajani
 Ajani, Caller of the Pride	Planeswalker - Ajani
 Ajani's Mantra	Enchantment
 Ajani's Pridemate	Creature - Cat Soldier
@@ -29,10 +34,12 @@ Ajani's Sunstriker	Creature - Cat Cleric
 Akoum Battlesinger	Creature - Human Berserker Ally
 Akoum Boulderfoot	Creature - Giant Warrior
 Akoum Refuge	Land
+Akrasan Squire	Creature - Human Soldier
 Akroma's Memorial	Legendary Artifact
 Alabaster Mage	Creature - Human Wizard
 Alchemist's Apprentice	Creature - Human Wizard
 Alchemist's Refuge	Land
+Algae Gharial	Creature - Crocodile
 All Is Dust	Tribal Sorcery - Eldrazi
 Alloy Myr	Artifact Creature - Myr
 Alluring Siren	Creature - Siren
@@ -44,14 +51,17 @@ Amass the Components	Sorcery
 Ambush Viper	Creature - Snake
 Amphin Cutthroat	Creature - Salamander Rogue
 Amulet of Vigor	Artifact
+Anathemancer	Creature - Zombie Wizard
 Ancient Grudge	Instant
 Ancient Hellkite	Creature - Dragon
 Ancient Stirrings	Sorcery
+Ancient Ziggurat	Land
 Angel of Flight Alabaster	Creature - Angel
 Angel of Glory's Rise	Creature - Angel
 Angel of Jubilation	Creature - Angel
 Angel of Serenity	Creature - Angel
 Angel's Feather	Artifact
+Angel's Herald	Creature - Human Cleric
 Angel's Mercy	Instant
 Angel's Tomb	Artifact
 Angelheart Vial	Artifact
@@ -61,6 +71,7 @@ Angelic Benediction	Enchantment
 Angelic Destiny	Enchantment - Aura
 Angelic Overseer	Creature - Angel
 Angelic Wall	Creature - Wall
+Angelsong	Instant
 Annihilating Fire	Instant
 Anowon, the Ruin Sage	Legendary Creature - Vampire Shaman
 Ant Queen	Creature - Insect
@@ -74,10 +85,13 @@ Arbor Elf	Creature - Elf Druid
 Arc Runner	Creature - Elemental Ox
 Arc Trail	Sorcery
 Arcane Melee	Enchantment
+Arcane Sanctum	Land
 Archaeomancer	Creature - Human Wizard
 Archangel	Creature - Angel
 Archangel's Light	Sorcery
 Archdemon of Greed	Creature - Demon
+Archdemon of Unx	Creature - Demon
+Architects of Will	Artifact Creature - Human Wizard
 Archive Trap	Instant - Trap
 Archmage Ascension	Enchantment
 Archon of Justice	Creature - Archon
@@ -86,6 +100,7 @@ Archon of the Triumvirate	Creature - Archon
 Archweaver	Creature - Spider
 Archwing Dragon	Creature - Dragon
 Arctic Aven	Creature - Bird Wizard
+Ardent Plea	Enchantment
 Ardent Recruit	Creature - Human Soldier
 Argent Mutation	Instant
 Argent Sphinx	Creature - Sphinx
@@ -94,6 +109,7 @@ Arid Mesa	Land
 Arm with Æther	Sorcery
 Armada Wurm	Creature - Wurm
 Armament Master	Creature - Kor Soldier
+Armillary Sphere	Artifact
 Armored Ascension	Enchantment - Aura
 Armored Cancrix	Creature - Crab
 Armored Skaab	Creature - Zombie Warrior
@@ -109,6 +125,7 @@ Artillerize	Instant
 Artisan of Kozilek	Creature - Eldrazi
 Asceticism	Enchantment
 Ash Zealot	Creature - Human Warrior
+Asha's Favor	Enchantment - Aura
 Ashmouth Hound	Creature - Elemental Hound
 Assassin's Strike	Sorcery
 Assassinate	Sorcery
@@ -131,7 +148,9 @@ Avacyn's Collar	Artifact - Equipment
 Avacyn's Pilgrim	Creature - Human Monk
 Avacynian Priest	Creature - Human Cleric
 Aven Fleetwing	Creature - Bird Soldier
+Aven Mimeomancer	Creature - Bird Wizard
 Aven Squire	Creature - Bird Soldier
+Aven Trailblazer	Creature - Bird Soldier
 Avenger of Zendikar	Creature - Elemental
 Avenging Arrow	Instant
 Awakener Druid	Creature - Human Druid
@@ -156,9 +175,14 @@ Baloth Woodcrasher	Creature - Beast
 Bane of Hanweir	Creature - Werewolf
 Baneful Omen	Enchantment
 Baneslayer Angel	Creature - Angel
+Banewasp Affliction	Enchantment - Aura
 Banishing Stroke	Instant
 Banishment Decree	Instant
 Banners Raised	Instant
+Bant Battlemage	Creature - Human Wizard
+Bant Charm	Instant
+Bant Panorama	Land
+Bant Sojourners	Creature - Human Soldier
 Bar the Door	Instant
 Barbed Battlegear	Artifact - Equipment
 Barony Vampire	Creature - Vampire
@@ -173,15 +197,19 @@ Battle Hymn	Instant
 Battle Rampart	Creature - Wall
 Battle of Wits	Enchantment
 Battleflight Eagle	Creature - Bird
+Battlegrace Angel	Creature - Angel
 Battleground Geist	Creature - Spirit
 Bazaar Krovod	Creature - Beast
 Bazaar Trader	Creature - Goblin
+Beacon Behemoth	Creature - Beast
 Bear Umbra	Enchantment - Aura
 Beast Hunt	Sorcery
 Beast Within	Instant
 Beastbreaker of Bala Ged	Creature - Human Warrior
 Beastmaster Ascension	Enchantment
 Beguiler of Wills	Creature - Human Wizard
+Behemoth Sledge	Artifact - Equipment
+Behemoth's Herald	Creature - Elf Shaman
 Bellowing Tanglewurm	Creature - Wurm
 Bellows Lizard	Creature - Lizard
 Belltower Sphinx	Creature - Sphinx
@@ -190,6 +218,7 @@ Berserkers of Blood Ridge	Creature - Human Berserker
 Bestial Menace	Sorcery
 Birds of Paradise	Creature - Bird
 Bitterheart Witch	Creature - Human Shaman
+Bituminous Blast	Instant
 Black Cat	Creature - Zombie Cat
 Black Knight	Creature - Human Knight
 Blackcleave Cliffs	Land
@@ -207,21 +236,27 @@ Bleak Coven Vampires	Creature - Vampire Warrior
 Blessings of Nature	Sorcery
 Blight Mamba	Creature - Snake
 Blighted Agent	Creature - Human Rogue
+Blightning	Sorcery
 Blightsteel Colossus	Artifact Creature - Golem
 Blightwidow	Creature - Spider
 Blind Zealot	Creature - Human Cleric
 Blinding Mage	Creature - Human Wizard
 Blinding Souleater	Artifact Creature - Cleric
+Blister Beetle	Creature - Insect
 Blistergrub	Creature - Horror
 Blisterstick Shaman	Creature - Goblin Shaman
+Blitz Hellion	Creature - Hellion
 Blood Artist	Creature - Vampire
 Blood Crypt	Land - Swamp Mountain
+Blood Cultist	Creature - Human Wizard
 Blood Feud	Sorcery
 Blood Ogre	Creature - Ogre Warrior
 Blood Reckoning	Enchantment
 Blood Seeker	Creature - Vampire Shaman
 Blood Tithe	Sorcery
 Blood Tribute	Sorcery
+Blood Tyrant	Creature - Vampire
+Bloodbraid Elf	Creature - Elf Berserker
 Bloodchief Ascension	Enchantment
 Bloodcrazed Goblin	Creature - Goblin Berserker
 Bloodcrazed Neonate	Creature - Vampire
@@ -229,13 +264,16 @@ Bloodflow Connoisseur	Creature - Vampire
 Bloodfray Giant	Creature - Giant
 Bloodghast	Creature - Vampire Spirit
 Bloodgift Demon	Creature - Demon
+Bloodhall Ooze	Creature - Ooze
 Bloodhunter Bat	Creature - Bat
 Bloodhusk Ritualist	Creature - Vampire Shaman
 Bloodline Keeper	Creature - Vampire
 Bloodlord of Vaasgoth	Creature - Vampire Warrior
+Bloodpyre Elemental	Creature - Elemental
 Bloodrage Vampire	Creature - Vampire
 Bloodrite Invoker	Creature - Vampire Shaman
 Bloodshot Trainee	Creature - Goblin Warrior
+Bloodthorn Taunter	Creature - Human Scout
 Bloodthrone Vampire	Creature - Vampire
 Bludgeon Brawl	Enchantment
 Blunt the Assault	Instant
@@ -251,6 +289,7 @@ Bold Defense	Instant
 Bond Beetle	Creature - Insect
 Bonds of Faith	Enchantment - Aura
 Bonds of Quicksilver	Enchantment - Aura
+Bone Saw	Artifact - Equipment
 Bone Splinters	Sorcery
 Bone to Ash	Instant
 Bonebreaker Giant	Creature - Giant
@@ -260,25 +299,32 @@ Borderland Ranger	Creature - Human Scout
 Boundless Realms	Sorcery
 Bountiful Harvest	Sorcery
 Bower Passage	Enchantment
+Brackwater Elemental	Creature - Elemental
 Brain Weevil	Creature - Insect
+Brainbite	Sorcery
 Bramble Creeper	Creature - Elemental
 Bramblecrush	Sorcery
 Bramblesnap	Creature - Elemental
+Branching Bolt	Instant
 Brass Squire	Artifact Creature - Myr
 Brave the Elements	Instant
 Break of Day	Instant
+Breath of Malfegor	Instant
 Briarpack Alpha	Creature - Wolf
+Brilliant Ultimatum	Sorcery
 Brimstone Mage	Creature - Human Shaman
 Brimstone Volley	Instant
 Brindle Boar	Creature - Boar
 Brink of Disaster	Enchantment - Aura
 Brittle Effigy	Artifact
 Brood Birthing	Sorcery
+Broodmate Dragon	Creature - Dragon
 Broodwarden	Creature - Eldrazi Drone
 Bruna, Light of Alabaster	Legendary Creature - Angel
 Brushstrider	Creature - Beast
 Brutalizer Exarch	Creature - Cleric
 Builder's Blessing	Enchantment
+Bull Cerodon	Creature - Beast
 Bull Rush	Instant
 Bump in the Night	Sorcery
 Burden of Guilt	Enchantment - Aura
@@ -297,7 +343,9 @@ Cackling Counterpart	Instant
 Cadaver Imp	Creature - Imp
 Caged Sun	Artifact
 Calcite Snapper	Creature - Turtle
+Caldera Hellion	Creature - Hellion
 Call of the Conclave	Sorcery
+Call to Heel	Instant
 Call to Mind	Sorcery
 Call to Serve	Enchantment - Aura
 Call to the Grave	Enchantment
@@ -311,6 +359,7 @@ Captain of the Mists	Creature - Human Wizard
 Captain of the Watch	Creature - Human Soldier
 Captain's Call	Sorcery
 Captivating Vampire	Creature - Vampire
+Captured Sunlight	Sorcery
 Carapace Forger	Creature - Elf Artificer
 Caravan Escort	Creature - Human Knight
 Caravan Hurda	Creature - Giant
@@ -321,13 +370,16 @@ Carnage Wurm	Creature - Wurm
 Carnifex Demon	Creature - Demon
 Carnival Hellsteed	Creature - Nightmare Horse
 Carrion Call	Instant
+Carrion Thrash	Creature - Viashino Warrior
 Cast Through Time	Enchantment
 Catacomb Slug	Creature - Slug
 Cathars' Crusade	Enchantment
+Cathartic Adept	Creature - Human Wizard
 Cathedral Sanctifier	Creature - Human Cleric
 Cathedral of War	Land
 Caustic Crawler	Creature - Insect
 Caustic Hound	Creature - Hound
+Cavern Thoctar	Creature - Beast
 Cavern of Souls	Land
 Celestial Colonnade	Land
 Celestial Mantle	Enchantment - Aura
@@ -338,6 +390,7 @@ Centaur Courser	Creature - Centaur Warrior
 Centaur Healer	Creature - Centaur Cleric
 Centaur's Herald	Creature - Elf Scout
 Cerebral Eruption	Sorcery
+Cerodon Yearling	Creature - Beast
 Chain Reaction	Sorcery
 Chained Throatseeker	Creature - Horror
 Chalice of Death	Artifact
@@ -361,8 +414,10 @@ Chant of the Skifsang	Enchantment - Aura
 Chaos Imps	Creature - Imp
 Chapel Geist	Creature - Spirit
 Charmbreaker Devils	Creature - Devil
+Charnelhoard Wurm	Creature - Wurm
 Chasm Drake	Creature - Drake
 Chemister's Trick	Instant
+Child of Alara	Legendary Creature - Avatar
 Child of Night	Creature - Vampire
 Chill of Foreboding	Sorcery
 Choking Fumes	Instant
@@ -375,10 +430,12 @@ Chronomaton	Artifact Creature - Golem
 Circle of Flame	Enchantment
 Civic Saber	Artifact - Equipment
 Civilized Scholar	Creature - Human Advisor
+Clarion Ultimatum	Sorcery
 Claustrophobia	Enchantment - Aura
 Claws of Valakut	Enchantment - Aura
 Cleaver Riot	Sorcery
 Cliff Threader	Creature - Kor Scout
+Cliffrunner Behemoth	Creature - Rhino Beast
 Clifftop Retreat	Land
 Clinging Mists	Instant
 Clock of Omens	Artifact
@@ -387,24 +444,30 @@ Clone	Creature - Shapeshifter
 Clone Shell	Artifact Creature - Shapeshifter
 Cloud Crusader	Creature - Human Knight
 Cloud Elemental	Creature - Elemental
+Cloudheath Drake	Artifact Creature - Drake
 Cloudshift	Instant
+Cloven Casting	Enchantment
 Coat of Arms	Artifact
 Cobblebrute	Creature - Elemental
 Cobbled Wings	Artifact - Equipment
 Cobra Trap	Instant - Trap
 Codex Shredder	Artifact
 Collective Blessing	Enchantment
+Colossal Might	Instant
+Coma Veil	Enchantment - Aura
 Combust	Instant
 Commander's Authority	Enchantment - Aura
 Common Bond	Instant
 Concordia Pegasus	Creature - Pegasus
 Concussive Bolt	Sorcery
 Condemn	Instant
+Conflux	Sorcery
 Conjured Currency	Enchantment
 Conjurer's Closet	Artifact
 Conquering Manticore	Creature - Manticore
 Conqueror's Pledge	Sorcery
 Consecrated Sphinx	Creature - Sphinx
+Constricting Tendrils	Instant
 Consume the Meek	Instant
 Consuming Vapors	Sorcery
 Contagion Clasp	Artifact
@@ -412,6 +475,7 @@ Contagion Engine	Artifact
 Contagious Nim	Creature - Zombie
 Contaminated Ground	Enchantment - Aura
 Contested War Zone	Land
+Controlled Instincts	Enchantment - Aura
 Conundrum Sphinx	Creature - Sphinx
 Conversion Chamber	Artifact
 Convincing Mirage	Enchantment - Aura
@@ -422,6 +486,7 @@ Copperline Gorge	Land
 Coral Merfolk	Creature - Merfolk
 Coralhelm Commander	Creature - Merfolk Soldier
 Core Prowler	Artifact Creature - Horror
+Corpse Connoisseur	Creature - Zombie Wizard
 Corpse Cur	Artifact Creature - Hound
 Corpse Lunge	Instant
 Corpse Traders	Creature - Human Rogue
@@ -431,15 +496,22 @@ Corrupt	Sorcery
 Corrupted Conscience	Enchantment - Aura
 Corrupted Harvester	Creature - Horror
 Corrupted Resolve	Instant
+Corrupted Roots	Enchantment - Aura
 Corrupted Zendikon	Enchantment - Aura
 Cosi's Ravager	Creature - Elemental
 Cosi's Trickster	Creature - Merfolk Wizard
 Counterflux	Instant
 Counterlash	Instant
+Countersquall	Instant
+Courier's Capsule	Artifact
 Coursers' Accord	Sorcery
+Court Archers	Creature - Human Archer
+Court Homunculus	Artifact Creature - Homunculus
 Courtly Provocateur	Creature - Human Wizard
+Covenant of Minds	Sorcery
 Cower in Fear	Instant
 Crab Umbra	Enchantment - Aura
+Cradle of Vitality	Enchantment
 Craterhoof Behemoth	Creature - Beast
 Craterize	Sorcery
 Craw Wurm	Creature - Wurm
@@ -455,7 +527,10 @@ Crippling Chill	Instant
 Crosstown Courier	Creature - Vedalken
 Crossway Vampire	Creature - Vampire
 Crown of Empires	Artifact
+Crucible of Fire	Enchantment
+Cruel Ultimatum	Sorcery
 Crumbling Colossus	Artifact Creature - Golem
+Crumbling Necropolis	Land
 Crusader of Odric	Creature - Human Soldier
 Crush	Instant
 Crusher Zendikon	Enchantment - Aura
@@ -468,6 +543,8 @@ Crystal Ball	Artifact
 Cudgel Troll	Creature - Troll
 Culling Dais	Artifact
 Cultivate	Sorcery
+Cumber Stone	Artifact
+Cunning Lethemancer	Creature - Human Wizard
 Cunning Sparkmage	Creature - Human Shaman
 Curiosity	Enchantment - Aura
 Curse of Bloodletting	Enchantment - Aura Curse
@@ -485,6 +562,8 @@ Curse of the Pierced Heart	Enchantment - Aura Curse
 Cursebreak	Instant
 Cyclonic Rift	Instant
 Cyclops Gladiator	Creature - Cyclops Warrior
+Cylian Elf	Creature - Elf Scout
+Cylian Sunsinger	Creature - Elf Shaman
 Cystbearer	Creature - Beast
 Daggerback Basilisk	Creature - Basilisk
 Daggerdrome Imp	Creature - Imp
@@ -492,7 +571,9 @@ Dangerous Wager	Instant
 Dark Favor	Enchantment - Aura
 Dark Impostor	Creature - Vampire Assassin
 Dark Revenant	Creature - Spirit
+Dark Temper	Instant
 Dark Tutelage	Enchantment
+Darklit Gargoyle	Artifact Creature - Gargoyle
 Darkslick Drake	Creature - Drake
 Darkslick Shores	Land
 Darksteel Axe	Artifact - Equipment
@@ -503,7 +584,9 @@ Darksteel Plate	Artifact - Equipment
 Darksteel Relic	Artifact
 Darksteel Sentinel	Artifact Creature - Golem
 Darkthicket Wolf	Creature - Wolf
+Dauntless Escort	Creature - Rhino Soldier
 Dawnglare Invoker	Creature - Kor Wizard
+Dawnray Archer	Creature - Human Archer
 Dawntreader Elk	Creature - Elk
 Day of Judgment	Sorcery
 Daybreak Ranger	Creature - Human Archer Werewolf
@@ -514,31 +597,41 @@ Deadbridge Goliath	Creature - Insect
 Deadeye Navigator	Creature - Spirit
 Deadly Allure	Sorcery
 Deadly Recluse	Creature - Spider
+Deadshot Minotaur	Creature - Minotaur
 Dearly Departed	Creature - Spirit
 Death-Hood Cobra	Creature - Snake
+Death Baron	Creature - Zombie Wizard
 Death Cultist	Creature - Human Wizard
 Death's Caress	Sorcery
 Death's Presence	Enchantment
 Death's Shadow	Creature - Avatar
+Deathbringer Thoctar	Creature - Zombie Beast
 Deathforge Shaman	Creature - Ogre Shaman
+Deathgreeter	Creature - Human Shaman
 Deathless Angel	Creature - Angel
 Deathmark	Sorcery
 Deceiver Exarch	Creature - Cleric
 Decimator Web	Artifact
 Defang	Enchantment - Aura
 Defensive Stance	Enchantment - Aura
+Defiler of Souls	Creature - Demon
+Deft Duelist	Creature - Human Rogue
 Defy Death	Sorcery
 Delver of Secrets	Creature - Human Wizard
 Dementia Bat	Creature - Bat
 Demolish	Sorcery
 Demon of Death's Gate	Creature - Demon
+Demon's Herald	Creature - Human Wizard
 Demon's Horn	Artifact
 Demonic Appetite	Enchantment - Aura
+Demonic Dread	Sorcery
 Demonic Rising	Enchantment
 Demonic Taskmaster	Creature - Demon
 Demonlord of Ashmouth	Creature - Demon
 Demonmail Hauberk	Artifact - Equipment
+Demonspine Whip	Artifact - Equipment
 Demystify	Instant
+Deny Reality	Sorcery
 Deprive	Instant
 Deranged Assistant	Creature - Human Wizard
 Deranged Outcast	Creature - Human Rogue
@@ -571,6 +664,7 @@ Disfigure	Instant
 Disorient	Instant
 Dispatch	Instant
 Dispel	Instant
+Dispeller's Capsule	Artifact
 Dispense Justice	Instant
 Disperse	Instant
 Dissipate	Instant
@@ -590,27 +684,38 @@ Doomed Traveler	Creature - Human Soldier
 Door to Nothingness	Artifact
 Doorkeeper	Creature - Homunculus
 Dormant Gomazoa	Creature - Jellyfish
+Double Negative	Instant
 Doubling Chant	Sorcery
 Downpour	Instant
 Downsize	Instant
+Drag Down	Instant
+Dragon Appeasement	Enchantment
+Dragon Broodmother	Creature - Dragon
+Dragon Fodder	Sorcery
 Dragon Hatchling	Creature - Dragon
 Dragon Whelp	Creature - Dragon
 Dragon's Claw	Artifact
+Dragon's Herald	Creature - Goblin Shaman
 Dragonmaster Outcast	Creature - Human Shaman
 Dragonskull Summit	Land
+Dragonsoul Knight	Creature - Human Knight
 Drainpipe Vermin	Creature - Rat
 Drake Umbra	Enchantment - Aura
 Dramatic Rescue	Instant
 Drana, Kalastria Bloodchief	Legendary Creature - Vampire Shaman
+Drastic Revelation	Sorcery
 Dread Drone	Creature - Eldrazi Drone
 Dread Slaver	Creature - Zombie Horror
 Dread Statuary	Land
 Dread Warlock	Creature - Human Wizard
 Dreadbore	Sorcery
 Dreadwaters	Sorcery
+Dreadwing	Creature - Zombie
 Dream Twist	Instant
 Dreamstone Hedron	Artifact
 Dreg Mangler	Creature - Plant Zombie
+Dreg Reaver	Creature - Zombie Beast
+Dregscape Zombie	Creature - Zombie
 Drifting Shade	Creature - Shade
 Driver of the Dead	Creature - Vampire
 Drogskol Captain	Creature - Spirit Soldier
@@ -620,10 +725,12 @@ Dross Ripper	Artifact Creature - Hound
 Drowned Catacomb	Land
 Drudge Beetle	Creature - Insect
 Drudge Skeletons	Creature - Skeleton
+Druid of the Anima	Creature - Elf Druid
 Druid's Deliverance	Instant
 Druid's Familiar	Creature - Bear
 Druidic Satchel	Artifact
 Druids' Repository	Enchantment
+Drumhunter	Creature - Human Druid Warrior
 Dryad's Favor	Enchantment - Aura
 Dual Casting	Enchantment - Aura
 Due Respect	Instant
@@ -643,6 +750,7 @@ Eel Umbra	Enchantment - Aura
 Eland Umbra	Enchantment - Aura
 Elbrus, the Binding Blade	Legendary Artifact - Equipment
 Elder Cathar	Creature - Human Soldier
+Elder Mastery	Enchantment - Aura
 Elder of Laurels	Creature - Human Advisor
 Elderscale Wurm	Creature - Wurm
 Eldrazi Conscription	Tribal Enchantment - Eldrazi Aura
@@ -658,16 +766,19 @@ Elite Inquisitor	Creature - Human Soldier
 Elite Vanguard	Creature - Human Soldier
 Elixir of Immortality	Artifact
 Elspeth Tirel	Planeswalker - Elspeth
+Elspeth, Knight-Errant	Planeswalker - Elspeth
 Elvish Archdruid	Creature - Elf Druid
 Elvish Piper	Creature - Elf Shaman
 Elvish Visionary	Creature - Elf Shaman
 Emancipation Angel	Creature - Angel
 Ember Hauler	Creature - Goblin
+Ember Weaver	Creature - Spider
 Embersmith	Creature - Human Artificer
 Emerald Oryx	Creature - Antelope
 Emerge Unscathed	Instant
 Emeria Angel	Creature - Angel
 Emeria, the Sky Ruin	Land
+Empyrial Archangel	Creature - Angel
 Emrakul, the Aeons Torn	Legendary Creature - Eldrazi
 Emrakul's Hatcher	Creature - Eldrazi Drone
 Enatu Golem	Artifact Creature - Golem
@@ -676,6 +787,8 @@ Enclave Elite	Creature - Merfolk Soldier
 Encrust	Enchantment - Aura
 Endless Ranks of the Dead	Enchantment
 Engulfing Slagwurm	Creature - Wurm
+Enigma Sphinx	Artifact Creature - Sphinx
+Enlisted Wurm	Creature - Wurm
 Enormous Baloth	Creature - Beast
 Enslave	Enchantment - Aura
 Entangling Vines	Enchantment - Aura
@@ -683,6 +796,12 @@ Entomber Exarch	Creature - Cleric
 Erase	Instant
 Erdwal Ripper	Creature - Vampire
 Escaped Null	Creature - Zombie Berserker
+Esper Battlemage	Artifact Creature - Human Wizard
+Esper Charm	Instant
+Esper Cormorants	Artifact Creature - Bird
+Esper Panorama	Land
+Esper Sojourners	Artifact Creature - Vedalken Wizard
+Esperzoa	Artifact Creature - Jellyfish
 Essence Backlash	Instant
 Essence Drain	Sorcery
 Essence Feed	Sorcery
@@ -692,7 +811,15 @@ Essence of the Wild	Creature - Avatar
 Etched Champion	Artifact Creature - Soldier
 Etched Monstrosity	Artifact Creature - Golem
 Eternity Vessel	Artifact
+Ethercaste Knight	Artifact Creature - Human Knight
 Ethereal Armor	Enchantment - Aura
+Etherium Abomination	Artifact Creature - Horror
+Etherium Astrolabe	Artifact
+Etherium Sculptor	Artifact Creature - Vedalken Artificer
+Ethersworn Adjudicator	Artifact Creature - Vedalken Knight
+Ethersworn Canonist	Artifact Creature - Human Cleric
+Ethersworn Shieldmage	Artifact Creature - Vedalken Wizard
+Etherwrought Page	Artifact
 Everflowing Chalice	Artifact
 Evernight Shade	Creature - Shade
 Evil Presence	Enchantment - Aura
@@ -700,13 +827,18 @@ Evil Twin	Creature - Shapeshifter
 Evolving Wilds	Land
 Exclusion Ritual	Enchantment
 Excommunicate	Sorcery
+Executioner's Capsule	Artifact
 Executioner's Hood	Artifact - Equipment
+Exotic Orchard	Land
 Expedition Map	Artifact
+Exploding Borders	Sorcery
 Explore	Sorcery
 Explorer's Scope	Artifact - Equipment
 Explosive Impact	Instant
 Explosive Revelation	Sorcery
 Exquisite Blood	Enchantment
+Extractor Demon	Creature - Demon
+Exuberant Firestoker	Creature - Human Druid Shaman
 Eye of Ugin	Legendary Land
 Eyes in the Skies	Instant
 Ezuri, Renegade Leader	Legendary Creature - Elf Warrior
@@ -715,6 +847,7 @@ Ezuri's Brigade	Creature - Elf Warrior
 Fabricate	Sorcery
 Faerie Impostor	Creature - Faerie Rogue
 Faerie Invaders	Creature - Faerie Rogue
+Faerie Mechanist	Artifact Creature - Faerie Artificer
 Faith's Reward	Instant
 Faith's Shield	Instant
 Faithless Looting	Sorcery
@@ -729,6 +862,7 @@ Fangren Marauder	Creature - Beast
 Farbog Boneflinger	Creature - Zombie
 Farbog Explorer	Creature - Human Scout
 Farseek	Sorcery
+Fatestitcher	Creature - Zombie Wizard
 Fauna Shaman	Creature - Elf Shaman
 Favor of the Woods	Enchantment - Aura
 Favorable Winds	Enchantment
@@ -744,14 +878,23 @@ Fervent Cathar	Creature - Human Knight
 Fervor	Enchantment
 Festerhide Boar	Creature - Boar
 Fettergeist	Creature - Spirit
+Fieldmist Borderpost	Artifact
 Fiend Hunter	Creature - Human Cleric
 Fiend of the Shadows	Creature - Vampire Wizard
+Fiery Fall	Instant
 Fiery Hellhound	Creature - Elemental Hound
+Fight to the Death	Instant
+Filigree Angel	Artifact Creature - Angel
+Filigree Fracture	Instant
+Filigree Sages	Artifact Creature - Vedalken Wizard
+Finest Hour	Enchantment
+Fire-Field Ogre	Creature - Ogre Mutant
 Fire Elemental	Creature - Elemental
 Fire Servant	Creature - Elemental
 Firebreathing	Enchantment - Aura
 Firemind's Foresight	Instant
 Fires of Undeath	Instant
+Firewild Borderpost	Artifact
 Firewing Phoenix	Creature - Phoenix
 Fissure Vent	Sorcery
 Flame Slash	Sorcery
@@ -767,13 +910,17 @@ Fleeting Distraction	Instant
 Flensermite	Creature - Gremlin
 Flesh-Eater Imp	Creature - Imp
 Flesh Allergy	Sorcery
+Fleshbag Marauder	Creature - Zombie Warrior
+Fleshformer	Creature - Human Wizard
 Flight	Enchantment - Aura
 Flight Spellbomb	Artifact
 Fling	Instant
 Flinthoof Boar	Creature - Boar
 Flowering Lumberknot	Creature - Treefolk
+Flurry of Wings	Instant
 Fog	Instant
 Fog Bank	Creature - Wall
+Font of Mythos	Artifact
 Forbidden Alchemy	Instant
 Forced Worship	Enchantment - Aura
 Foresee	Sorcery
@@ -785,6 +932,7 @@ Frantic Salvage	Instant
 Fresh Meat	Instant
 Frightful Delusion	Instant
 Frontier Guide	Creature - Elf Scout
+Frontline Sage	Creature - Human Wizard
 Frost Breath	Instant
 Frost Titan	Creature - Giant
 Frostwind Invoker	Creature - Merfolk Wizard
@@ -798,6 +946,7 @@ Furnace Scamp	Creature - Beast
 Furnace Whelp	Creature - Dragon
 Furor of the Bitten	Enchantment - Aura
 Furyborn Hellkite	Creature - Dragon
+Fusion Elemental	Creature - Elemental
 Gaea's Revenge	Creature - Elemental
 Gallows Warden	Creature - Spirit
 Gallows at Willow Hill	Artifact
@@ -817,6 +966,7 @@ Garruk's Horde	Creature - Beast
 Garruk's Packleader	Creature - Beast
 Gatecreeper Vine	Creature - Plant
 Gatekeeper of Malakir	Creature - Vampire Warrior
+Gather Specimens	Instant
 Gather the Townsfolk	Sorcery
 Gatstaf Howler	Creature - Werewolf
 Gatstaf Shepherd	Creature - Human Werewolf
@@ -853,12 +1003,17 @@ Giant Spider	Creature - Spider
 Gideon Jura	Planeswalker - Gideon
 Gideon's Avenger	Creature - Human Soldier
 Gideon's Lawkeeper	Creature - Human Soldier
+Gift of the Gargantuan	Sorcery
 Gigantiform	Enchantment - Aura
 Gigantomancer	Creature - Human Shaman
 Gilded Lotus	Artifact
+Giltspire Avenger	Creature - Human Soldier
 Gisela, Blade of Goldnight	Legendary Creature - Angel
 Glacial Fortress	Land
 Gladecover Scout	Creature - Elf Scout
+Glassdust Hulk	Artifact Creature - Golem
+Glaze Fiend	Artifact Creature - Illusion
+Gleam of Resistance	Instant
 Glimmerpoint Stag	Creature - Elk
 Glimmerpost	Land - Locus
 Glint Hawk	Creature - Bird
@@ -873,6 +1028,9 @@ Gloomhunter	Creature - Bat
 Gloomwidow	Creature - Spider
 Glorious Charge	Instant
 Glory Seeker	Creature - Human Soldier
+Glory of Warfare	Enchantment
+Gloryscale Viashino	Creature - Viashino Soldier
+Gluttonous Slime	Creature - Ooze
 Gnarlid Pack	Creature - Beast
 Gnathosaur	Creature - Lizard
 Gnaw to the Bone	Instant
@@ -880,24 +1038,32 @@ Go for the Throat	Instant
 Gobbling Ooze	Creature - Ooze
 Goblin Arsonist	Creature - Goblin Shaman
 Goblin Artillery	Creature - Goblin Warrior
+Goblin Assault	Enchantment
 Goblin Balloon Brigade	Creature - Goblin Warrior
 Goblin Bangchuckers	Creature - Goblin Warrior
 Goblin Battle Jester	Creature - Goblin
 Goblin Bushwhacker	Creature - Goblin Warrior
 Goblin Chieftain	Creature - Goblin
+Goblin Deathraiders	Creature - Goblin Warrior
 Goblin Electromancer	Creature - Goblin Wizard
 Goblin Fireslinger	Creature - Goblin Warrior
 Goblin Gaveleer	Creature - Goblin Warrior
 Goblin Grenade	Sorcery
 Goblin Guide	Creature - Goblin Scout
+Goblin Mountaineer	Creature - Goblin Scout
+Goblin Outlander	Creature - Goblin Scout
 Goblin Piker	Creature - Goblin Warrior
 Goblin Rally	Sorcery
+Goblin Razerunners	Creature - Goblin Warrior
 Goblin Roughrider	Creature - Goblin Knight
 Goblin Ruinblaster	Creature - Goblin Shaman
 Goblin Shortcutter	Creature - Goblin Scout
 Goblin Tunneler	Creature - Goblin Rogue
 Goblin War Paint	Enchantment - Aura
 Goblin Wardriver	Creature - Goblin Warrior
+Godsire	Creature - Beast
+Godtoucher	Creature - Elf Cleric
+Godtracker of Jund	Creature - Elf Shaman
 Gold Myr	Artifact Creature - Myr
 Golden Urn	Artifact
 Goldenglow Moth	Creature - Insect
@@ -915,6 +1081,7 @@ Gomazoa	Creature - Jellyfish
 Gore-House Chainwalker	Creature - Human Warrior
 Gore Vassal	Creature - Hound
 Gorehorn Minotaurs	Creature - Minotaur Warrior
+Gorger Wurm	Creature - Wurm
 Gorgon Flail	Artifact - Equipment
 Grafdigger's Cage	Artifact
 Grafted Exoskeleton	Artifact - Equipment
@@ -959,6 +1126,13 @@ Grindclock	Artifact
 Griptide	Instant
 Griselbrand	Legendary Creature - Demon
 Grisly Salvage	Instant
+Grixis Battlemage	Creature - Human Wizard
+Grixis Charm	Instant
+Grixis Illusionist	Creature - Human Wizard
+Grixis Panorama	Land
+Grixis Slavedriver	Creature - Zombie Giant
+Grixis Sojourners	Creature - Zombie Ogre
+Grizzled Leotau	Creature - Cat
 Grizzled Outcasts	Creature - Human Werewolf
 Grotag Siege-Runner	Creature - Goblin Rogue
 Grotag Thrasher	Creature - Lizard
@@ -981,11 +1155,13 @@ Guardians of Akrasa	Creature - Human Soldier
 Guild Feud	Enchantment
 Guise of Fire	Enchantment - Aura
 Gust-Skimmer	Artifact Creature - Insect
+Gustrider Exuberant	Creature - Human Wizard
 Gutter Grime	Enchantment
 Guttersnipe	Creature - Goblin Shaman
 Guul Draz Assassin	Creature - Vampire Assassin
 Guul Draz Specter	Creature - Specter
 Guul Draz Vampire	Creature - Vampire Rogue
+Gwafa Hazid, Profiteer	Legendary Creature - Human Rogue
 Hada Freeblade	Creature - Human Soldier Ally
 Hada Spy Patrol	Creature - Human Rogue
 Hagra Crocodile	Creature - Crocodile
@@ -1034,14 +1210,18 @@ Hedron Matrix	Artifact - Equipment
 Hedron Rover	Artifact Creature - Construct
 Hedron Scrabbler	Artifact Creature - Construct
 Heirs of Stromkirk	Creature - Vampire
+Hell's Thunder	Creature - Elemental
 Hellcarver Demon	Creature - Demon
 Hellfire Mongrel	Creature - Elemental Hound
 Hellhole Flailer	Creature - Ogre Warrior
 Hellion Crucible	Land
 Hellion Eruption	Sorcery
 Hellkite Charger	Creature - Dragon
+Hellkite Hatchling	Creature - Dragon
 Hellkite Igniter	Creature - Dragon
+Hellkite Overlord	Creature - Dragon
 Hellrider	Creature - Devil
+Hellspark Elemental	Creature - Elemental
 Helvault	Legendary Artifact
 Herald of War	Creature - Angel
 Heretic's Punishment	Enchantment
@@ -1054,9 +1234,11 @@ Hideous End	Instant
 Hideous Visage	Sorcery
 Highborn Ghoul	Creature - Zombie
 Highland Berserker	Creature - Human Berserker Ally
+Hindering Light	Instant
 Hinterland Harbor	Land
 Hinterland Hermit	Creature - Human Werewolf
 Hinterland Scourge	Creature - Werewolf
+Hissing Iguanar	Creature - Lizard
 Hive Mind	Enchantment
 Hoard-Smelter Dragon	Creature - Dragon
 Hoarding Dragon	Creature - Dragon
@@ -1100,11 +1282,15 @@ Ichor Explosion	Sorcery
 Ichor Rats	Creature - Rat
 Ichor Wellspring	Artifact
 Ichorclaw Myr	Artifact Creature - Myr
+Identity Crisis	Sorcery
+Igneous Pouncer	Creature - Elemental
 Ignite Disorder	Instant
 Ikiral Outrider	Creature - Human Soldier
 Illusionary Servant	Creature - Illusion
+Illusory Demon	Creature - Demon Illusion
 Immerwolf	Creature - Wolf
 Immolating Souleater	Artifact Creature - Hound
+Immortal Coil	Artifact
 Impaler Shrike	Creature - Bird
 Inaction Injunction	Sorcery
 Incinerate	Instant
@@ -1113,19 +1299,23 @@ Increasing Ambition	Sorcery
 Increasing Devotion	Sorcery
 Increasing Savagery	Sorcery
 Increasing Vengeance	Instant
+Incurable Ogre	Creature - Ogre Mutant
 Indestructibility	Enchantment - Aura
 Index	Sorcery
 Indomitable Archangel	Creature - Angel
 Induce Despair	Instant
 Inexorable Tide	Enchantment
 Infantry Veteran	Creature - Human Soldier
+Infectious Horror	Creature - Zombie Horror
 Infernal Plunge	Sorcery
 Inferno Elemental	Creature - Elemental
 Inferno Titan	Creature - Giant
 Inferno Trap	Instant - Trap
+Infest	Sorcery
 Infiltration Lens	Artifact - Equipment
 Infinite Reflection	Enchantment - Aura
 Inkmoth Nexus	Land
+Inkwell Leviathan	Artifact Creature - Leviathan
 Inquisition of Kozilek	Sorcery
 Inquisitor Exarch	Creature - Cleric
 Inquisitor's Flail	Artifact - Equipment
@@ -1136,12 +1326,14 @@ Inspired Charge	Instant
 Instigator Gang	Creature - Human Werewolf
 Instill Infection	Instant
 Intangible Virtue	Enchantment
+Intimidation Bolt	Instant
 Into the Core	Instant
 Into the Maw of Hell	Sorcery
 Into the Roil	Instant
 Into the Void	Sorcery
 Intrepid Hero	Creature - Human Soldier
 Invader Parasite	Creature - Insect
+Invincible Hymn	Sorcery
 Invisible Stalker	Creature - Human Rogue
 Iona, Shield of Emeria	Legendary Creature - Angel
 Iona's Judgment	Sorcery
@@ -1175,6 +1367,11 @@ Jar of Eyeballs	Artifact
 Jarad, Golgari Lich Lord	Legendary Creature - Zombie Elf
 Jarad's Orders	Sorcery
 Jayemdae Tome	Artifact
+Jenara, Asura of War	Legendary Creature - Angel
+Jhessian Balmgiver	Creature - Human Cleric
+Jhessian Infiltrator	Creature - Human Rogue
+Jhessian Lookout	Creature - Human Scout
+Jhessian Zombies	Creature - Zombie
 Jin-Gitaxias, Core Augur	Legendary Creature - Praetor
 Jinxed Idol	Artifact
 Join the Ranks	Instant
@@ -1186,6 +1383,12 @@ Joraga Warcaller	Creature - Elf Warrior
 Journey to Nowhere	Enchantment
 Juggernaut	Artifact Creature - Juggernaut
 Jump	Instant
+Jund Battlemage	Creature - Human Shaman
+Jund Charm	Instant
+Jund Panorama	Land
+Jund Sojourners	Creature - Viashino Shaman
+Jungle Shrine	Land
+Jungle Weaver	Creature - Spider
 Jwar Isle Refuge	Land
 Jwari Scuttler	Creature - Crab
 Jwari Shapeshifter	Creature - Shapeshifter Ally
@@ -1193,17 +1396,26 @@ Kabira Crossroads	Land
 Kabira Evangel	Creature - Human Cleric Ally
 Kabira Vindicator	Creature - Human Knight
 Kalastria Highborn	Creature - Vampire Shaman
+Kaleidostone	Artifact
 Kalitas, Bloodchief of Ghet	Legendary Creature - Vampire Warrior
 Kalonian Behemoth	Creature - Beast
 Kargan Dragonlord	Creature - Human Warrior
 Karn Liberated	Planeswalker - Karn
+Karrthus, Tyrant of Jund	Legendary Creature - Dragon
+Kathari Bomber	Creature - Bird Shaman
+Kathari Remnant	Creature - Bird Skeleton
+Kathari Screecher	Creature - Bird Soldier
 Kazandu Blademaster	Creature - Human Soldier Ally
 Kazandu Refuge	Land
 Kazandu Tuskcaller	Creature - Human Shaman
 Kazuul Warlord	Creature - Minotaur Warrior Ally
 Kazuul, Tyrant of the Cliffs	Legendary Creature - Ogre Warrior
+Kederekt Creeper	Creature - Horror
+Kederekt Leviathan	Creature - Leviathan
+Kederekt Parasite	Creature - Horror
 Keening Apparition	Creature - Spirit
 Keening Stone	Artifact
+Keeper of Progenitus	Creature - Elf Druid
 Kelinore Bat	Creature - Bat
 Kemba, Kha Regent	Legendary Creature - Cat Cleric
 Kemba's Legion	Creature - Cat Soldier
@@ -1221,14 +1433,22 @@ Kiln Fiend	Creature - Elemental Beast
 Kiln Walker	Artifact Creature - Construct
 Kindercatch	Creature - Spirit
 Kindled Fury	Instant
+Kiss of the Amesha	Sorcery
 Kite Shield	Artifact - Equipment
 Kitesail	Artifact - Equipment
 Kitesail Apprentice	Creature - Kor Soldier
+Knight-Captain of Eos	Creature - Human Knight
 Knight Exemplar	Creature - Human Knight
 Knight of Cliffhaven	Creature - Kor Knight
 Knight of Glory	Creature - Human Knight
 Knight of Infamy	Creature - Human Knight
+Knight of New Alara	Creature - Human Knight
+Knight of the Reliquary	Creature - Human Knight
+Knight of the Skyward Eye	Creature - Human Knight
+Knight of the White Orchid	Creature - Human Knight
 Knightly Valor	Enchantment - Aura
+Knotvine Mystic	Creature - Elf Druid
+Knotvine Paladin	Creature - Human Knight
 Knowledge Pool	Artifact
 Kor Aeronaut	Creature - Kor Soldier
 Kor Cartographer	Creature - Kor Scout
@@ -1250,8 +1470,10 @@ Kraken Hatchling	Creature - Kraken
 Kraken's Eye	Artifact
 Krallenhorde Killer	Creature - Werewolf
 Krallenhorde Wantons	Creature - Werewolf
+Kranioceros	Creature - Beast
 Krenko, Mob Boss	Legendary Creature - Goblin Warrior
 Krenko's Command	Sorcery
+Kresh the Bloodbraided	Legendary Creature - Human Warrior
 Kruin Outlaw	Creature - Human Rogue Werewolf
 Kruin Striker	Creature - Human Warrior
 Kuldotha Flamefiend	Creature - Elemental
@@ -1265,6 +1487,7 @@ Lair Delve	Sorcery
 Lambholt Elder	Creature - Human Werewolf
 Landbind Ritual	Sorcery
 Lantern Spirit	Creature - Spirit
+Lapse of Certainty	Instant
 Lashwrithe	Artifact - Equipment
 Last Kiss	Instant
 Latch Seeker	Creature - Spirit
@@ -1281,6 +1504,7 @@ Leap of Faith	Instant
 Leatherback Baloth	Creature - Beast
 Leeching Bite	Instant
 Leonin Arbiter	Creature - Cat Cleric
+Leonin Armorguard	Creature - Cat Soldier
 Leonin Relic-Warder	Creature - Cat Cleric
 Leonin Skyhunter	Creature - Cat Knight
 Lethargy Trap	Instant - Trap
@@ -1290,6 +1514,8 @@ Leyline of Punishment	Enchantment
 Leyline of Sanctity	Enchantment
 Leyline of Vitality	Enchantment
 Leyline of the Void	Enchantment
+Lich Lord of Unx	Creature - Zombie Wizard
+Lich's Mirror	Artifact
 Liege of the Tangle	Creature - Elemental
 Life's Finale	Sorcery
 Lifelink	Enchantment - Aura
@@ -1301,6 +1527,8 @@ Lightning Bolt	Instant
 Lightning Elemental	Creature - Elemental
 Lightning Mauler	Creature - Human Berserker
 Lightning Prowess	Enchantment - Aura
+Lightning Reaver	Creature - Zombie Beast
+Lightning Talons	Enchantment - Aura
 Lightwielder Paladin	Creature - Human Knight
 Liliana Vess	Planeswalker - Liliana
 Liliana of the Dark Realms	Planeswalker - Liliana
@@ -1321,9 +1549,11 @@ Lodestone Golem	Artifact Creature - Golem
 Lone Missionary	Creature - Kor Monk
 Lone Revenant	Creature - Spirit
 Looming Shade	Creature - Shade
+Lord of Extinction	Creature - Elemental
 Lord of Lineage	Creature - Vampire
 Lord of Shatterskull Pass	Creature - Minotaur Shaman
 Lord of the Unreal	Creature - Human Wizard
+Lorescale Coatl	Creature - Snake
 Lorthos, the Tidemaker	Legendary Creature - Octopus
 Lost Leonin	Creature - Cat Soldier
 Lost in the Mist	Instant
@@ -1347,14 +1577,23 @@ Lunar Mystic	Creature - Human Wizard
 Lure	Enchantment - Aura
 Lurking Crocodile	Creature - Crocodile
 Lurking Predators	Enchantment
+Lush Growth	Enchantment - Aura
 Lust for War	Enchantment - Aura
 Lux Cannon	Artifact
 Lyev Skyknight	Creature - Human Knight
 Maalfeld Twins	Creature - Zombie
 Mad Prophet	Creature - Human Shaman
+Madrush Cyclops	Creature - Cyclops Warrior
+Maelstrom Archangel	Creature - Angel
+Maelstrom Nexus	Enchantment
+Maelstrom Pulse	Sorcery
+Mage Slayer	Artifact - Equipment
 Magebane Armor	Artifact - Equipment
+Magefire Wings	Enchantment - Aura
+Magister Sphinx	Artifact Creature - Sphinx
 Magma Phoenix	Creature - Phoenix
 Magma Rift	Sorcery
+Magma Spray	Instant
 Magmaw	Creature - Elemental
 Magnetic Mine	Artifact
 Magosi, the Waterveil	Land
@@ -1363,16 +1602,23 @@ Makeshift Mauler	Creature - Zombie Horror
 Makindi Griffin	Creature - Griffin
 Makindi Shieldmate	Creature - Kor Soldier Ally
 Malakir Bloodwitch	Creature - Vampire Shaman
+Malfegor	Legendary Creature - Demon Dragon
 Malicious Intent	Enchantment - Aura
 Malignus	Creature - Elemental Spirit
 Mammoth Umbra	Enchantment - Aura
+Mana Cylix	Artifact
 Mana Leak	Instant
 Manabarbs	Enchantment
+Manaforce Mace	Artifact - Equipment
 Manalith	Artifact
+Manaplasm	Creature - Ooze
+Maniacal Rage	Enchantment - Aura
 Manic Vandal	Creature - Human Warrior
 Manor Gargoyle	Artifact Creature - Gargoyle
 Manor Skeleton	Creature - Skeleton
+Marble Chalice	Artifact
 Maritime Guard	Creature - Merfolk Soldier
+Mark of Asylum	Enchantment
 Mark of Mutiny	Sorcery
 Mark of the Vampire	Enchantment - Aura
 Markov Blademaster	Creature - Vampire Warrior
@@ -1380,30 +1626,40 @@ Markov Patrician	Creature - Vampire
 Markov Warlord	Creature - Vampire Warrior
 Markov's Servant	Creature - Vampire
 Marrow Bats	Creature - Bat Skeleton
+Marrow Chomper	Creature - Zombie Lizard
 Marsh Casualties	Sorcery
 Marsh Flats	Land
 Marsh Threader	Creature - Kor Scout
 Marshal's Anthem	Enchantment
 Martial Law	Enchantment
 Mask of Avacyn	Artifact - Equipment
+Mask of Riddles	Artifact - Equipment
 Mass Appeal	Sorcery
 Mass Polymorph	Sorcery
 Massacre Wurm	Creature - Wurm
 Master Splicer	Creature - Human Artificer
 Master Thief	Creature - Human Rogue
+Master Transmuter	Artifact Creature - Human Artificer
+Master of Etherium	Artifact Creature - Vedalken Wizard
 Master of the Pearl Trident	Creature - Merfolk
 Master of the Wild Hunt	Creature - Human Shaman
 Master's Call	Instant
+Matca Rioters	Creature - Human Warrior
 Maul Splicer	Creature - Human Artificer
 Mausoleum Guard	Creature - Human Scout
 Maw of the Mire	Sorcery
+Mayael's Aria	Enchantment
+Mayael the Anima	Legendary Creature - Elf Shaman
 Mayor of Avabruck	Creature - Human Advisor Werewolf
+Meddling Mage	Creature - Human Wizard
+Meglonoth	Creature - Beast
 Megrim	Enchantment
 Melira, Sylvok Outcast	Legendary Creature - Human Scout
 Melira's Keepers	Creature - Human Warrior
 Melt Terrain	Sorcery
 Memnite	Artifact Creature - Construct
 Memoricide	Sorcery
+Memory Erosion	Enchantment
 Memory's Journey	Instant
 Mental Agony	Sorcery
 Mentor of the Meek	Creature - Human Soldier
@@ -1420,16 +1676,20 @@ Merfolk Wayfinder	Creature - Merfolk Scout
 Merfolk of the Pearl Trident	Creature - Merfolk
 Mesa Enchantress	Creature - Human Druid
 Metallic Mastery	Sorcery
+Metallurgeon	Artifact Creature - Human Artificer
 Midnight Duelist	Creature - Human Soldier
 Midnight Guard	Creature - Human Soldier
 Midnight Haunting	Instant
 Midvast Protector	Creature - Human Wizard
+Might of Alara	Instant
 Might of Oaks	Instant
 Might of the Masses	Instant
+Mighty Emergence	Enchantment
 Mighty Leap	Instant
 Mikaeus, the Unhallowed	Legendary Creature - Zombie Cleric
 Mimic Vat	Artifact
 Mind Control	Enchantment - Aura
+Mind Funeral	Sorcery
 Mind Rot	Sorcery
 Mind Sculpt	Sorcery
 Mind Sludge	Sorcery
@@ -1439,8 +1699,10 @@ Mindclaw Shaman	Creature - Viashino Shaman
 Mindcrank	Artifact
 Mindculling	Sorcery
 Mindless Null	Creature - Zombie
+Mindlock Orb	Artifact
 Mindshrieker	Creature - Spirit Bird
 Mindslaver	Legendary Artifact
+Minion Reflector	Artifact
 Minotaur Aggressor	Creature - Minotaur Berserker
 Mire Blight	Enchantment - Aura
 Mire's Toll	Sorcery
@@ -1448,11 +1710,13 @@ Mirran Crusader	Creature - Human Knight
 Mirran Mettle	Instant
 Mirran Spy	Creature - Drone
 Mirror-Mad Phantasm	Creature - Spirit
+Mirror-Sigil Sergeant	Creature - Rhino Soldier
 Mirror of Fate	Artifact
 Mirrorworks	Artifact
 Mist Leopard	Creature - Cat
 Mist Raven	Creature - Bird
 Misthollow Griffin	Creature - Griffin
+Mistvein Borderpost	Artifact
 Misty Rainforest	Land
 Mitotic Manipulation	Sorcery
 Mitotic Slime	Creature - Ooze
@@ -1466,12 +1730,14 @@ Mold Shambler	Creature - Fungus Beast
 Molder Beast	Creature - Beast
 Moldgraf Monstrosity	Creature - Insect
 Molten-Tail Masticore	Artifact Creature - Masticore
+Molten Frame	Instant
 Molten Psyche	Sorcery
 Molten Ravager	Creature - Elemental
 Moment of Heroism	Instant
 Momentous Fall	Instant
 Mondronen Shaman	Creature - Human Werewolf Shaman
 Monomania	Sorcery
+Monstrous Carabid	Creature - Insect
 Moon Heron	Creature - Spirit Bird
 Moonlight Geist	Creature - Spirit
 Moonmist	Instant
@@ -1480,6 +1746,7 @@ Moonsilver Spear	Artifact - Equipment
 Moonveil Dragon	Creature - Dragon
 Moorland Haunt	Land
 Moorland Inquisitor	Creature - Human Soldier
+Morbid Bloom	Sorcery
 Morbid Plunder	Sorcery
 Mordant Dragon	Creature - Dragon
 Moriok Reaver	Creature - Human Warrior
@@ -1488,6 +1755,7 @@ Morkrut Banshee	Creature - Spirit
 Mortarpod	Artifact - Equipment
 Mortician Beetle	Creature - Insect
 Mortis Dogs	Creature - Hound
+Mosstodon	Creature - Plant Elephant
 Mountain	Basic Land - Mountain
 Mox Opal	Legendary Artifact
 Mul Daya Channelers	Creature - Elf Druid Shaman
@@ -1497,6 +1765,8 @@ Murder	Instant
 Murder of Crows	Creature - Bird
 Mutilate	Sorcery
 Mwonvuli Beast Tracker	Creature - Human Scout
+Mycoid Shepherd	Creature - Fungus
+Mycoloth	Creature - Fungus
 Mycosynth Fiend	Creature - Horror
 Mycosynth Wellspring	Artifact
 Myr Battlesphere	Artifact Creature - Myr Construct
@@ -1511,6 +1781,9 @@ Myrsmith	Creature - Human Artificer
 Mysteries of the Deep	Instant
 Mystic Retrieval	Sorcery
 Mystifying Maze	Land
+Nacatl Hunt-Pride	Creature - Cat Warrior
+Nacatl Outlander	Creature - Cat Scout
+Nacatl Savage	Creature - Cat Warrior
 Nantuko Shade	Creature - Insect Shade
 Narcolepsy	Enchantment - Aura
 Narrow Escape	Instant
@@ -1519,12 +1792,18 @@ Natural End	Instant
 Naturalize	Instant
 Nature's Claim	Instant
 Nature's Spiral	Sorcery
+Naya Battlemage	Creature - Human Shaman
+Naya Charm	Instant
+Naya Panorama	Land
+Naya Sojourners	Creature - Elf Shaman
 Near-Death Experience	Enchantment
 Nearheath Pilgrim	Creature - Human Cleric
 Nearheath Stalker	Creature - Vampire Rogue
 Necrobite	Instant
 Necrogen Censer	Artifact
 Necrogen Scudder	Creature - Horror
+Necrogenesis	Enchantment
+Necromancer's Covenant	Enchantment
 Necropede	Artifact Creature - Insect
 Necropolis Regent	Creature - Vampire
 Necropouncer	Artifact - Equipment
@@ -1535,6 +1814,7 @@ Nefarox, Overlord of Grixis	Legendary Creature - Demon
 Negate	Instant
 Nema Siltlurker	Creature - Lizard
 Nemesis Trap	Instant - Trap
+Nemesis of Reason	Creature - Leviathan Horror
 Nephalia Drownyard	Land
 Nephalia Seakite	Creature - Bird
 Nephalia Smuggler	Creature - Human Rogue
@@ -1569,20 +1849,30 @@ Nissa Revane	Planeswalker - Nissa
 Nissa's Chosen	Creature - Elf Warrior
 Niv-Mizzet, Dracogenius	Legendary Creature - Dragon Wizard
 Nivix Guildmage	Creature - Human Wizard
+Noble Hierarch	Creature - Human Druid
 Noble Vestige	Creature - Spirit
 Nomads' Assembly	Sorcery
 Not of This World	Tribal Instant - Eldrazi
 Novablast Wurm	Creature - Wurm
 Null Champion	Creature - Zombie Warrior
+Nulltread Gargantuan	Creature - Beast
 Numbing Dose	Enchantment - Aura
+Nyxathid	Creature - Elemental
 Oak Street Innkeeper	Creature - Elf
 Oakenform	Enchantment - Aura
 Ob Nixilis, the Fallen	Legendary Creature - Demon
+Obelisk of Alara	Artifact
+Obelisk of Bant	Artifact
+Obelisk of Esper	Artifact
+Obelisk of Grixis	Artifact
+Obelisk of Jund	Artifact
+Obelisk of Naya	Artifact
 Oblivion Ring	Enchantment
 Obsidian Fireheart	Creature - Elemental
 Obstinate Baloth	Creature - Beast
 Oculus	Creature - Homunculus
 Odric, Master Tactician	Legendary Creature - Human Soldier
+Offering to Asha	Instant
 Ogre Geargrabber	Creature - Ogre Warrior
 Ogre Jailbreaker	Creature - Ogre Rogue
 Ogre Menial	Creature - Ogre
@@ -1596,7 +1886,9 @@ Omniscience	Enchantment
 Ondu Cleric	Creature - Kor Cleric Ally
 Ondu Giant	Creature - Giant Druid
 One-Eyed Scarecrow	Artifact Creature - Scarecrow
+Onyx Goblet	Artifact
 Onyx Mage	Creature - Human Wizard
+Ooze Garden	Enchantment
 Open the Vaults	Sorcery
 Oracle of Mul Daya	Creature - Elf Shaman
 Oran-Rief Recluse	Creature - Spider
@@ -1607,6 +1899,7 @@ Origin Spellbomb	Artifact
 Ornithopter	Artifact Creature - Thopter
 Otherworld Atlas	Artifact
 Oust	Sorcery
+Outrider of Jhess	Creature - Human Knight
 Outwit	Instant
 Overgrown Battlement	Creature - Wall
 Overgrown Tomb	Land - Swamp Forest
@@ -1619,15 +1912,20 @@ Pack Rat	Creature - Rat
 Painful Quandary	Enchantment
 Painsmith	Creature - Human Artificer
 Palace Guard	Creature - Human Soldier
+Pale Recluse	Creature - Spider
+Paleoloth	Creature - Beast
 Palisade Giant	Creature - Giant Soldier
 Palladium Myr	Artifact Creature - Myr
 Panic Attack	Sorcery
 Panic Spellbomb	Artifact
+Paragon of the Amesha	Creature - Human Knight
 Parallel Lives	Enchantment
 Paralyzing Grasp	Enchantment - Aura
 Paraselene	Sorcery
 Parasitic Implant	Enchantment - Aura
+Parasitic Strix	Artifact Creature - Bird
 Past in Flames	Sorcery
+Path to Exile	Instant
 Pathbreaker Wurm	Creature - Wurm
 Pathrazer of Ulamog	Creature - Eldrazi
 Pawn of Ulamog	Creature - Vampire Shaman
@@ -1644,6 +1942,7 @@ Perish the Thought	Sorcery
 Permafrost Trap	Instant - Trap
 Personal Sanctuary	Enchantment
 Pestilence Demon	Creature - Demon
+Pestilent Kathari	Creature - Bird Warrior
 Pestilent Souleater	Artifact Creature - Insect
 Phantasmal Abomination	Creature - Illusion
 Phantasmal Bear	Creature - Bear Illusion
@@ -1695,8 +1994,10 @@ Praetor's Counsel	Sorcery
 Praetor's Grasp	Sorcery
 Precinct Captain	Creature - Human Soldier
 Precursor Golem	Artifact Creature - Golem
+Predator Dragon	Creature - Dragon
 Predator Ooze	Creature - Ooze
 Predator's Gambit	Enchantment - Aura
+Predatory Advantage	Enchantment
 Predatory Rampage	Sorcery
 Predatory Urge	Enchantment - Aura
 Preordain	Sorcery
@@ -1711,11 +2012,14 @@ Primal Cocoon	Enchantment - Aura
 Primal Huntbeast	Creature - Beast
 Primal Surge	Sorcery
 Primeval Titan	Creature - Giant
+Prince of Thralls	Creature - Demon
 Pristine Talisman	Artifact
 Prized Elephant	Creature - Elephant
 Prized Unicorn	Creature - Unicorn
 Prodigal Pyromancer	Creature - Human Wizard
+Progenitus	Legendary Creature - Hydra Avatar
 Prophetic Prism	Artifact
+Protomatter Powder	Artifact
 Prototype Portal	Artifact
 Psychic Barrier	Instant
 Psychic Miasma	Sorcery
@@ -1725,18 +2029,24 @@ Psychosis Crawler	Artifact Creature - Horror
 Public Execution	Instant
 Pulse Tracker	Creature - Vampire Rogue
 Puncturing Light	Instant
+Punish Ignorance	Instant
 Punishing Fire	Instant
+Puppet Conjurer	Artifact Creature - Human Wizard
 Puresteel Paladin	Creature - Human Knight
 Purify the Grave	Instant
 Pursuit of Flight	Enchantment - Aura
 Putrefax	Creature - Horror
+Putrid Leech	Creature - Zombie Leech
 Pyreheart Wolf	Creature - Wolf
 Pyretic Ritual	Instant
 Pyroclasm	Sorcery
 Pyroconvergence	Enchantment
 Pyromancer Ascension	Enchantment
+Qasali Ambusher	Creature - Cat Warrior
+Qasali Pridemage	Creature - Cat Wizard
 Quag Sickness	Enchantment - Aura
 Quag Vampires	Creature - Vampire Rogue
+Quenchable Fire	Sorcery
 Quest for Ancient Secrets	Enchantment
 Quest for Pure Flame	Enchantment
 Quest for Renewal	Enchantment
@@ -1750,9 +2060,11 @@ Quicksand	Land
 Quicksilver Amulet	Artifact
 Quicksilver Gargantuan	Creature - Shapeshifter
 Quicksilver Geyser	Instant
+Quietus Spike	Artifact - Equipment
 Quilled Slagwurm	Creature - Wurm
 Quirion Dryad	Creature - Dryad
 Racecourse Fury	Enchantment - Aura
+Rafiq of the Many	Legendary Creature - Human Knight
 Rage Nimbus	Creature - Elemental
 Rage Thrower	Creature - Human Shaman
 Raging Goblin	Creature - Goblin Berserker
@@ -1767,13 +2079,16 @@ Rakdos Keyrune	Artifact
 Rakdos Ragemutt	Creature - Elemental Hound
 Rakdos Ringleader	Creature - Skeleton Warrior
 Rakdos, Lord of Riots	Legendary Creature - Demon
+Rakeclaw Gargantuan	Creature - Beast
 Rakish Heir	Creature - Vampire
+Rakka Mar	Legendary Creature - Human Shaman
 Rally the Forces	Instant
 Rally the Peasants	Instant
 Rampaging Baloths	Creature - Beast
 Rampaging Werewolf	Creature - Werewolf
 Rampant Growth	Sorcery
 Rancor	Enchantment - Aura
+Ranger of Eos	Creature - Human Soldier
 Ranger's Guile	Instant
 Ranger's Path	Sorcery
 Rapacious One	Creature - Eldrazi Drone
@@ -1790,11 +2105,13 @@ Razorfield Rhino	Artifact Creature - Rhino
 Razorfield Thresher	Artifact Creature - Construct
 Razorfoot Griffin	Creature - Griffin
 Razorverge Thicket	Land
+Realm Razer	Creature - Beast
 Realms Uncharted	Instant
 Reap the Seagraf	Sorcery
 Reaper from the Abyss	Creature - Demon
 Reaper of Sheoldred	Creature - Horror
 Reassembling Skeleton	Creature - Skeleton Warrior
+Reborn Hope	Sorcery
 Rebuke	Instant
 Reckless Brute	Creature - Ogre Warrior
 Reckless Scholar	Creature - Human Wizard
@@ -1811,6 +2128,7 @@ Relentless Rats	Creature - Rat
 Relentless Skaabs	Creature - Zombie
 Relic Crush	Instant
 Relic Putrescence	Enchantment - Aura
+Relic of Progenitus	Artifact
 Reliquary Tower	Land
 Remember the Fallen	Sorcery
 Renegade Demon	Creature - Demon
@@ -1818,19 +2136,31 @@ Renegade Doppelganger	Creature - Shapeshifter
 Repay in Kind	Sorcery
 Repel the Darkness	Instant
 Requiem Angel	Creature - Angel
+Resounding Roar	Instant
+Resounding Scream	Sorcery
+Resounding Silence	Instant
+Resounding Thunder	Instant
+Resounding Wave	Instant
 Rest for the Weary	Instant
 Rest in Peace	Enchantment
 Restoration Angel	Creature - Angel
+Retaliator Griffin	Creature - Griffin
 Revenge of the Hunted	Sorcery
 Reverberate	Instant
 Revive	Sorcery
 Revoke Existence	Sorcery
 Rewind	Instant
+Rhox Bodyguard	Creature - Rhino Monk Soldier
+Rhox Brute	Creature - Rhino Warrior
+Rhox Charger	Creature - Rhino Soldier
 Rhox Faithmender	Creature - Rhino Monk
+Rhox Meditant	Creature - Rhino Monk
 Rhox Pikemaster	Creature - Rhino Soldier
+Rhox War Monk	Creature - Rhino Monk
 Ricochet Trap	Instant - Trap
 Riddlesmith	Creature - Human Artificer
 Riders of Gavony	Creature - Human Knight
+Ridge Rannet	Creature - Beast
 Righteous Authority	Enchantment - Aura
 Righteous Blow	Instant
 Righteousness	Instant
@@ -1841,6 +2171,7 @@ Ring of Valkas	Artifact - Equipment
 Ring of Xathrid	Artifact - Equipment
 Riot Devils	Creature - Devil
 Riot Ringleader	Creature - Human Warrior
+Rip-Clan Crasher	Creature - Human Warrior
 Rise from the Grave	Sorcery
 Risen Sanctuary	Creature - Elemental
 Rite of Replication	Sorcery
@@ -1851,6 +2182,8 @@ River Boa	Creature - Snake
 Rix Maadi Guildmage	Creature - Human Shaman
 Roaring Primadox	Creature - Beast
 Roc Egg	Creature - Bird
+Rockcaster Platoon	Creature - Rhino Soldier
+Rockslide Elemental	Creature - Elemental
 Rod of Ruin	Artifact
 Rogue's Passage	Land
 Roil Elemental	Creature - Elemental
@@ -1864,6 +2197,7 @@ Rotcrown Ghoul	Creature - Zombie
 Rotted Hystrix	Creature - Beast
 Rotting Fensnake	Creature - Zombie Snake
 Rotting Legion	Creature - Zombie
+Rotting Rats	Creature - Zombie Rat
 Royal Assassin	Creature - Human Assassin
 Rubbleback Rhino	Creature - Rhino
 Ruin Ghost	Creature - Spirit
@@ -1877,6 +2211,7 @@ Runed Servitor	Artifact Creature - Construct
 Runeflare Trap	Instant - Trap
 Runewing	Creature - Bird
 Runic Repetition	Sorcery
+Rupture Spire	Land
 Rush of Blood	Instant
 Russet Wolves	Creature - Wolf
 Rust Tick	Artifact Creature - Insect
@@ -1885,27 +2220,48 @@ Rusted Sentinel	Artifact Creature - Golem
 Rusted Slasher	Artifact Creature - Horror
 Ruthless Cullblade	Creature - Vampire Warrior
 Saberclaw Golem	Artifact Creature - Golem
+Sacellum Archers	Creature - Elf Archer
+Sacellum Godspeaker	Creature - Elf Druid
 Sacred Wolf	Creature - Wolf
 Sadistic Sacrament	Sorcery
 Safe Passage	Instant
 Sage Owl	Creature - Bird
+Sages of the Anima	Creature - Elf Wizard
 Salvage Scout	Creature - Human Scout
+Salvage Slasher	Artifact Creature - Human Rogue
+Salvage Titan	Artifact Creature - Golem
 Sanctuary Cat	Creature - Cat
+Sanctum Gargoyle	Artifact Creature - Gargoyle
+Sanctum Plowbeast	Artifact Creature - Beast
 Sands of Delirium	Artifact
+Sangrite Surge	Sorcery
 Sangromancer	Creature - Vampire Shaman
 Sanguine Bond	Enchantment
+Sanity Gnawers	Creature - Rat
+Sarkhan Vol	Planeswalker - Sarkhan
 Sarkhan the Mad	Planeswalker - Sarkhan
+Savage Hunger	Enchantment - Aura
+Savage Lands	Land
 Savage Silhouette	Enchantment - Aura
 Savage Surge	Instant
 Saving Grasp	Instant
 Scalding Devil	Creature - Devil
 Scalding Tarn	Land
+Scarland Thrinax	Creature - Lizard
+Scattershot Archer	Creature - Elf Archer
+Scavenger Drake	Creature - Drake
+Scepter of Dominance	Artifact
 Scepter of Empires	Artifact
+Scepter of Fugue	Artifact
+Scepter of Insight	Artifact
 Scorch the Fields	Sorcery
 Scoria Elemental	Creature - Elemental
 Scorned Villager	Creature - Human Werewolf
+Scornful Æther-Lich	Artifact Creature - Zombie Wizard
+Scourge Devil	Creature - Devil
 Scourge Servant	Creature - Zombie
 Scourge of Geier Reach	Creature - Elemental
+Scourglass	Artifact
 Scrambleverse	Sorcery
 Scrapdiver Serpent	Creature - Serpent
 Scrapskin Drake	Creature - Zombie Drake
@@ -1928,9 +2284,13 @@ Searchlight Geist	Creature - Spirit
 Searing Blaze	Instant
 Searing Spear	Instant
 Seascape Aerialist	Creature - Merfolk Wizard Ally
+Seaside Citadel	Land
 Second Guess	Instant
 Secrets of the Dead	Enchantment
 Security Blockade	Enchantment - Aura
+Sedraxis Alchemist	Creature - Zombie Wizard
+Sedraxis Specter	Creature - Specter
+Sedris, the Traitor King	Legendary Creature - Zombie Warrior
 See Beyond	Sorcery
 Seek the Horizon	Sorcery
 Seer's Sundial	Artifact
@@ -1949,6 +2309,7 @@ Selfless Cathar	Creature - Human Cleric
 Selhoff Occultist	Creature - Human Rogue
 Seller of Songbirds	Creature - Human
 Semblance Anvil	Artifact
+Sen Triplets	Legendary Artifact Creature - Human Wizard
 Sengir Vampire	Creature - Vampire
 Sensor Splicer	Creature - Artificer
 Sensory Deprivation	Enchantment - Aura
@@ -1966,9 +2327,14 @@ Serum Raker	Creature - Drake
 Servant of Nefarox	Creature - Human Cleric
 Sever the Bloodline	Sorcery
 Sewer Shambler	Creature - Zombie
+Shadowfeed	Instant
+Shambling Remains	Creature - Zombie Horror
 Shape Anew	Sorcery
+Shard Convergence	Sorcery
+Sharding Sphinx	Artifact Creature - Sphinx
 Shared Discovery	Sorcery
 Sharpened Pitchfork	Artifact - Equipment
+Sharuum the Hegemon	Legendary Artifact Creature - Sphinx
 Shatter	Instant
 Shattered Angel	Creature - Angel
 Shattered Perception	Sorcery
@@ -1976,6 +2342,7 @@ Shatterskull Giant	Creature - Giant Warrior
 Sheltering Word	Instant
 Sheoldred, Whispering One	Legendary Creature - Praetor
 Shepherd of the Lost	Creature - Angel
+Shield of the Righteous	Artifact - Equipment
 Shieldmate's Blessing	Instant
 Shimian Specter	Creature - Specter
 Shimmer Myr	Artifact Creature - Myr
@@ -1984,6 +2351,7 @@ Shiv's Embrace	Enchantment - Aura
 Shivan Dragon	Creature - Dragon
 Shoal Serpent	Creature - Serpent
 Shock	Instant
+Shore Snapper	Creature - Beast
 Shoreline Salvager	Creature - Surrakar
 Show of Valor	Instant
 Shriek Raptor	Creature - Bird
@@ -2000,7 +2368,14 @@ Sickleslicer	Artifact - Equipment
 Siege-Gang Commander	Creature - Goblin
 Siege Mastodon	Creature - Elephant
 Sigarda, Host of Herons	Legendary Creature - Angel
+Sighted-Caste Sorcerer	Creature - Human Wizard
 Sightless Ghoul	Creature - Zombie Soldier
+Sigil Blessing	Instant
+Sigil Captain	Creature - Rhino Soldier
+Sigil of the Empty Throne	Enchantment
+Sigil of the Nayan Gods	Enchantment - Aura
+Sigiled Behemoth	Creature - Beast
+Sigiled Paladin	Creature - Human Knight
 Sign in Blood	Sorcery
 Signal Pest	Artifact Creature - Pest
 Silence	Instant
@@ -2014,10 +2389,14 @@ Silverclaw Griffin	Creature - Griffin
 Silvercoat Lion	Creature - Cat
 Silverpelt Werewolf	Creature - Werewolf
 Silverskin Armor	Artifact - Equipment
+Singe-Mind Ogre	Creature - Ogre Mutant
 Skaab Goliath	Creature - Zombie Giant
 Skaab Ruinator	Creature - Zombie Horror
 Skeletal Grimace	Enchantment - Aura
+Skeletal Kathari	Creature - Bird Skeleton
 Skeletal Wurm	Creature - Skeleton Wurm
+Skeletonize	Instant
+Skill Borrower	Artifact Creature - Human Wizard
 Skillful Lunge	Instant
 Skinrender	Creature - Zombie
 Skinshifter	Creature - Human Shaman
@@ -2029,10 +2408,13 @@ Skithiryx, the Blight Dragon	Legendary Creature - Dragon Skeleton
 Skitter of Lizards	Creature - Lizard
 Skittering Invasion	Tribal Sorcery - Eldrazi
 Skull Rend	Sorcery
+Skullmulcher	Creature - Elemental
 Sky-Eel School	Creature - Fish
 Sky Ruin Drake	Creature - Drake
+Skyclaw Thrash	Artifact Creature - Viashino Warrior
 Skyline Predator	Creature - Drake
 Skymark Roc	Creature - Bird
+Skyward Eye Prophets	Creature - Human Wizard
 Skywatcher Adept	Creature - Merfolk Wizard
 Skywinder Drake	Creature - Drake
 Slag Fiend	Creature - Construct
@@ -2045,6 +2427,7 @@ Slayers' Stronghold	Land
 Sleep	Sorcery
 Slice in Twain	Instant
 Slingbow Trap	Instant - Trap
+Sludge Strider	Artifact Creature - Insect
 Sluiceway Scorpion	Creature - Scorpion
 Slum Reaper	Creature - Horror
 Slumbering Dragon	Creature - Dragon
@@ -2075,6 +2458,7 @@ Sorin's Thirst	Instant
 Sorin's Vengeance	Sorcery
 Soul Bleed	Enchantment - Aura
 Soul Conduit	Artifact
+Soul Manipulation	Instant
 Soul Parry	Instant
 Soul Seizer	Creature - Spirit
 Soul Stair Expedition	Enchantment
@@ -2082,33 +2466,47 @@ Soul Tithe	Enchantment - Aura
 Soul Warden	Creature - Human Cleric
 Soul of the Harvest	Creature - Elemental
 Soul's Attendant	Creature - Human Cleric
+Soul's Fire	Instant
+Soul's Grace	Instant
+Soul's Majesty	Sorcery
+Soul's Might	Sorcery
 Soulbound Guardians	Creature - Kor Spirit
 Soulcage Fiend	Creature - Demon
+Soulquake	Sorcery
 Soulsurge Elemental	Creature - Elemental
 Soulsworn Spirit	Creature - Spirit
+Sovereigns of Lost Alara	Creature - Spirit
 Spare from Evil	Instant
 Sparkmage Apprentice	Creature - Human Wizard
 Spawn of Rix Maadi	Creature - Horror
 Spawning Breath	Instant
 Spawnsire of Ulamog	Creature - Eldrazi
+Spearbreaker Behemoth	Creature - Beast
 Spectral Flight	Enchantment - Aura
 Spectral Gateguards	Creature - Spirit Soldier
 Spectral Prison	Enchantment - Aura
 Spectral Rider	Creature - Spirit Knight
 Spell Contortion	Instant
 Spell Pierce	Instant
+Spell Snip	Instant
 Spellbook	Artifact
+Spellbound Dragon	Creature - Dragon
+Spellbreaker Behemoth	Creature - Beast
 Spellskite	Artifact Creature - Horror
 Spelltwine	Sorcery
 Sphere of Safety	Enchantment
 Sphere of the Suns	Artifact
 Sphinx-Bone Wand	Artifact
 Sphinx Ambassador	Creature - Sphinx
+Sphinx Sovereign	Artifact Creature - Sphinx
+Sphinx Summoner	Artifact Creature - Sphinx
 Sphinx of Jwar Isle	Creature - Sphinx
 Sphinx of Lost Truths	Creature - Sphinx
 Sphinx of Magosi	Creature - Sphinx
 Sphinx of Uthuun	Creature - Sphinx
 Sphinx of the Chimes	Creature - Sphinx
+Sphinx of the Steel Wind	Artifact Creature - Sphinx
+Sphinx's Herald	Artifact Creature - Vedalken Wizard
 Spider Spawning	Sorcery
 Spider Umbra	Enchantment - Aura
 Spidersilk Net	Artifact - Equipment
@@ -2129,9 +2527,11 @@ Spiteful Shadows	Enchantment - Aura
 Splatter Thug	Creature - Human Warrior
 Splinter Twin	Enchantment - Aura
 Splinterfright	Creature - Elemental
+Spore Burst	Sorcery
 Sporecap Spider	Creature - Spider
 Spread the Sickness	Sorcery
 Spreading Seas	Enchantment - Aura
+Sprouting Thrinax	Creature - Lizard
 Squadron Hawk	Creature - Bird
 Stab Wound	Enchantment - Aura
 Stabbing Pain	Instant
@@ -2147,13 +2547,16 @@ Steam Vents	Land - Island Mountain
 Steel Hellkite	Artifact Creature - Dragon
 Steel Overseer	Artifact Creature - Construct
 Steel Sabotage	Instant
+Steelclad Serpent	Artifact Creature - Serpent
 Stensia Bloodhall	Land
 Steppe Lynx	Creature - Cat
 Stern Mentor	Creature - Human Wizard
+Steward of Valeron	Creature - Human Druid Knight
 Stingerfling Spider	Creature - Spider
 Stirring Wildwood	Land
 Stitched Drake	Creature - Zombie Drake
 Stitcher's Apprentice	Creature - Homunculus
+Stoic Angel	Creature - Angel
 Stoic Rebuttal	Instant
 Stolen Goods	Sorcery
 Stomper Cub	Creature - Beast
@@ -2168,6 +2571,7 @@ Stonewright	Creature - Human Shaman
 Stony Silence	Enchantment
 Stormblood Berserker	Creature - Human Berserker
 Stormbound Geist	Creature - Spirit
+Stormcaller's Boon	Enchantment
 Stormfront Pegasus	Creature - Pegasus
 Stormtide Leviathan	Creature - Leviathan
 Strandwalker	Artifact - Equipment
@@ -2180,9 +2584,11 @@ Stromkirk Noble	Creature - Vampire
 Stromkirk Patrol	Creature - Vampire Soldier
 Student of Warfare	Creature - Human Knight
 Stuffy Doll	Artifact Creature - Construct
+Stun Sniper	Creature - Human Archer
 Sturmgeist	Creature - Spirit
 Sublime Archangel	Creature - Angel
 Sudden Disappearance	Sorcery
+Suicidal Charge	Enchantment
 Sulfur Falls	Land
 Summit Apes	Creature - Ape
 Summoner's Bane	Instant
@@ -2191,6 +2597,7 @@ Sun Titan	Creature - Giant
 Sunblast Angel	Creature - Angel
 Sundial of the Infinite	Artifact
 Sunpetal Grove	Land
+Sunseed Nurturer	Creature - Human Druid Wizard
 Sunspear Shikari	Creature - Cat Soldier
 Sunspire Griffin	Creature - Griffin
 Sunspring Expedition	Enchantment
@@ -2205,6 +2612,7 @@ Survival Cache	Sorcery
 Suture Priest	Creature - Cleric
 Sutured Ghoul	Creature - Zombie
 Swamp	Basic Land - Swamp
+Swerve	Instant
 Swift Justice	Instant
 Swiftfoot Boots	Artifact - Equipment
 Switcheroo	Sorcery
@@ -2212,14 +2620,17 @@ Sword of Body and Mind	Artifact - Equipment
 Sword of Feast and Famine	Artifact - Equipment
 Sword of Vengeance	Artifact - Equipment
 Sword of War and Peace	Artifact - Equipment
+Sylvan Bounty	Instant
 Sylvan Ranger	Creature - Elf Scout
 Sylvok Lifestaff	Artifact - Equipment
 Sylvok Replica	Artifact Creature - Shaman
 Séance	Enchantment
 Tablet of the Guilds	Artifact
+Tainted Sigil	Artifact
 Tainted Strike	Instant
 Tajuru Archer	Creature - Elf Archer Ally
 Tajuru Preserver	Creature - Elf Shaman
+Talon Trooper	Creature - Bird Scout
 Talons of Falkenrath	Enchantment - Aura
 Talrand, Sky Summoner	Legendary Creature - Merfolk Wizard
 Talrand's Invocation	Sorcery
@@ -2230,6 +2641,7 @@ Tangle Angler	Creature - Horror
 Tangle Hulk	Artifact Creature - Beast
 Tangle Mantis	Creature - Insect
 Tanglesap	Instant
+Tar Fiend	Creature - Elemental
 Taste of Blood	Sorcery
 Tavern Swindler	Creature - Human Rogue
 Tectonic Edge	Land
@@ -2237,6 +2649,7 @@ Tectonic Rift	Sorcery
 Teetering Peaks	Land
 Tel-Jilad Defiance	Instant
 Tel-Jilad Fallen	Creature - Elf Warrior
+Telemin Performance	Sorcery
 Telepathy	Enchantment
 Teleportal	Sorcery
 Tempered Steel	Enchantment
@@ -2248,6 +2661,7 @@ Temporal Mastery	Sorcery
 Tendrils of Corruption	Instant
 Tenement Crasher	Creature - Beast
 Terastodon	Creature - Elephant
+Terminate	Instant
 Terminus	Sorcery
 Terra Eternal	Enchantment
 Terra Stomper	Creature - Beast
@@ -2257,13 +2671,18 @@ Territorial Baloth	Creature - Beast
 Terror of Kruin Pass	Creature - Werewolf
 Terrus Wurm	Creature - Zombie Wurm
 Tezzeret, Agent of Bolas	Planeswalker - Tezzeret
+Tezzeret the Seeker	Planeswalker - Tezzeret
 Thada Adel, Acquisitor	Legendary Creature - Merfolk Rogue
 Thalia, Guardian of Thraben	Legendary Creature - Human Soldier
 Thatcher Revolt	Sorcery
 Think Twice	Instant
 Thopter Assembly	Artifact Creature - Thopter
+Thorn-Thrash Viashino	Creature - Viashino Warrior
+Thornling	Creature - Elemental Shapeshifter
 Thought Gorger	Creature - Horror
+Thought Hemorrhage	Sorcery
 Thought Scour	Instant
+Thoughtcutter Agent	Artifact Creature - Human Rogue
 Thoughtflare	Instant
 Thraben Doomsayer	Creature - Human Cleric
 Thraben Heretic	Creature - Human Wizard
@@ -2273,21 +2692,26 @@ Thraben Sentry	Creature - Human Soldier
 Thraben Valiant	Creature - Human Soldier
 Thragtusk	Creature - Beast
 Thran Golem	Artifact Creature - Golem
+Thraximundar	Legendary Creature - Zombie Assassin
 Thrill-Kill Assassin	Creature - Human Assassin
 Throne of Empires	Artifact
 Throne of Geth	Artifact
 Thrummingbird	Creature - Bird Horror
 Thrun, the Last Troll	Legendary Creature - Troll Shaman
+Thunder-Thrash Elder	Creature - Viashino Warrior
 Thunder Strike	Instant
 Thunderbolt	Instant
 Thundermaw Hellkite	Creature - Dragon
 Thunderous Wrath	Instant
 Tibalt, the Fiend-Blooded	Planeswalker - Tibalt
 Tideforce Elemental	Creature - Elemental
+Tidehollow Sculler	Artifact Creature - Zombie
+Tidehollow Strix	Artifact Creature - Bird
 Timberland Guide	Creature - Human Scout
 Timbermaw Larva	Creature - Beast
 Timberpack Wolf	Creature - Wolf
 Time Reversal	Sorcery
+Time Sieve	Artifact
 Time Warp	Sorcery
 Time of Heroes	Enchantment
 Timely Reinforcements	Sorcery
@@ -2295,8 +2719,10 @@ Tine Shrike	Creature - Bird
 Tireless Missionaries	Creature - Human Cleric
 Titan Forge	Artifact
 Titanic Growth	Instant
+Titanic Ultimatum	Sorcery
 Tomb Hex	Instant
 Tome Scour	Sorcery
+Topan Ascetic	Creature - Human Monk
 Torch Fiend	Creature - Devil
 Torch Slinger	Creature - Goblin Shaman
 Tormented Pariah	Creature - Human Warrior Werewolf
@@ -2305,13 +2731,16 @@ Tormentor Exarch	Creature - Cleric
 Tormentor's Trident	Artifact - Equipment
 Tormod's Crypt	Artifact
 Torpor Orb	Artifact
+Tortoise Formation	Instant
 Totem-Guide Hartebeest	Creature - Antelope
 Touch of the Eternal	Enchantment
 Tovolar's Magehunter	Creature - Werewolf
 Tower Drake	Creature - Drake
+Tower Gargoyle	Artifact Creature - Gargoyle
 Tower Geist	Creature - Spirit
 Tower of Calamities	Artifact
 Towering Indrik	Creature - Beast
+Toxic Iguanar	Creature - Lizard
 Toxic Nim	Creature - Zombie
 Tracker's Instincts	Sorcery
 Trading Post	Artifact
@@ -2326,6 +2755,7 @@ Transcendent Master	Creature - Human Cleric Avatar
 Transguild Promenade	Land
 Trapfinder's Trick	Sorcery
 Trapmaker's Snare	Instant
+Traumatic Visions	Instant
 Traumatize	Sorcery
 Travel Preparations	Sorcery
 Traveler's Amulet	Artifact
@@ -2356,6 +2786,7 @@ True Conviction	Enchantment
 Trumpet Blast	Instant
 Trusted Forcemage	Creature - Human Shaman
 Trusty Machete	Artifact - Equipment
+Tukatongue Thallid	Creature - Fungus
 Tuktuk Grunts	Creature - Goblin Warrior Ally
 Tuktuk Scrapper	Creature - Goblin Artificer Ally
 Tuktuk the Explorer	Legendary Creature - Goblin
@@ -2382,11 +2813,13 @@ Ulvenwald Primordials	Creature - Werewolf
 Ulvenwald Tracker	Creature - Human Shaman
 Umara Raptor	Creature - Bird Ally
 Umbra Mystic	Creature - Human Wizard
+Unbender Tine	Artifact
 Unbreathing Horde	Creature - Zombie
 Unburial Rites	Sorcery
 Uncanny Speed	Instant
 Undead Alchemist	Creature - Zombie
 Undead Executioner	Creature - Zombie
+Undead Leotau	Creature - Zombie Cat
 Undead Slayer	Creature - Human Cleric
 Underworld Connections	Enchantment - Aura
 Underworld Dreams	Enchantment
@@ -2398,16 +2831,23 @@ Unholy Strength	Enchantment - Aura
 Unified Will	Instant
 Unnatural Predation	Instant
 Unruly Mob	Creature - Human
+Unscythe, Killer of Kings	Legendary Artifact - Equipment
 Unstable Footing	Instant
+Unstable Frontier	Land
 Unsummon	Instant
 Unwinding Clock	Artifact
 Urabrask the Hidden	Legendary Creature - Praetor
 Urban Burgeoning	Enchantment - Aura
 Urge to Feed	Instant
 Urgent Exorcism	Instant
+Uril, the Miststalker	Legendary Creature - Beast
 Utvara Hellkite	Creature - Dragon
+Vagrant Plowbeasts	Creature - Beast
 Valakut Fireboar	Creature - Elemental Boar
 Valakut, the Molten Pinnacle	Land
+Valeron Outlander	Creature - Human Scout
+Valiant Guard	Creature - Human Soldier
+Valley Rannet	Creature - Beast
 Vampire Aristocrat	Creature - Vampire Rogue
 Vampire Hexmage	Creature - Vampire Shaman
 Vampire Interloper	Creature - Vampire Scout
@@ -2427,16 +2867,25 @@ Vastwood Gorger	Creature - Wurm
 Vastwood Zendikon	Enchantment - Aura
 Vault Skyward	Instant
 Vault of the Archangel	Land
+Vectis Agents	Artifact Creature - Human Rogue
+Vectis Dominator	Artifact Creature - Human Wizard
+Vectis Silencers	Artifact Creature - Human Rogue
 Vector Asp	Artifact Creature - Snake
 Vedalken Anatomist	Creature - Vedalken Wizard
 Vedalken Certarch	Creature - Vedalken Wizard
 Vedalken Entrancer	Creature - Vedalken Wizard
+Vedalken Ghoul	Creature - Vedalken Zombie
+Vedalken Heretic	Creature - Vedalken Rogue
 Vedalken Infuser	Creature - Vedalken Wizard
+Vedalken Outlander	Artifact Creature - Vedalken Scout
 Veilborn Ghoul	Creature - Zombie
+Vein Drinker	Creature - Vampire
+Veinfire Borderpost	Artifact
 Vendetta	Instant
 Venerated Teacher	Creature - Human Wizard
 Vengeful Archon	Creature - Archon
 Vengeful Pharaoh	Creature - Zombie
+Vengeful Rebirth	Sorcery
 Vengeful Vampire	Creature - Vampire
 Vengevine	Creature - Elemental
 Venser, the Sojourner	Planeswalker - Venser
@@ -2449,10 +2898,14 @@ Veteran Swordsmith	Creature - Human Soldier
 Veteran's Reflexes	Instant
 Vexing Devil	Creature - Devil
 Viashino Racketeer	Creature - Viashino Rogue
+Viashino Skeleton	Creature - Viashino Skeleton
+Viashino Slaughtermaster	Creature - Viashino Warrior
 Viashino Spearhunter	Creature - Viashino Warrior
+Vicious Shadows	Enchantment
 Victim of Night	Instant
 Victorious Destruction	Sorcery
 Victory's Herald	Creature - Angel
+View from Above	Instant
 Vigil for the Lost	Enchantment
 Vigilante Justice	Enchantment
 Vile Rebirth	Instant
@@ -2462,6 +2915,8 @@ Village Ironsmith	Creature - Human Werewolf
 Village Survivors	Creature - Human
 Villagers of Estwald	Creature - Human Werewolf
 Vines of Vastwood	Instant
+Violent Outburst	Instant
+Violent Ultimatum	Sorcery
 Viral Drake	Creature - Drake
 Viridian Betrayers	Creature - Elf Warrior
 Viridian Claw	Artifact - Equipment
@@ -2471,21 +2926,28 @@ Viridian Harvest	Enchantment - Aura
 Viridian Revel	Enchantment
 Virulent Swipe	Instant
 Virulent Wound	Instant
+Viscera Dragger	Creature - Zombie Ogre Warrior
 Viscera Seer	Creature - Vampire Wizard
 Visions of Beyond	Instant
 Vital Splicer	Creature - Human Artificer
+Vithian Renegades	Creature - Human Shaman
+Vithian Stinger	Creature - Human Shaman
 Vitu-Ghazi Guildmage	Creature - Dryad Shaman
 Vivisection	Sorcery
 Voice of the Provinces	Creature - Angel
 Voiceless Spirit	Creature - Spirit
+Voices from the Void	Sorcery
 Void Stalker	Creature - Elemental
 Voidwielder	Creature - Human Wizard
 Volatile Rig	Artifact Creature - Construct
 Volcanic Dragon	Creature - Dragon
+Volcanic Fallout	Instant
 Volcanic Strength	Enchantment - Aura
+Volcanic Submersion	Sorcery
 Volition Reins	Enchantment - Aura
 Volt Charge	Instant
 Voltaic Key	Artifact
+Voracious Dragon	Creature - Dragon
 Vorapede	Creature - Insect
 Vorinclex, Voice of Hunger	Legendary Creature - Praetor
 Vorstclaw	Creature - Elemental Horror
@@ -2499,13 +2961,16 @@ Wakedancer	Creature - Human Shaman
 Walking Atlas	Artifact Creature - Construct
 Walking Corpse	Creature - Zombie
 Wall of Bone	Creature - Skeleton Wall
+Wall of Denial	Creature - Wall
 Wall of Faith	Creature - Wall
 Wall of Fire	Creature - Wall
 Wall of Frost	Creature - Wall
 Wall of Omens	Creature - Wall
+Wall of Reverence	Creature - Spirit Wall
 Wall of Tanglecord	Artifact Creature - Wall
 Wall of Torches	Creature - Wall
 Wall of Vines	Creature - Plant Wall
+Wandering Goblins	Creature - Goblin Warrior
 Wandering Wolf	Creature - Wolf
 War Falcon	Creature - Bird
 War Priest of Thune	Creature - Human Cleric
@@ -2520,10 +2985,13 @@ Warren Instigator	Creature - Goblin Berserker
 Warstorm Surge	Enchantment
 Water Servant	Creature - Elemental
 Watercourser	Creature - Elemental
+Waveskimmer Aven	Creature - Bird Soldier
 Wayfaring Temple	Creature - Elemental
 Weakness	Enchantment - Aura
+Welkin Guide	Creature - Bird Cleric
 Welkin Tern	Creature - Bird
 Werewolf Ransacker	Creature - Werewolf
+Where Ancients Tread	Enchantment
 Whipflare	Sorcery
 Whiplash Trap	Instant - Trap
 Whispering Specter	Creature - Specter
@@ -2536,16 +3004,21 @@ Wild Evocation	Enchantment
 Wild Griffin	Creature - Griffin
 Wild Guess	Sorcery
 Wild Hunger	Instant
+Wild Leotau	Creature - Cat
+Wild Nacatl	Creature - Cat Warrior
 Wildblood Pack	Creature - Werewolf
+Wildfield Borderpost	Artifact
 Wildheart Invoker	Creature - Elf Shaman
 Wildwood Geist	Creature - Spirit
 Wind Drake	Creature - Drake
 Wind Zendikon	Enchantment - Aura
 Windborne Charge	Sorcery
 Windrider Eel	Creature - Fish
+Windwright Mage	Artifact Creature - Human Wizard
 Wing Puncture	Instant
 Wing Splicer	Creature - Human Artificer
 Wingcrafter	Creature - Human Wizard
+Winged Coatl	Creature - Snake
 Wit's End	Sorcery
 Witchbane Orb	Artifact
 Withengar Unbound	Legendary Creature - Demon
@@ -2558,14 +3031,18 @@ Wolfir Silverheart	Creature - Wolf Warrior
 Wooden Stake	Artifact - Equipment
 Woodland Cemetery	Land
 Woodland Sleuth	Creature - Human Scout
+Woolly Thoctar	Creature - Beast
 World Queller	Creature - Avatar
 World at War	Sorcery
 Worldfire	Sorcery
+Worldheart Phoenix	Creature - Phoenix
+Worldly Counsel	Instant
 Worldslayer	Artifact - Equipment
 Worldspine Wurm	Creature - Wurm
 Wrack with Madness	Sorcery
 Wrap in Flames	Sorcery
 Wreath of Geists	Enchantment - Aura
+Wretched Banquet	Sorcery
 Wrexial, the Risen Deep	Legendary Creature - Kraken
 Wring Flesh	Instant
 Wurm's Tooth	Artifact
@@ -2578,9 +3055,12 @@ Yawning Fissure	Sorcery
 Yeva, Nature's Herald	Legendary Creature - Elf Shaman
 Yeva's Forcemage	Creature - Elf Shaman
 Yew Spirit	Creature - Spirit Treefolk
+Yoke of the Damned	Enchantment - Aura
+Yoked Plowbeast	Creature - Beast
 Young Wolf	Creature - Wolf
 Zanikev Locust	Creature - Insect
 Zealous Conscripts	Creature - Human Warrior
+Zealous Persecution	Instant
 Zealous Strike	Instant
 Zektar Shrine Expedition	Enchantment
 Zendikar Farguide	Creature - Elemental
@@ -2589,6 +3069,7 @@ Zof Shade	Creature - Shade
 Zombie Apocalypse	Sorcery
 Zombie Goliath	Creature - Zombie Giant
 Zombie Infestation	Enchantment
+Zombie Outlander	Creature - Zombie Scout
 Zulaport Enforcer	Creature - Human Warrior
 Æther Adept	Creature - Human Wizard
 Æther Figment	Creature - Illusion

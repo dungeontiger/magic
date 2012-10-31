@@ -19,4 +19,8 @@ $fetch->getCardsForExpansion("Scars of Mirrodin");
 $fetch->getCardsForExpansion("Rise of the Eldrazi");
 $fetch->getCardsForExpansion("Worldwake");
 $fetch->getCardsForExpansion("Zendikar");
+
+$fetch->getCardsForExpansion("Shards of Alara");
+$fetch->getCardsForExpansion("Conflux");
+$fetch->getCardsForExpansion("Alara Reborn");
 ?>
