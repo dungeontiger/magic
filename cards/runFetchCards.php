@@ -17,6 +17,6 @@ $fetch->getCardsForExpansion("Mirrodin Besieged");
 $fetch->getCardsForExpansion("Scars of Mirrodin");
 
 $fetch->getCardsForExpansion("Rise of the Eldrazi");
-$fetch->getCardsForExpansion("Worldwaker");
+$fetch->getCardsForExpansion("Worldwake");
 $fetch->getCardsForExpansion("Zendikar");
 ?>

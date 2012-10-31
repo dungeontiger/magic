@@ -18,6 +18,7 @@ Axebane Stag	Creature - Elk
 Azorius Guildgate	Land - Gate
 Azure Drake	Creature - Drake
 Barony Vampire	Creature - Vampire
+Battle Hurda	Creature - Giant
 Birds of Paradise	Creature - Bird
 Bladetusk Boar	Creature - Boar
 Blood Crypt	Land - Swamp Mountain
@@ -64,8 +65,11 @@ Gladecover Scout	Creature - Elf Scout
 Gloomhunter	Creature - Bat
 Glory Seeker	Creature - Human Soldier
 Goblin Piker	Creature - Goblin Warrior
+Goblin Roughrider	Creature - Goblin Knight
 Gold Myr	Artifact Creature - Myr
 Golgari Guildgate	Land - Gate
+Goliath Sphinx	Creature - Sphinx
+Grappler Spider	Creature - Spider
 Greater Basilisk	Creature - Basilisk
 Greenweaver Druid	Creature - Elf Druid
 Griffin Sentinel	Creature - Griffin
@@ -86,6 +90,7 @@ Iron Myr	Artifact Creature - Myr
 Island	Basic Land - Island
 Isolated Chapel	Land
 Izzet Guildgate	Land - Gate
+Jagwasp Swarm	Creature - Insect
 Jwari Scuttler	Creature - Crab
 Kalonian Behemoth	Creature - Beast
 Kelinore Bat	Creature - Bat
@@ -94,6 +99,7 @@ Kindercatch	Creature - Spirit
 Kraken Hatchling	Creature - Kraken
 Lagac Lizard	Creature - Lizard
 Leaden Myr	Artifact Creature - Myr
+Leatherback Baloth	Creature - Beast
 Leonin Skyhunter	Creature - Cat Knight
 Lightning Elemental	Creature - Elemental
 Llanowar Elves	Creature - Elf Druid
