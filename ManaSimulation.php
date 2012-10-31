@@ -3,6 +3,7 @@ include_once "Simulation.php";
 include_once "SimulationTurnResults.php";
 include_once "SimulationGameResults.php";
 include_once "SimulationResults.php";
+include_once "Alamir.php";
 class ManaSimulation extends Simulation
 {
 	public function __construct($deckString, $numberOfGames = 1, $numberOfTurns = 1)

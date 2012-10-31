@@ -83,6 +83,11 @@ class Card
 		return $this->cardType->isSubType($subType);
 	}
 	
+	public function getSubTypes()
+	{
+		return $this->cardType->getSubTypes();
+	}
+	
 	public function setPower($power)
 	{
 		$this->power = $power;
@@ -150,6 +155,16 @@ class Card
 			}
 		}
 		return false;
+	}
+	
+	public function getCardColors()
+	{
+		if ($this->castingCost != null)
+		{
+			return $this->castingCost->getColors();
+		}
+		// this is a land
+		return null;
 	}
 	
 	// TODO: clean up the rules members

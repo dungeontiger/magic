@@ -176,6 +176,36 @@ class ManaVector
 		return $count;
 	}
 	
+	public function getColors()
+	{
+		$colors = array();
+		if ($this->mana[Color::BLACK] > 0)
+		{
+			array_push($colors, Color::BLACK);
+		}
+		
+		if ($this->mana[Color::BLUE] > 0)
+		{
+			array_push($colors, Color::BLUE);
+		}
+		
+		if ($this->mana[Color::GREEN] > 0)
+		{
+			array_push($colors, Color::GREEN);
+		}
+		
+		if ($this->mana[Color::RED] > 0)
+		{
+			array_push($colors, Color::RED);
+		}
+		
+		if ($this->mana[Color::WHITE] > 0)
+		{
+			array_push($colors, Color::WHITE);
+		}
+		return $colors;
+	}
+	
 	public function getManaString()
 	{
 		$str = "";

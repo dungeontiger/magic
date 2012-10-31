@@ -320,6 +320,13 @@ class CardFactoryTest extends PHPUnit_Framework_TestCase
 		assert(strcasecmp($subTypes[1], "island") == 0);
 	}
 	
+	public function testScar()
+	{
+		$factory = new CardFactory();
+		$card = $factory->createCard("Sarkhan the Mad");
+		assert($card->isSupportedCastingCost());
+	}
+	
 	// Do Cycling
 	
 //		Civic Wayfinder	
